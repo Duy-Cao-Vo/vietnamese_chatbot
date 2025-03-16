@@ -1,0 +1,281 @@
+{
+  "products": [
+    {
+      "id": "AT001",
+      "name": "Áo thun basic nam/nữ",
+      "category": "áo thun",
+      "price": 199000,
+      "description": "Áo thun cotton 100% với đường may tỉ mỉ, bền đẹp",
+      "sizes": {
+        "S": {
+          "Trắng": 50,
+          "Đen": 45,
+          "Xám": 30,
+          "Xanh navy": 25
+        },
+        "M": {
+          "Trắng": 40,
+          "Đen": 38,
+          "Xám": 28,
+          "Xanh navy": 22
+        },
+        "L": {
+          "Trắng": 35,
+          "Đen": 30,
+          "Xám": 25,
+          "Xanh navy": 20
+        },
+        "XL": {
+          "Trắng": 25,
+          "Đen": 20,
+          "Xám": 15,
+          "Xanh navy": 10
+        }
+      }
+    },
+    {
+      "id": "AT002",
+      "name": "Áo thun in họa tiết",
+      "category": "áo thun",
+      "price": 249000,
+      "description": "Áo thun cotton với họa tiết in cao cấp, không bong tróc",
+      "sizes": {
+        "S": {
+          "Trắng": 40,
+          "Đen": 35
+        },
+        "M": {
+          "Trắng": 30,
+          "Đen": 25
+        },
+        "L": {
+          "Trắng": 25,
+          "Đen": 20
+        },
+        "XL": {
+          "Trắng": 15,
+          "Đen": 10
+        }
+      }
+    },
+    {
+      "id": "QJ001",
+      "name": "Quần jeans nam ống suông",
+      "category": "quần jeans",
+      "price": 499000,
+      "description": "Quần jeans nam dáng Regular fit, chất vải denim cao cấp",
+      "sizes": {
+        "29": {
+          "Xanh đậm": 30,
+          "Xanh nhạt": 25
+        },
+        "30": {
+          "Xanh đậm": 28,
+          "Xanh nhạt": 22
+        },
+        "31": {
+          "Xanh đậm": 25,
+          "Xanh nhạt": 20
+        },
+        "32": {
+          "Xanh đậm": 20,
+          "Xanh nhạt": 18
+        },
+        "33": {
+          "Xanh đậm": 15,
+          "Xanh nhạt": 12
+        }
+      }
+    },
+    {
+      "id": "QJ002",
+      "name": "Quần jeans nữ ống rộng",
+      "category": "quần jeans",
+      "price": 459000,
+      "description": "Quần jeans nữ dáng wide leg, phong cách hiện đại",
+      "sizes": {
+        "26": {
+          "Xanh đậm": 25,
+          "Xanh nhạt": 20,
+          "Đen": 30
+        },
+        "27": {
+          "Xanh đậm": 22,
+          "Xanh nhạt": 18,
+          "Đen": 28
+        },
+        "28": {
+          "Xanh đậm": 20,
+          "Xanh nhạt": 15,
+          "Đen": 25
+        },
+        "29": {
+          "Xanh đậm": 15,
+          "Xanh nhạt": 12,
+          "Đen": 20
+        }
+      }
+    },
+    {
+      "id": "AK001",
+      "name": "Áo khoác denim unisex",
+      "category": "áo khoác",
+      "price": 799000,
+      "description": "Áo khoác denim phong cách đường phố, phù hợp cả nam và nữ",
+      "sizes": {
+        "S": {
+          "Xanh đậm": 20,
+          "Đen": 25
+        },
+        "M": {
+          "Xanh đậm": 18,
+          "Đen": 22
+        },
+        "L": {
+          "Xanh đậm": 15,
+          "Đen": 20
+        },
+        "XL": {
+          "Xanh đậm": 10,
+          "Đen": 15
+        }
+      }
+    },
+    {
+      "id": "AK002",
+      "name": "Áo khoác gió nhẹ",
+      "category": "áo khoác",
+      "price": 599000,
+      "description": "Áo khoác gió siêu nhẹ, chống nước, gấp gọn tiện lợi",
+      "sizes": {
+        "S": {
+          "Đen": 30,
+          "Xanh navy": 25,
+          "Xám": 20
+        },
+        "M": {
+          "Đen": 28,
+          "Xanh navy": 22,
+          "Xám": 18
+        },
+        "L": {
+          "Đen": 25,
+          "Xanh navy": 20,
+          "Xám": 15
+        },
+        "XL": {
+          "Đen": 22,
+          "Xanh navy": 18,
+          "Xám": 12
+        }
+      }
+    },
+    {
+      "id": "AS001",
+      "name": "Áo sơ mi nam dài tay",
+      "category": "áo sơ mi",
+      "price": 399000,
+      "description": "Áo sơ mi nam dài tay chất cotton pha, ít nhăn",
+      "sizes": {
+        "38": {
+          "Trắng": 30,
+          "Xanh nhạt": 25,
+          "Đen": 20
+        },
+        "39": {
+          "Trắng": 28,
+          "Xanh nhạt": 22,
+          "Đen": 18
+        },
+        "40": {
+          "Trắng": 25,
+          "Xanh nhạt": 20,
+          "Đen": 15
+        },
+        "41": {
+          "Trắng": 20,
+          "Xanh nhạt": 15,
+          "Đen": 10
+        },
+        "42": {
+          "Trắng": 15,
+          "Xanh nhạt": 10,
+          "Đen": 8
+        }
+      }
+    },
+    {
+      "id": "AS002",
+      "name": "Áo sơ mi nữ kiểu dáng rộng",
+      "category": "áo sơ mi",
+      "price": 359000,
+      "description": "Áo sơ mi nữ dáng rộng, phong cách Hàn Quốc",
+      "sizes": {
+        "S": {
+          "Trắng": 35,
+          "Hồng nhạt": 25,
+          "Xanh nhạt": 20
+        },
+        "M": {
+          "Trắng": 30,
+          "Hồng nhạt": 22,
+          "Xanh nhạt": 18
+        },
+        "L": {
+          "Trắng": 25,
+          "Hồng nhạt": 20,
+          "Xanh nhạt": 15
+        }
+      }
+    },
+    {
+      "id": "VA001",
+      "name": "Váy liền dáng chữ A",
+      "category": "váy",
+      "price": 459000,
+      "description": "Váy dáng chữ A thanh lịch, phù hợp đi làm hoặc dạo phố",
+      "sizes": {
+        "S": {
+          "Đen": 25,
+          "Xanh navy": 20,
+          "Đỏ đô": 15
+        },
+        "M": {
+          "Đen": 22,
+          "Xanh navy": 18,
+          "Đỏ đô": 12
+        },
+        "L": {
+          "Đen": 20,
+          "Xanh navy": 15,
+          "Đỏ đô": 10
+        }
+      }
+    },
+    {
+      "id": "VA002",
+      "name": "Chân váy xếp ly midi",
+      "category": "váy",
+      "price": 399000,
+      "description": "Chân váy xếp ly dáng midi, kết hợp được với nhiều kiểu áo",
+      "sizes": {
+        "S": {
+          "Đen": 30,
+          "Be": 25,
+          "Xanh đậm": 20
+        },
+        "M": {
+          "Đen": 28,
+          "Be": 22,
+          "Xanh đậm": 18
+        },
+        "L": {
+          "Đen": 25,
+          "Be": 20,
+          "Xanh đậm": 15
+        }
+      }
+    }
+  ],
+  "last_updated": "2023-12-01"
+} 

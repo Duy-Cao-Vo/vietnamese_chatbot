@@ -1,0 +1,55 @@
+DANH SÁCH CỬA HÀNG
+
+1. Hồ Chí Minh:
+   - Cửa hàng Quận 1: 123 Nguyễn Huệ, Phường Bến Nghé, Quận 1
+     * Điện thoại: 028.3823.xxxx
+     * Giờ mở cửa: 9:00 - 22:00 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Sửa đồ miễn phí
+
+   - Cửa hàng Quận 3: 45 Lê Văn Sỹ, Phường 10, Quận 3
+     * Điện thoại: 028.3829.xxxx
+     * Giờ mở cửa: 9:00 - 21:30 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Đặt hàng online
+
+   - Cửa hàng Quận 7: L3-18 Tầng 3, SC VivoCity, 1058 Nguyễn Văn Linh, Tân Phong, Quận 7
+     * Điện thoại: 028.3775.xxxx
+     * Giờ mở cửa: 10:00 - 22:00 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Sửa đồ miễn phí, Phòng thử đồ VIP
+
+2. Hà Nội:
+   - Cửa hàng Hoàn Kiếm: 25 Hai Bà Trưng, Phường Tràng Tiền, Quận Hoàn Kiếm
+     * Điện thoại: 024.3936.xxxx
+     * Giờ mở cửa: 8:30 - 21:30 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Đặt hàng online, Sửa đồ miễn phí
+
+   - Cửa hàng Đống Đa: 238 Tây Sơn, Phường Ngã Tư Sở, Quận Đống Đa
+     * Điện thoại: 024.3856.xxxx
+     * Giờ mở cửa: 9:00 - 21:00 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Đặt hàng online
+
+   - Cửa hàng Royal City: Tầng B2, TTTM Royal City, 72A Nguyễn Trãi, Thanh Xuân
+     * Điện thoại: 024.6673.xxxx
+     * Giờ mở cửa: 10:00 - 22:00 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Sửa đồ miễn phí, Phòng thử đồ VIP
+
+3. Đà Nẵng:
+   - Cửa hàng Hải Châu: 58 Lê Duẩn, Phường Hải Châu 1, Quận Hải Châu
+     * Điện thoại: 0236.3681.xxxx
+     * Giờ mở cửa: 8:30 - 21:30 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Đặt hàng online, Sửa đồ miễn phí
+
+   - Cửa hàng Vincom Đà Nẵng: Tầng 2, TTTM Vincom, 910A Ngô Quyền, An Hải Bắc, Sơn Trà
+     * Điện thoại: 0236.3586.xxxx
+     * Giờ mở cửa: 9:30 - 22:00 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Phòng thử đồ VIP
+
+4. Cần Thơ:
+   - Cửa hàng Ninh Kiều: 15 Hoà Bình, Phường Tân An, Quận Ninh Kiều
+     * Điện thoại: 0292.3819.xxxx
+     * Giờ mở cửa: 8:00 - 21:00 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Đặt hàng online
+
+   - Cửa hàng Sense City: Tầng 2, TTTM Sense City, 1 Đại lộ Hoà Bình, Tân An, Ninh Kiều
+     * Điện thoại: 0292.3738.xxxx
+     * Giờ mở cửa: 9:00 - 21:30 (Tất cả các ngày trong tuần)
+     * Dịch vụ: Tư vấn cá nhân, Sửa đồ miễn phí 

@@ -1,0 +1,99 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+env/
+env.bak/
+venv.bak/
+.python-version
+
+# Unit test and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ML model files
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.gguf
+*.ggml
+
+# Vector database
+vector_db/
+chroma/
+chromadb/
+*.idx
+*.faiss
+
+# Large data files
+data/orders/
+*.csv
+*.sqlite
+*.db
+*.hdf5
+*.h5
+*.parquet
+*.feather
+
+# Logs
+logs/
+*.log
+events.out.tfevents.*
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.spyderproject
+.spyproject
+.ropeproject
+*.sublime-workspace
+*.sublime-project
+
+# Local configuration
+config_local.py
+.env.local
+local_settings.py
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*~
+
+# Generated content
+generated/
+output/ 

@@ -1,0 +1,5 @@
+pip install fastapi uvicorn streamlit pydantic python-dotenv
+pip install chromadb langchain langchain-community langchain-core
+pip install sentence-transformers transformers torch accelerate
+pip install pandas numpy pyvi underthesea
+pip install tqdm requests aiohttp huggingface-hub safetensors
