@@ -1,0 +1,102 @@
+VÁY / ĐẦM NỮ
+
+DANH SÁCH SẢN PHẨM:
+
+1. Mã sản phẩm: VD001
+   Tên sản phẩm: Đầm Suông Công Sở
+   - Chất liệu: Vải tuyết mưa cao cấp
+   - Kiểu dáng: Đầm suông, dài qua gối
+   - Giá: 599.000 VNĐ
+   - Màu sắc: Đen, Xanh Navy, Xám, Be
+
+2. Mã sản phẩm: VD002
+   Tên sản phẩm: Váy Chữ A Ngắn
+   - Chất liệu: 80% polyester, 20% cotton
+   - Kiểu dáng: Váy chữ A, dài trên gối
+   - Giá: 399.000 VNĐ
+   - Màu sắc: Đen, Nâu, Đỏ Đô, Be
+
+3. Mã sản phẩm: VD003
+   Tên sản phẩm: Đầm Maxi Dài Thướt Tha
+   - Chất liệu: Vải Chiffon nhẹ nhàng
+   - Kiểu dáng: Đầm dài, xòe nhẹ
+   - Giá: 649.000 VNĐ
+   - Màu sắc: Trắng, Xanh Mint, Hồng Phấn
+
+4. Mã sản phẩm: VD004
+   Tên sản phẩm: Váy Xếp Ly Tennis
+   - Chất liệu: 95% polyester, 5% spandex
+   - Kiểu dáng: Váy xếp ly, dáng ngắn
+   - Giá: 379.000 VNĐ
+   - Màu sắc: Đen, Trắng, Xanh Navy, Đỏ
+
+5. Mã sản phẩm: VD005
+   Tên sản phẩm: Đầm Ôm Body Dự Tiệc
+   - Chất liệu: Vải thun cao cấp co giãn
+   - Kiểu dáng: Đầm ôm, dài qua gối
+   - Giá: 549.000 VNĐ
+   - Màu sắc: Đen, Đỏ, Xanh Đậm
+
+6. Mã sản phẩm: VD006
+   Tên sản phẩm: Váy Jeans Bút Chì
+   - Chất liệu: 98% cotton, 2% spandex
+   - Kiểu dáng: Váy bút chì, xẻ sau
+   - Giá: 429.000 VNĐ
+   - Màu sắc: Xanh đậm, Xanh nhạt, Đen
+
+7. Mã sản phẩm: VD007
+   Tên sản phẩm: Đầm Sơ Mi Công Sở
+   - Chất liệu: Vải Linen pha Cotton
+   - Kiểu dáng: Đầm dáng sơ mi, thắt eo
+   - Giá: 579.000 VNĐ
+   - Màu sắc: Trắng, Xanh Nhạt, Be, Đen
+
+8. Mã sản phẩm: VD008
+   Tên sản phẩm: Váy Midi Xòe Vintage
+   - Chất liệu: Vải Tuytsi cao cấp
+   - Kiểu dáng: Váy xòe, dài giữa bắp chân
+   - Giá: 499.000 VNĐ
+   - Màu sắc: Đen, Burgundy, Xanh Navy
+
+9. Mã sản phẩm: VD009
+   Tên sản phẩm: Đầm Hai Dây Mùa Hè
+   - Chất liệu: Vải Lụa Satin cao cấp
+   - Kiểu dáng: Đầm hai dây, dáng xuông
+   - Giá: 529.000 VNĐ
+   - Màu sắc: Đen, Trắng, Hồng, Vàng Nhạt
+
+10. Mã sản phẩm: VD010
+    Tên sản phẩm: Váy Denim Casual
+    - Chất liệu: 100% cotton denim
+    - Kiểu dáng: Váy denim cài nút, dài trên gối
+    - Giá: 459.000 VNĐ
+    - Màu sắc: Xanh đậm, Xanh nhạt, Đen
+
+THÔNG TIN CHUNG:
+
+1. Bảng size:
+   - Size S: Ngực 84cm, Eo 68cm, Mông 92cm, phù hợp 45-50kg
+   - Size M: Ngực 88cm, Eo 72cm, Mông 96cm, phù hợp 50-55kg
+   - Size L: Ngực 92cm, Eo 76cm, Mông 100cm, phù hợp 55-60kg
+   - Size XL: Ngực 96cm, Eo 80cm, Mông 104cm, phù hợp 60-65kg
+   - Size XXL: Ngực 100cm, Eo 84cm, Mông 108cm, phù hợp 65-70kg
+
+2. Đặc điểm nổi bật:
+   - Chất liệu cao cấp, mềm mại, thoáng mát
+   - Đường may tỉ mỉ, chắc chắn
+   - Thiết kế thời trang, phù hợp xu hướng
+   - Kiểu dáng đa dạng, phù hợp nhiều vóc dáng
+   - Dễ phối đồ, phù hợp nhiều dịp khác nhau
+
+3. Cách phối đồ:
+   - Đầm công sở: Kết hợp với giày cao gót, túi xách thanh lịch
+   - Váy ngắn: Phối với áo thun, áo sơ mi và giày thể thao hoặc sandal
+   - Đầm dài: Kết hợp với áo khoác ngắn, giày sandal hoặc giày cao gót
+   - Váy jeans: Phối với áo thun, áo crop top và giày thể thao
+
+4. Mẹo bảo quản:
+   - Giặt riêng các loại váy đầm với nhau
+   - Nên giặt tay hoặc giặt máy ở chế độ nhẹ nhàng
+   - Không sử dụng chất tẩy mạnh
+   - Phơi trong bóng râm, tránh ánh nắng trực tiếp
+   - Là ủi ở nhiệt độ phù hợp với từng loại vải 

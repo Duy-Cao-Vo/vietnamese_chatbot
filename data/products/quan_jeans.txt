@@ -1,12 +1,80 @@
 QUẦN JEANS NAM/NỮ
 
-1. Thông tin chung:
+DANH SÁCH SẢN PHẨM:
+
+1. Mã sản phẩm: QJ001
+   Tên sản phẩm: Quần Jeans Slim Fit Cơ Bản
    - Chất liệu: 98% cotton, 2% spandex
    - Kiểu dáng: Slim fit (ôm nhẹ, tôn dáng)
-   - Xuất xứ: Việt Nam
-   - Độ dày: Medium (vừa phải, thích hợp cho thời tiết Việt Nam)
+   - Giá: 499.000 VNĐ
+   - Màu sắc: Xanh đậm, Xanh nhạt, Đen
 
-2. Bảng size:
+2. Mã sản phẩm: QJ002
+   Tên sản phẩm: Quần Jeans Skinny Rách Gối
+   - Chất liệu: 95% cotton, 5% spandex
+   - Kiểu dáng: Skinny fit (ôm sát)
+   - Giá: 549.000 VNĐ
+   - Màu sắc: Xanh nhạt, Xanh trung tính, Đen
+
+3. Mã sản phẩm: QJ003
+   Tên sản phẩm: Quần Jeans Baggy Oversize
+   - Chất liệu: 100% cotton
+   - Kiểu dáng: Baggy fit (rộng, suông)
+   - Giá: 599.000 VNĐ
+   - Màu sắc: Xanh nhạt, Xanh đậm, Đen
+
+4. Mã sản phẩm: QJ004
+   Tên sản phẩm: Quần Jeans Straight Leg Classic
+   - Chất liệu: 98% cotton, 2% spandex
+   - Kiểu dáng: Straight fit (suông thẳng)
+   - Giá: 479.000 VNĐ
+   - Màu sắc: Xanh đậm, Xanh trung tính, Đen, Xám
+
+5. Mã sản phẩm: QJ005
+   Tên sản phẩm: Quần Jeans Mom Fit Vintage
+   - Chất liệu: 100% cotton
+   - Kiểu dáng: Mom fit (cạp cao, ống rộng nhẹ)
+   - Giá: 529.000 VNĐ
+   - Màu sắc: Xanh nhạt, Xanh trung tính
+
+6. Mã sản phẩm: QJ006
+   Tên sản phẩm: Quần Jeans Boyfriend Rách
+   - Chất liệu: 100% cotton
+   - Kiểu dáng: Boyfriend fit (rộng thoải mái)
+   - Giá: 569.000 VNĐ
+   - Màu sắc: Xanh nhạt, Xanh đậm
+
+7. Mã sản phẩm: QJ007
+   Tên sản phẩm: Quần Jeans Ống Loe Retro
+   - Chất liệu: 98% cotton, 2% spandex
+   - Kiểu dáng: Flare fit (ống loe từ đầu gối)
+   - Giá: 599.000 VNĐ
+   - Màu sắc: Xanh đậm, Xanh trung tính, Đen
+
+8. Mã sản phẩm: QJ008
+   Tên sản phẩm: Quần Jeans Ống Suông Đơn Giản
+   - Chất liệu: 98% cotton, 2% spandex
+   - Kiểu dáng: Relaxed fit (thoải mái)
+   - Giá: 459.000 VNĐ
+   - Màu sắc: Xanh đậm, Xanh nhạt, Đen, Xám
+
+9. Mã sản phẩm: QJ009
+   Tên sản phẩm: Quần Jeans Slim Cropped
+   - Chất liệu: 97% cotton, 3% spandex
+   - Kiểu dáng: Slim cropped (ôm nhẹ, ngắn trên mắt cá)
+   - Giá: 489.000 VNĐ
+   - Màu sắc: Xanh nhạt, Xanh đậm, Đen
+
+10. Mã sản phẩm: QJ010
+    Tên sản phẩm: Quần Jeans Wide Leg Cạp Cao
+    - Chất liệu: 100% cotton
+    - Kiểu dáng: Wide leg (cạp cao, ống rộng)
+    - Giá: 579.000 VNĐ
+    - Màu sắc: Xanh đậm, Xanh nhạt, Đen
+
+THÔNG TIN CHUNG:
+
+1. Bảng size:
    - Size 28: Vòng eo 73cm, Dài 98cm, phù hợp 48-52kg
    - Size 29: Vòng eo 76cm, Dài 99cm, phù hợp 52-56kg
    - Size 30: Vòng eo 79cm, Dài 100cm, phù hợp 56-60kg
@@ -15,33 +83,22 @@ QUẦN JEANS NAM/NỮ
    - Size 33: Vòng eo 88cm, Dài 103cm, phù hợp 70-75kg
    - Size 34: Vòng eo 91cm, Dài 104cm, phù hợp 75-80kg
 
-3. Màu sắc có sẵn:
-   - Xanh đậm (Dark Blue)
-   - Xanh nhạt (Light Blue)
-   - Xanh trung tính (Medium Blue)
-   - Đen (Black)
-   - Xám (Grey)
-
-4. Đặc điểm nổi bật:
+2. Đặc điểm nổi bật:
    - Vải denim co giãn nhẹ, thoải mái khi vận động
    - Đường may chắc chắn, xử lý kỹ các chi tiết
    - Kiểu dáng hiện đại, phù hợp nhiều dáng người
    - Túi quần rộng rãi, tiện lợi
    - Màu sắc bền đẹp, không phai nhiều sau nhiều lần giặt
 
-5. Cách phối đồ:
+3. Cách phối đồ:
    - Quần jeans xanh đậm: Dễ phối với áo sơ mi, áo thun trắng, xám hoặc đen
    - Quần jeans xanh nhạt: Phối đẹp với áo màu pastel hoặc áo tối màu
    - Quần jeans đen: Phối được với hầu hết các loại áo, phù hợp cho nhiều dịp
    - Quần jeans xám: Phối tốt với áo màu đậm như đỏ, xanh navy
 
-6. Mùa phù hợp:
-   - Thích hợp cho cả bốn mùa, đặc biệt là mùa thu và mùa đông
-
-7. Mẹo bảo quản:
+4. Mẹo bảo quản:
    - Không nên giặt quá thường xuyên để giữ màu và form dáng
    - Giặt với nước lạnh, lộn trái quần khi giặt
    - Không sử dụng chất tẩy mạnh
    - Phơi trong bóng râm, tránh ánh nắng trực tiếp
-   - Là ủi ở nhiệt độ thấp hoặc trung bình
-   - Nếu muốn giữ màu lâu, có thể ngâm nước đá lạnh với ít muối trước khi giặt lần đầu 
+   - Là ủi ở nhiệt độ thấp hoặc trung bình 

@@ -1,0 +1,102 @@
+ÁO SƠ MI NAM/NỮ
+
+DANH SÁCH SẢN PHẨM:
+
+1. Mã sản phẩm: ASM001
+   Tên sản phẩm: Áo Sơ Mi Trắng Công Sở
+   - Chất liệu: 100% cotton cao cấp
+   - Kiểu dáng: Regular fit (form suông vừa vặn)
+   - Giá: 399.000 VNĐ
+   - Màu sắc: Trắng
+
+2. Mã sản phẩm: ASM002
+   Tên sản phẩm: Áo Sơ Mi Oxford Cơ Bản
+   - Chất liệu: Vải Oxford (100% cotton)
+   - Kiểu dáng: Slim fit (ôm nhẹ)
+   - Giá: 429.000 VNĐ
+   - Màu sắc: Trắng, Xanh nhạt, Xám nhạt
+
+3. Mã sản phẩm: ASM003
+   Tên sản phẩm: Áo Sơ Mi Kẻ Sọc Đứng
+   - Chất liệu: 80% cotton, 20% polyester
+   - Kiểu dáng: Slim fit (ôm nhẹ)
+   - Giá: 379.000 VNĐ
+   - Màu sắc: Trắng sọc xanh, Trắng sọc đen, Xanh sọc trắng
+
+4. Mã sản phẩm: ASM004
+   Tên sản phẩm: Áo Sơ Mi Linen Mùa Hè
+   - Chất liệu: 100% linen tự nhiên
+   - Kiểu dáng: Regular fit (form suông thoải mái)
+   - Giá: 459.000 VNĐ
+   - Màu sắc: Trắng, Be, Xanh nhạt, Xám
+
+5. Mã sản phẩm: ASM005
+   Tên sản phẩm: Áo Sơ Mi Denim Casual
+   - Chất liệu: 100% cotton denim
+   - Kiểu dáng: Regular fit (form suông vừa vặn)
+   - Giá: 449.000 VNĐ
+   - Màu sắc: Xanh đậm, Xanh nhạt
+
+6. Mã sản phẩm: ASM006
+   Tên sản phẩm: Áo Sơ Mi Dài Tay Flannel
+   - Chất liệu: Vải Flannel (100% cotton)
+   - Kiểu dáng: Regular fit (form suông vừa vặn)
+   - Giá: 399.000 VNĐ
+   - Màu sắc: Đỏ kẻ, Xanh kẻ, Đen kẻ
+
+7. Mã sản phẩm: ASM007
+   Tên sản phẩm: Áo Sơ Mi Ngắn Tay Họa Tiết
+   - Chất liệu: 100% cotton
+   - Kiểu dáng: Relaxed fit (rộng thoải mái)
+   - Giá: 369.000 VNĐ
+   - Màu sắc: Nhiều họa tiết khác nhau
+
+8. Mã sản phẩm: ASM008
+   Tên sản phẩm: Áo Sơ Mi Poplin Công Sở
+   - Chất liệu: Vải Poplin (100% cotton)
+   - Kiểu dáng: Slim fit (ôm nhẹ)
+   - Giá: 419.000 VNĐ
+   - Màu sắc: Trắng, Xanh nhạt, Hồng nhạt
+
+9. Mã sản phẩm: ASM009
+   Tên sản phẩm: Áo Sơ Mi Twill Cao Cấp
+   - Chất liệu: Vải Twill (100% cotton)
+   - Kiểu dáng: Regular fit (form suông vừa vặn)
+   - Giá: 469.000 VNĐ
+   - Màu sắc: Trắng, Đen, Xanh navy
+
+10. Mã sản phẩm: ASM010
+    Tên sản phẩm: Áo Sơ Mi Oversize Unisex
+    - Chất liệu: 100% cotton cao cấp
+    - Kiểu dáng: Oversize fit (rộng, phong cách)
+    - Giá: 429.000 VNĐ
+    - Màu sắc: Trắng, Đen, Be, Xanh nhạt
+
+THÔNG TIN CHUNG:
+
+1. Bảng size:
+   - Size S: Ngang vai 43cm, Ngực 100cm, Dài 72cm, phù hợp 50-60kg
+   - Size M: Ngang vai 45cm, Ngực 104cm, Dài 73cm, phù hợp 60-68kg
+   - Size L: Ngang vai 47cm, Ngực 108cm, Dài 74cm, phù hợp 68-75kg
+   - Size XL: Ngang vai 49cm, Ngực 112cm, Dài 75cm, phù hợp 75-83kg
+   - Size XXL: Ngang vai 51cm, Ngực 116cm, Dài 76cm, phù hợp 83-90kg
+
+2. Đặc điểm nổi bật:
+   - Vải cao cấp, mềm mại, thoáng khí
+   - Đường may tinh tế, chắc chắn
+   - Cổ áo được may đặc biệt, không bị nhăn sau nhiều lần giặt
+   - Cúc áo chắc chắn, bền đẹp
+   - Thiết kế thời trang, lịch sự
+
+3. Cách phối đồ:
+   - Áo sơ mi trắng: Phối với quần âu, quần jeans, quần kaki đều đẹp
+   - Áo sơ mi xanh nhạt: Phối với quần jeans xanh đậm hoặc quần kaki màu be
+   - Áo sơ mi kẻ sọc: Phối với quần đơn sắc như đen, xanh navy
+   - Áo sơ mi denim: Phối với quần kaki hoặc quần jeans khác màu
+
+4. Mẹo bảo quản:
+   - Giặt riêng áo sơ mi trắng với các loại áo khác
+   - Sử dụng giặt tay hoặc giặt máy ở chế độ nhẹ nhàng
+   - Là ủi ở nhiệt độ vừa phải, nên ủi khi áo còn hơi ẩm
+   - Treo áo sơ mi thay vì gấp để tránh nhăn
+   - Nên giặt áo sơ mi sau 2-3 lần mặc để giữ form dáng 

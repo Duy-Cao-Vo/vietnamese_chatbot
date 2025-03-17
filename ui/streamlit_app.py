@@ -272,7 +272,7 @@ def display_messages():
                                                 product["price"]
                                             )
                                             st.success(f"Đã thêm {product['product_name']} vào giỏ hàng!")
-                                            st.experimental_rerun()
+                                            st.rerun()
 
 def display_cart():
     """Hiển thị giỏ hàng."""
@@ -304,12 +304,12 @@ def display_cart():
             )
             if new_quantity != item["quantity"]:
                 st.session_state.cart[i]["quantity"] = new_quantity
-                st.experimental_rerun()
+                st.rerun()
         
         with col3:
             if st.button("Xóa", key=f"remove_{i}"):
                 st.session_state.cart.pop(i)
-                st.experimental_rerun()
+                st.rerun()
         
         st.divider()
     
@@ -321,11 +321,11 @@ def display_cart():
     with col1:
         if st.button("Tiếp tục mua sắm"):
             st.session_state.checkout = False
-            st.experimental_rerun()
+            st.rerun()
     with col2:
         if st.button("Thanh toán ngay"):
             st.session_state.checkout = True
-            st.experimental_rerun()
+            st.rerun()
 
 def display_checkout_form():
     """Hiển thị form thanh toán."""
@@ -396,7 +396,7 @@ def display_checkout_form():
             if result.get("status") == "success":
                 st.session_state.cart = []
                 st.session_state.checkout = False
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error(result.get("message", "Đã xảy ra lỗi khi đặt hàng"))
 
@@ -432,14 +432,14 @@ def display_order_result():
         # Nút tiếp tục mua sắm
         if st.button("Tiếp tục mua sắm"):
             st.session_state.order_result = None
-            st.experimental_rerun()
+            st.rerun()
     else:
         st.error(result.get("message", "Đã xảy ra lỗi khi đặt hàng"))
         
         # Nút thử lại
         if st.button("Thử lại"):
             st.session_state.order_result = None
-            st.experimental_rerun()
+            st.rerun()
 
 def main():
     # Khởi tạo session state
@@ -457,7 +457,7 @@ def main():
         if cart_count > 0:
             if st.button("Xem giỏ hàng"):
                 st.session_state.checkout = False
-                st.experimental_rerun()
+                st.rerun()
         
         st.divider()
         st.write("### Tìm kiếm sản phẩm")
@@ -477,7 +477,7 @@ def main():
                     "additional_data": response.get("additional_data")
                 })
                 
-                st.experimental_rerun()
+                st.rerun()
         
         st.divider()
         st.write("### Thông tin liên hệ")

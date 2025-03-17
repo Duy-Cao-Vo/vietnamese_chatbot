@@ -23,7 +23,7 @@ class LLMModel:
         """Khởi tạo mô hình LLM dựa trên cấu hình."""
         # Common configuration
         self.mode = config.LLM_MODE  # "local" or "api"
-        self.max_new_tokens = 512
+        self.max_new_tokens = 1024
         self.system_prompt = config.SYSTEM_PROMPT
         self.rag_prompt = config.RAG_PROMPT
         
@@ -33,7 +33,7 @@ class LLMModel:
             # Local model configuration
             self.model_path = config.LLM_MODEL_PATH
             self.model_name = config.LLM_MODEL_NAME
-            self.max_context_length = 4096  # Default for most smaller models
+            self.max_context_length = 8192
             
             # Check for Apple Silicon GPU
             if torch.backends.mps.is_available():
