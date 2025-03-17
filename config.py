@@ -15,8 +15,9 @@ os.makedirs(os.path.join(DATA_DIR, "inventory"), exist_ok=True)
 os.makedirs(os.path.join(DATA_DIR, "stores"), exist_ok=True)
 
 # Cấu hình LLM
-LLM_MODEL_NAME = "deepseek-ai/deepseek-llm-7b-chat"
-LLM_MODEL_PATH = os.path.join(MODEL_DIR, "deepseek-r1")
+LLM_MODE = "api"  # Options: "local" or "api"
+LLM_MODEL_NAME = "microsoft/phi-2"
+LLM_MODEL_PATH = os.path.join(MODEL_DIR, "phi-2")
 
 # Cấu hình Vector Database
 VECTOR_DB_PATH = os.path.join(BASE_DIR, "vector_db")
@@ -68,4 +69,10 @@ Dựa trên các tài liệu sau đây:
 {context}
 
 Hãy trả lời câu hỏi của khách hàng một cách đầy đủ, thân thiện và chính xác bằng tiếng Việt.
-""" 
+"""
+
+# API Configuration (only used if LLM_MODE="api")
+API_BASE_URL = "https://public-api.grabgpt.managed.catwalk-k8s.stg-myteksi.com/openai/deployments/gpt-35-turbo"
+API_VERSION = "2023-03-15-preview"
+API_ENGINE = "gpt-35-turbo"
+API_TIMEOUT = 30  # seconds 

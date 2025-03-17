@@ -28,6 +28,12 @@ aiohttp==3.8.6
 huggingface-hub==0.19.4
 
 # DeepSeek R1 specific
-deepseek-ai
+# deepseek-ai
 
 safetensors
+
+sentence-transformers
+
+bitsandbytes
+
+einops

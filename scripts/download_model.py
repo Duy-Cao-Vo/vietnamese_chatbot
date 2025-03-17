@@ -72,13 +72,25 @@ def download_model(model_name: str = None, output_dir: str = None, use_cuda: boo
         offload_folder = os.path.join(output_dir, "offload")
         os.makedirs(offload_folder, exist_ok=True)
         
-        model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            torch_dtype=dtype,
-            device_map="auto" if device != "cpu" else None,
-            offload_folder=offload_folder if device != "cpu" else None,
-            trust_remote_code=True
-        )
+        if "phi" in model_name.lower():
+            logger.info("Detected Phi model - using special loading method")
+            model = AutoModelForCausalLM.from_pretrained(
+                model_name,
+                torch_dtype=dtype,
+                trust_remote_code=True
+            )
+            # Move to device manually after loading
+            if device != "cpu":
+                model = model.to(device)
+        else:
+            # Standard loading for other models
+            model = AutoModelForCausalLM.from_pretrained(
+                model_name,
+                torch_dtype=dtype,
+                device_map="auto" if device != "cpu" else None,
+                offload_folder=offload_folder if device != "cpu" else None,
+                trust_remote_code=True
+            )
         
         # Lưu mô hình và tokenizer
         logger.info(f"Saving model to {output_dir}...")

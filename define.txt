@@ -1,0 +1,29 @@
+1.
+
+Find me a data for a chatbot selling clothes in VietNam
+data must be vietnamese
+have enough information
++ Policy
++ Product
++ Inventory
++ Store
+2. design a full flow of chatbot Agent that can
+Receive question from user in Vietnamese
+Detect pattern and sematic what user want
++ Policy -> policy for return and exchange ..., policy for 
++ Product -> give consult like how to wear, color, size ...
++ Inventory -> query in database to get number item left
++ Store -> return store location
++ Buy -> If user want to buy something give them a flow to confirm order and print out invoicing
+After detect pattern and sematic using RAG to query and return result for end-user in friendly way in Vietnamese
+
+3 Suggest API LLM model using
+Give end to end deploy deepseek R1 or any free LLM model 
+on local MacBook
+then my chatbot app above will call LLM deepseek r1 on local to using AI agent
+reference:@https://github.com/qunash/r1-overthinker 
+
+4. Design vector database suitable for LLM model to query
+
+Define clearly full flow of project generate step by step and I will call continue to continue generate
+generate as long as you can make sure project can run
