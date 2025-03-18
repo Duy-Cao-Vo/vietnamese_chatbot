@@ -170,7 +170,7 @@ def ingest_data(clear_existing: bool = False):
     # Thêm dữ liệu vào vector store
     if all_documents:
         logger.info(f"Adding {len(all_documents)} documents to vector store...")
-        vector_store.add_documents(all_documents)
+        vector_store.add_documents_with_chunking(all_documents)
         logger.info("Data ingestion completed successfully!")
     else:
         logger.warning("No documents found to ingest.")

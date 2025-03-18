@@ -7,6 +7,7 @@ from chromadb.config import Settings
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
+from langchain.text_splitter import RecursiveCharacterTextSplitter, MarkdownTextSplitter
 
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -119,4 +120,64 @@ class VectorStore:
             return True
         except Exception as e:
             logger.error(f"Error clearing vector store: {str(e)}")
+            return False
+    
+    def add_documents_with_chunking(self, documents: List[Document]) -> bool:
+        """
+        Thêm tài liệu vào vector store với chunking để tối ưu hóa.
+        
+        Args:
+            documents: Danh sách tài liệu cần thêm
+            
+        Returns:
+            True nếu thành công, False nếu thất bại
+        """
+        try:
+            # Choose the appropriate text splitter based on your content
+            # For general text:
+            text_splitter = RecursiveCharacterTextSplitter(
+                chunk_size=500,           # Characters per chunk
+                chunk_overlap=100,        # Characters overlap between chunks
+                length_function=len,
+                separators=["\n\n", "\n", ". ", " ", ""]  # Priority order of separators
+            )
+            
+            # For Markdown content:
+            # text_splitter = MarkdownTextSplitter(chunk_size=500, chunk_overlap=100)
+            
+            chunked_documents = []
+            
+            # Process each document
+            for doc in documents:
+                # Get the text and metadata
+                content = doc.page_content
+                metadata = doc.metadata.copy()
+                
+                # Split text into chunks
+                chunks = text_splitter.split_text(content)
+                
+                # Create new documents for each chunk
+                for i, chunk in enumerate(chunks):
+                    # Preserve original metadata and add chunk information
+                    chunk_metadata = metadata.copy()
+                    chunk_metadata.update({
+                        "chunk": i,
+                        "total_chunks": len(chunks),
+                        "document_id": metadata.get("source", "") + f"-chunk-{i}"
+                    })
+                    
+                    chunked_doc = Document(
+                        page_content=chunk,
+                        metadata=chunk_metadata
+                    )
+                    chunked_documents.append(chunked_doc)
+            
+            # Add the chunked documents to the vector store
+            self.db.add_documents(chunked_documents)
+            self.db.persist()
+            logger.info(f"Added {len(chunked_documents)} chunked documents from {len(documents)} original documents")
+            return True
+        
+        except Exception as e:
+            logger.error(f"Error adding chunked documents to vector store: {str(e)}")
             return False 
