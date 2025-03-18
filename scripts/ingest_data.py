@@ -9,6 +9,7 @@ import logging
 import argparse
 import json
 from typing import List, Dict, Any
+from langchain.text_splitter import CharacterTextSplitter
 from langchain.schema import Document
 
 # Add parent directory to path
@@ -24,17 +25,28 @@ logging.basicConfig(
 )
 logger = logging.getLogger("ingest-data")
 
-def load_text_files(directory: str, intent: str) -> List[Document]:
+def chunk_text(content: str, chunk_size: int = 500, chunk_overlap: int = 50) -> List[Document]:
     """
-    Tải các tệp văn bản từ thư mục và chuyển đổi thành Document.
+    Chia nhỏ văn bản thành các đoạn nhỏ hơn để lưu vào vector database.
     
     Args:
-        directory: Đường dẫn đến thư mục chứa tệp văn bản
-        intent: Intent liên quan đến dữ liệu
+        content: Nội dung văn bản cần chunking
+        chunk_size: Kích thước mỗi đoạn (mặc định 500 ký tự)
+        chunk_overlap: Số ký tự trùng lặp giữa các đoạn (mặc định 50 ký tự)
         
     Returns:
-        Danh sách các Document
+        List[Document]: Danh sách các Document đã được chia nhỏ
     """
+    text_splitter = CharacterTextSplitter(
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap
+    )
+    
+    chunks = text_splitter.split_text(content)
+    
+    return [Document(page_content=chunk) for chunk in chunks]
+
+def load_text_files(directory: str, intent: str) -> List[Document]:
     documents = []
     
     if not os.path.exists(directory):
@@ -48,17 +60,22 @@ def load_text_files(directory: str, intent: str) -> List[Document]:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
                 
-                # Tạo Document
-                doc = Document(
-                    page_content=content,
-                    metadata={
-                        "source": file_path,
-                        "filename": filename,
-                        "intent": intent
-                    }
-                )
-                documents.append(doc)
-                logger.info(f"Loaded document: {file_path}")
+                # CHUNKING TRƯỚC KHI LƯU
+                chunks = chunk_text(content)
+
+                for idx, chunk in enumerate(chunks):
+                    doc = Document(
+                        page_content=chunk.page_content,
+                        metadata={
+                            "source": file_path,
+                            "filename": filename,
+                            "intent": intent,
+                            "chunk_index": idx  # Lưu vị trí chunk
+                        }
+                    )
+                    documents.append(doc)
+                
+                logger.info(f"Loaded {len(chunks)} chunks from document: {file_path}")
                 
             except Exception as e:
                 logger.error(f"Error loading file {file_path}: {str(e)}")
