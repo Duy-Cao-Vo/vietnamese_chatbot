@@ -72,6 +72,636 @@ DANH SÁCH SẢN PHẨM:
     - Giá: 459.000 VNĐ
     - Màu sắc: Xanh đậm, Xanh nhạt, Đen
 
+11. Mã sản phẩm: VD011  
+Tên sản phẩm: Đầm Midi Vintage Floral  
+- Chất liệu: Voan nhẹ, họa tiết hoa vintage  
+- Kiểu dáng: Midi dress (dài qua gối, nữ tính)  
+- Giá: 580.000 VNĐ  
+- Màu sắc: Hồng pastel, Xanh navy, Kem  
+
+12. Mã sản phẩm: VD012  
+Tên sản phẩm: Đầm Bodycon Dáng Ôm Lụa  
+- Chất liệu: Lụa satin bóng mượt  
+- Kiểu dáng: Bodycon fit (ôm sát, gợi cảm)  
+- Giá: 650.000 VNĐ  
+- Màu sắc: Đỏ đô, Đen tuyền, Xanh ngọc  
+
+13. Mã sản phẩm: VD013  
+Tên sản phẩm: Đầm Trễ Vai Công Chúa  
+- Chất liệu: Voan xếp tầng nhẹ nhàng  
+- Kiểu dáng: Off-shoulder (trễ vai, bồng bềnh)  
+- Giá: 720.000 VNĐ  
+- Màu sắc: Trắng kem, Hồng phấn, Tím nhạt  
+
+14. Mã sản phẩm: VD014  
+Tên sản phẩm: Đầm Maxi Dự Tiệc  
+- Chất liệu: Chiffon mềm mại, bay bổng  
+- Kiểu dáng: Maxi dress (dài thướt tha, thanh lịch)  
+- Giá: 800.000 VNĐ  
+- Màu sắc: Xanh biển, Be, Đen tuyền  
+
+15. Mã sản phẩm: VD015  
+Tên sản phẩm: Đầm Babydoll Form Rộng  
+- Chất liệu: Cotton thoáng mát  
+- Kiểu dáng: Babydoll (form rộng, trẻ trung)  
+- Giá: 540.000 VNĐ  
+- Màu sắc: Trắng, Xanh bạc hà, Hồng đất  
+
+16. Mã sản phẩm: VD016  
+Tên sản phẩm: Đầm Suông Công Sở  
+- Chất liệu: Vải tuyết mưa cao cấp  
+- Kiểu dáng: Shift dress (suông nhẹ, thanh lịch)  
+- Giá: 690.000 VNĐ  
+- Màu sắc: Đen, Xám ghi, Xanh navy  
+
+17. Mã sản phẩm: VD017  
+Tên sản phẩm: Đầm Xòe Cổ Sơ Mi  
+- Chất liệu: Kate lụa mềm mại  
+- Kiểu dáng: Flared dress (chiết eo, xòe nhẹ)  
+- Giá: 750.000 VNĐ  
+- Màu sắc: Xanh pastel, Hồng nhạt, Nâu đất  
+
+18. Mã sản phẩm: VD018  
+Tên sản phẩm: Đầm Len Ôm Dáng  
+- Chất liệu: Len dệt kim cao cấp  
+- Kiểu dáng: Slim fit (ôm body, ấm áp)  
+- Giá: 790.000 VNĐ  
+- Màu sắc: Đỏ rượu, Xám tro, Đen  
+
+19. Mã sản phẩm: VD019  
+Tên sản phẩm: Đầm Yếm Vintage  
+- Chất liệu: Denim mềm kết hợp cotton  
+- Kiểu dáng: Yếm váy (trẻ trung, năng động)  
+- Giá: 610.000 VNĐ  
+- Màu sắc: Xanh denim, Nâu đất, Đen  
+
+20. Mã sản phẩm: VD020  
+Tên sản phẩm: Đầm Dạ Hội Xẻ Tà  
+- Chất liệu: Nhung cao cấp phối ren  
+- Kiểu dáng: Evening gown (sang trọng, quyến rũ)  
+- Giá: 1.200.000 VNĐ  
+- Màu sắc: Đỏ đô, Xanh sapphire, Đen tuyền  
+
+21. Mã sản phẩm: VD021  
+Tên sản phẩm: Đầm Peplum Công Sở  
+- Chất liệu: Tuyết mưa đứng dáng  
+- Kiểu dáng: Peplum dress (tôn vòng eo)  
+- Giá: 880.000 VNĐ  
+- Màu sắc: Trắng, Xanh cobalt, Đỏ  
+
+22. Mã sản phẩm: VD022  
+Tên sản phẩm: Đầm Hoa Nhí Tay Bồng  
+- Chất liệu: Voan mỏng nhẹ, thoáng mát  
+- Kiểu dáng: Cottagecore (đồng quê, nữ tính)  
+- Giá: 670.000 VNĐ  
+- Màu sắc: Xanh da trời, Hồng đào, Vàng nhạt  
+
+23. Mã sản phẩm: VD023  
+Tên sản phẩm: Đầm Ren Đuôi Cá  
+- Chất liệu: Ren Pháp tinh tế  
+- Kiểu dáng: Mermaid dress (ôm sát, đuôi cá)  
+- Giá: 1.350.000 VNĐ  
+- Màu sắc: Trắng ngọc trai, Đỏ rượu, Đen huyền bí  
+
+24. Mã sản phẩm: VD024  
+Tên sản phẩm: Đầm Midi Cổ Vuông  
+- Chất liệu: Linen thoáng mát  
+- Kiểu dáng: Midi dress (dáng vintage, nhẹ nhàng)  
+- Giá: 620.000 VNĐ  
+- Màu sắc: Xanh bạc hà, Kem, Hồng phấn  
+
+25. Mã sản phẩm: VD025  
+Tên sản phẩm: Đầm Lụa Dáng Dài Sang Trọng  
+- Chất liệu: Satin cao cấp bóng nhẹ  
+- Kiểu dáng: Slip dress (quyến rũ, thanh lịch)  
+- Giá: 1.500.000 VNĐ  
+- Màu sắc: Champagne, Đen, Xanh ngọc  
+
+26. Mã sản phẩm: VD026  
+Tên sản phẩm: Đầm Gấm Thêu Họa Tiết  
+- Chất liệu: Gấm cao cấp  
+- Kiểu dáng: Truyền thống kết hợp hiện đại  
+- Giá: 1.700.000 VNĐ  
+- Màu sắc: Đỏ đô, Xanh rêu, Trắng kem  
+
+27. Mã sản phẩm: VD027  
+Tên sản phẩm: Đầm Phối Lưới Nữ Tính  
+- Chất liệu: Cotton pha lưới mềm mại  
+- Kiểu dáng: High-low dress (tà trước ngắn, sau dài)  
+- Giá: 750.000 VNĐ  
+- Màu sắc: Hồng pastel, Xanh dương, Be  
+
+28. Mã sản phẩm: VD028  
+Tên sản phẩm: Đầm Tulle Công Chúa  
+- Chất liệu: Lưới tulle bồng bềnh  
+- Kiểu dáng: Công chúa (bồng xòe, sang trọng)  
+- Giá: 1.600.000 VNĐ  
+- Màu sắc: Trắng, Hồng nude, Xanh pastel  
+
+29. Mã sản phẩm: VD029  
+Tên sản phẩm: Đầm Cut-Out Dự Tiệc  
+- Chất liệu: Cotton co giãn 2 chiều  
+- Kiểu dáng: Cut-out (sexy, táo bạo)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Đỏ rượu, Đen, Be  
+
+30. Mã sản phẩm: VD030  
+Tên sản phẩm: Đầm Thêu Tay Độc Đáo  
+- Chất liệu: Cotton linen thêu thủ công  
+- Kiểu dáng: Ethnic style (dân tộc, nghệ thuật)  
+- Giá: 1.800.000 VNĐ  
+- Màu sắc: Nâu đất, Xanh rêu, Trắng kem  
+
+31. Mã sản phẩm: VD031  
+Tên sản phẩm: Đầm Dáng A Basic  
+- Chất liệu: Vải Kaki mềm, thoáng khí  
+- Kiểu dáng: A-line dress (đơn giản, trẻ trung)  
+- Giá: 540.000 VNĐ  
+- Màu sắc: Đen, Be, Xanh navy  
+
+32. Mã sản phẩm: VD032  
+Tên sản phẩm: Đầm Xếp Ly Công Sở  
+- Chất liệu: Polyester cao cấp, chống nhăn  
+- Kiểu dáng: Pleated dress (xếp ly thanh lịch)  
+- Giá: 780.000 VNĐ  
+- Màu sắc: Xám tro, Hồng pastel, Nâu đất  
+
+33. Mã sản phẩm: VD033  
+Tên sản phẩm: Đầm Trễ Vai Ren  
+- Chất liệu: Ren Pháp phối lụa  
+- Kiểu dáng: Off-shoulder dress (sexy, nữ tính)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Đỏ rượu, Trắng, Xanh đậm  
+
+34. Mã sản phẩm: VD034  
+Tên sản phẩm: Đầm Maxi Bohemian  
+- Chất liệu: Voan in họa tiết độc đáo  
+- Kiểu dáng: Maxi dress (dài thướt tha, boho)  
+- Giá: 960.000 VNĐ  
+- Màu sắc: Xanh lá, Vàng cát, Đỏ đất  
+
+35. Mã sản phẩm: VD035  
+Tên sản phẩm: Đầm Cut-Out Hở Lưng  
+- Chất liệu: Cotton co giãn 4 chiều  
+- Kiểu dáng: Sexy, quyến rũ  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Đen, Xanh dương, Trắng kem  
+
+36. Mã sản phẩm: VD036  
+Tên sản phẩm: Đầm Suông Linen Thoáng Mát  
+- Chất liệu: Linen tự nhiên  
+- Kiểu dáng: Loose dress (form rộng, thoải mái)  
+- Giá: 730.000 VNĐ  
+- Màu sắc: Trắng, Be, Xanh pastel  
+
+37. Mã sản phẩm: VD037  
+Tên sản phẩm: Đầm Bút Chì Công Sở  
+- Chất liệu: Vải tuyết mưa  
+- Kiểu dáng: Pencil dress (ôm sát, thanh lịch)  
+- Giá: 850.000 VNĐ  
+- Màu sắc: Đen, Xám, Đỏ  
+
+38. Mã sản phẩm: VD038  
+Tên sản phẩm: Đầm Xòe Cổ Vuông  
+- Chất liệu: Kate lụa mềm mại  
+- Kiểu dáng: Flared dress (chiết eo, xòe nhẹ)  
+- Giá: 800.000 VNĐ  
+- Màu sắc: Xanh bạc hà, Hồng nhạt, Kem  
+
+39. Mã sản phẩm: VD039  
+Tên sản phẩm: Đầm Nhung Đính Đá  
+- Chất liệu: Nhung cao cấp, mềm mại  
+- Kiểu dáng: Đầm tiệc sang trọng  
+- Giá: 1.500.000 VNĐ  
+- Màu sắc: Đỏ đô, Xanh sapphire, Đen tuyền  
+
+40. Mã sản phẩm: VD040  
+Tên sản phẩm: Đầm Midi Hoa Nhí Vintage  
+- Chất liệu: Voan lụa cao cấp  
+- Kiểu dáng: Midi dress (hoa nhí, nhẹ nhàng)  
+- Giá: 680.000 VNĐ  
+- Màu sắc: Vàng, Xanh dương, Hồng pastel  
+
+41. Mã sản phẩm: VD041  
+Tên sản phẩm: Đầm Yếm Phối Áo Tay Phồng  
+- Chất liệu: Cotton denim phối voan  
+- Kiểu dáng: Trẻ trung, năng động  
+- Giá: 720.000 VNĐ  
+- Màu sắc: Xanh denim, Be, Trắng  
+
+42. Mã sản phẩm: VD042  
+Tên sản phẩm: Đầm Satin Lụa Dáng Dài  
+- Chất liệu: Satin bóng cao cấp  
+- Kiểu dáng: Sang trọng, thanh lịch  
+- Giá: 1.300.000 VNĐ  
+- Màu sắc: Xanh lục bảo, Be ánh kim, Đỏ đô  
+
+43. Mã sản phẩm: VD043  
+Tên sản phẩm: Đầm Babydoll Tay Loe  
+- Chất liệu: Linen mềm mại  
+- Kiểu dáng: Form rộng, thoải mái  
+- Giá: 570.000 VNĐ  
+- Màu sắc: Hồng đào, Xanh mint, Trắng  
+
+44. Mã sản phẩm: VD044  
+Tên sản phẩm: Đầm Dạ Hội Đuôi Cá  
+- Chất liệu: Ren hoa phối lụa  
+- Kiểu dáng: Đuôi cá ôm sát, quyến rũ  
+- Giá: 1.800.000 VNĐ  
+- Màu sắc: Đen, Vàng gold, Đỏ burgundy  
+
+45. Mã sản phẩm: VD045  
+Tên sản phẩm: Đầm Cổ Yếm Cột Nơ  
+- Chất liệu: Cotton thêu hoa  
+- Kiểu dáng: Cổ yếm nữ tính  
+- Giá: 720.000 VNĐ  
+- Màu sắc: Be, Xanh pastel, Trắng  
+
+46. Mã sản phẩm: VD046  
+Tên sản phẩm: Đầm High-Low Lệch Tà  
+- Chất liệu: Lụa chiffon bay bổng  
+- Kiểu dáng: Tà trước ngắn, tà sau dài  
+- Giá: 880.000 VNĐ  
+- Màu sắc: Hồng nude, Xanh thiên thanh, Đỏ  
+
+47. Mã sản phẩm: VD047  
+Tên sản phẩm: Đầm Len Ôm Body  
+- Chất liệu: Len co giãn 2 chiều  
+- Kiểu dáng: Bodycon giữ ấm, quyến rũ  
+- Giá: 790.000 VNĐ  
+- Màu sắc: Xám tro, Đỏ, Đen  
+
+48. Mã sản phẩm: VD048  
+Tên sản phẩm: Đầm Phối Nút Gỗ  
+- Chất liệu: Linen tự nhiên  
+- Kiểu dáng: Nút gỗ vintage, đơn giản  
+- Giá: 610.000 VNĐ  
+- Màu sắc: Nâu đất, Xanh navy, Be  
+
+49. Mã sản phẩm: VD049  
+Tên sản phẩm: Đầm Đắp Chéo Thanh Lịch  
+- Chất liệu: Lụa pha cotton  
+- Kiểu dáng: Đắp chéo nhẹ nhàng, tôn dáng  
+- Giá: 1.250.000 VNĐ  
+- Màu sắc: Xanh olive, Đỏ cam, Kem  
+
+50. Mã sản phẩm: VD050  
+Tên sản phẩm: Đầm Công Chúa Dáng Phồng  
+- Chất liệu: Tulle phối ren  
+- Kiểu dáng: Xòe rộng, sang trọng  
+- Giá: 1.900.000 VNĐ  
+- Màu sắc: Trắng ngọc trai, Hồng phấn, Xanh pastel  
+
+51. Mã sản phẩm: VD051  
+Tên sản phẩm: Đầm Xòe Hai Dây Satin  
+- Chất liệu: Satin lụa bóng cao cấp  
+- Kiểu dáng: Hai dây, nhẹ nhàng, bay bổng  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xanh lục bảo, Hồng nude, Đỏ rượu  
+
+52. Mã sản phẩm: VD052  
+Tên sản phẩm: Đầm Suông Cotton Thoải Mái  
+- Chất liệu: 100% cotton organic  
+- Kiểu dáng: Suông rộng, casual  
+- Giá: 560.000 VNĐ  
+- Màu sắc: Trắng, Xanh navy, Be  
+
+53. Mã sản phẩm: VD053  
+Tên sản phẩm: Đầm Ren Đắp Lưới Tiểu Thư  
+- Chất liệu: Ren cao cấp phối lưới mềm  
+- Kiểu dáng: Công chúa, nhẹ nhàng  
+- Giá: 1.650.000 VNĐ  
+- Màu sắc: Trắng ngọc trai, Hồng pastel, Xanh baby  
+
+54. Mã sản phẩm: VD054  
+Tên sản phẩm: Đầm Midi Kẻ Sọc Vintage  
+- Chất liệu: Linen pha cotton  
+- Kiểu dáng: Cổ vuông, tay lửng, đậm chất vintage  
+- Giá: 750.000 VNĐ  
+- Màu sắc: Xanh navy sọc trắng, Nâu sọc be, Đỏ gạch sọc kem  
+
+55. Mã sản phẩm: VD055  
+Tên sản phẩm: Đầm Ôm Body Cổ Đổ  
+- Chất liệu: Thun lạnh co giãn 4 chiều  
+- Kiểu dáng: Bodycon quyến rũ  
+- Giá: 870.000 VNĐ  
+- Màu sắc: Đen, Đỏ đô, Xanh coban  
+
+56. Mã sản phẩm: VD056  
+Tên sản phẩm: Đầm Đuôi Cá Xếp Ly  
+- Chất liệu: Voan lụa cao cấp  
+- Kiểu dáng: Đuôi cá, xếp ly nhẹ nhàng  
+- Giá: 1.150.000 VNĐ  
+- Màu sắc: Vàng cát, Xanh olive, Hồng đào  
+
+57. Mã sản phẩm: VD057  
+Tên sản phẩm: Đầm Babydoll Phối Nơ  
+- Chất liệu: Voan xốp mềm mại  
+- Kiểu dáng: Dáng rộng, dễ thương  
+- Giá: 630.000 VNĐ  
+- Màu sắc: Xanh pastel, Hồng baby, Trắng  
+
+58. Mã sản phẩm: VD058  
+Tên sản phẩm: Đầm Len Body Tay Dài  
+- Chất liệu: Len gân cao cấp  
+- Kiểu dáng: Bodycon giữ ấm, ôm dáng đẹp  
+- Giá: 820.000 VNĐ  
+- Màu sắc: Đỏ, Be, Xám tro  
+
+59. Mã sản phẩm: VD059  
+Tên sản phẩm: Đầm Công Chúa Đính Hoa 3D  
+- Chất liệu: Tulle phối lụa cao cấp  
+- Kiểu dáng: Xòe rộng, sang trọng  
+- Giá: 2.100.000 VNĐ  
+- Màu sắc: Trắng sữa, Hồng pastel, Vàng kem  
+
+60. Mã sản phẩm: VD060  
+Tên sản phẩm: Đầm Trễ Vai Cúp Ngực  
+- Chất liệu: Satin pha ren quyến rũ  
+- Kiểu dáng: Trễ vai, ôm sát tôn dáng  
+- Giá: 1.400.000 VNĐ  
+- Màu sắc: Đỏ đô, Đen huyền bí, Be ánh kim  
+
+61. Mã sản phẩm: VD061  
+Tên sản phẩm: Đầm Lụa Cổ Sơ Mi  
+- Chất liệu: Lụa Nhật cao cấp  
+- Kiểu dáng: Cổ sơ mi, thanh lịch  
+- Giá: 1.280.000 VNĐ  
+- Màu sắc: Xanh navy, Hồng pastel, Trắng kem  
+
+62. Mã sản phẩm: VD062  
+Tên sản phẩm: Đầm Hai Dây Dáng Rộng  
+- Chất liệu: Cotton thoáng mát  
+- Kiểu dáng: Dáng suông nhẹ nhàng  
+- Giá: 680.000 VNĐ  
+- Màu sắc: Đen, Trắng, Xanh mint  
+
+63. Mã sản phẩm: VD063  
+Tên sản phẩm: Đầm Midi Cổ Tròn  
+- Chất liệu: Linen pha lụa  
+- Kiểu dáng: Midi dress đơn giản  
+- Giá: 730.000 VNĐ  
+- Màu sắc: Xanh bạc hà, Be, Hồng  
+
+64. Mã sản phẩm: VD064  
+Tên sản phẩm: Đầm Xòe Voan Cổ Vuông  
+- Chất liệu: Voan chiffon  
+- Kiểu dáng: Xòe nhẹ, nữ tính  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Xanh da trời, Hồng đào, Be  
+
+65. Mã sản phẩm: VD065  
+Tên sản phẩm: Đầm Ôm Body Đắp Chéo  
+- Chất liệu: Lụa Hàn Quốc cao cấp  
+- Kiểu dáng: Ôm body quyến rũ  
+- Giá: 1.350.000 VNĐ  
+- Màu sắc: Đỏ, Đen, Xanh coban  
+
+66. Mã sản phẩm: VD066  
+Tên sản phẩm: Đầm Chân Váy Xếp Ly  
+- Chất liệu: Kate lụa phối ren  
+- Kiểu dáng: Công sở thanh lịch  
+- Giá: 920.000 VNĐ  
+- Màu sắc: Xanh navy, Đỏ đô, Be  
+
+67. Mã sản phẩm: VD067  
+Tên sản phẩm: Đầm Tulle Công Chúa  
+- Chất liệu: Tulle lưới nhẹ nhàng  
+- Kiểu dáng: Xòe bồng, lãng mạn  
+- Giá: 1.750.000 VNĐ  
+- Màu sắc: Trắng, Hồng baby, Xanh thiên thanh  
+
+68. Mã sản phẩm: VD068  
+Tên sản phẩm: Đầm Suông Thêu Họa Tiết  
+- Chất liệu: Linen thêu thủ công  
+- Kiểu dáng: Suông nhẹ, thoải mái  
+- Giá: 780.000 VNĐ  
+- Màu sắc: Be, Nâu đất, Xanh olive  
+
+69. Mã sản phẩm: VD069  
+Tên sản phẩm: Đầm Cut-Out Eo Quyến Rũ  
+- Chất liệu: Cotton co giãn 4 chiều  
+- Kiểu dáng: Cut-out eo tinh tế  
+- Giá: 970.000 VNĐ  
+- Màu sắc: Đỏ rượu, Xanh đậm, Trắng  
+
+70. Mã sản phẩm: VD070  
+Tên sản phẩm: Đầm Đắp Chéo Kết Nút Gỗ  
+- Chất liệu: Linen dày dặn  
+- Kiểu dáng: Đắp chéo, phong cách vintage  
+- Giá: 690.000 VNĐ  
+- Màu sắc: Xanh rêu, Nâu đất, Be  
+
+71. Mã sản phẩm: VD071  
+Tên sản phẩm: Đầm Maxi Bohemian Họa Tiết  
+- Chất liệu: Voan chiffon mềm mại  
+- Kiểu dáng: Dài, xòe nhẹ, phong cách boho  
+- Giá: 1.150.000 VNĐ  
+- Màu sắc: Đỏ họa tiết, Xanh navy họa tiết, Be họa tiết  
+
+72. Mã sản phẩm: VD072  
+Tên sản phẩm: Đầm Bodycon Dệt Kim Tay Dài  
+- Chất liệu: Len dệt kim co giãn  
+- Kiểu dáng: Ôm sát, tôn dáng  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Đỏ đô, Đen, Be  
+
+73. Mã sản phẩm: VD073  
+Tên sản phẩm: Đầm Peplum Thanh Lịch  
+- Chất liệu: Lụa Nhật phối ren cao cấp  
+- Kiểu dáng: Ôm nhẹ, phần eo peplum  
+- Giá: 1.450.000 VNĐ  
+- Màu sắc: Xanh coban, Đen, Trắng  
+
+74. Mã sản phẩm: VD074  
+Tên sản phẩm: Đầm Công Sở Tay Bồng  
+- Chất liệu: Vải kate lụa thoáng mát  
+- Kiểu dáng: Công sở thanh lịch  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xanh navy, Hồng pastel, Be  
+
+75. Mã sản phẩm: VD075  
+Tên sản phẩm: Đầm Cut-Out Vai Gợi Cảm  
+- Chất liệu: Cotton co giãn 4 chiều  
+- Kiểu dáng: Ôm body, cut-out vai  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Đỏ, Đen, Xanh olive  
+
+76. Mã sản phẩm: VD076  
+Tên sản phẩm: Đầm Baby Doll Tay Lỡ  
+- Chất liệu: Voan xốp mềm  
+- Kiểu dáng: Dáng rộng, dễ thương  
+- Giá: 650.000 VNĐ  
+- Màu sắc: Hồng pastel, Xanh baby, Trắng  
+
+77. Mã sản phẩm: VD077  
+Tên sản phẩm: Đầm Xếp Ly Cổ Sơ Mi  
+- Chất liệu: Linen pha lụa cao cấp  
+- Kiểu dáng: Xếp ly nhẹ nhàng, cổ sơ mi  
+- Giá: 1.280.000 VNĐ  
+- Màu sắc: Be, Nâu đất, Xanh rêu  
+
+78. Mã sản phẩm: VD078  
+Tên sản phẩm: Đầm Midi Cổ Vuông Vintage  
+- Chất liệu: Lụa satin mềm mại  
+- Kiểu dáng: Vintage, cổ vuông, tay phồng  
+- Giá: 1.350.000 VNĐ  
+- Màu sắc: Xanh navy, Đỏ rượu, Be  
+
+79. Mã sản phẩm: VD079  
+Tên sản phẩm: Đầm Xòe Trễ Vai Công Chúa  
+- Chất liệu: Tulle lưới mềm  
+- Kiểu dáng: Xòe rộng, nữ tính  
+- Giá: 1.750.000 VNĐ  
+- Màu sắc: Trắng ngọc trai, Hồng baby, Vàng kem  
+
+80. Mã sản phẩm: VD080  
+Tên sản phẩm: Đầm Len Ôm Body Cổ Cao  
+- Chất liệu: Len gân co giãn tốt  
+- Kiểu dáng: Bodycon giữ ấm, ôm dáng đẹp  
+- Giá: 820.000 VNĐ  
+- Màu sắc: Đỏ, Be, Xám tro  
+
+81. Mã sản phẩm: VD081  
+Tên sản phẩm: Đầm Yếm Lụa Thanh Lịch  
+- Chất liệu: Lụa Hàn Quốc cao cấp  
+- Kiểu dáng: Yếm dài, sang trọng  
+- Giá: 1.500.000 VNĐ  
+- Màu sắc: Đen, Trắng, Xanh lá đậm  
+
+82. Mã sản phẩm: VD082  
+Tên sản phẩm: Đầm Ren Body Quyến Rũ  
+- Chất liệu: Ren Pháp cao cấp  
+- Kiểu dáng: Bodycon ôm sát  
+- Giá: 2.250.000 VNĐ  
+- Màu sắc: Đỏ đô, Đen, Be  
+
+83. Mã sản phẩm: VD083  
+Tên sản phẩm: Đầm Suông Denim Cá Tính  
+- Chất liệu: Jean denim mềm  
+- Kiểu dáng: Suông rộng, trẻ trung  
+- Giá: 990.000 VNĐ  
+- Màu sắc: Xanh denim sáng, Xanh denim đậm  
+
+84. Mã sản phẩm: VD084  
+Tên sản phẩm: Đầm Midi Trơn Basic  
+- Chất liệu: Cotton thoáng mát  
+- Kiểu dáng: Đơn giản, dễ phối đồ  
+- Giá: 620.000 VNĐ  
+- Màu sắc: Đen, Xám, Xanh dương  
+
+85. Mã sản phẩm: VD085  
+Tên sản phẩm: Đầm Công Chúa Đính Hoa  
+- Chất liệu: Tulle phối lụa cao cấp  
+- Kiểu dáng: Xòe rộng, sang trọng  
+- Giá: 1.950.000 VNĐ  
+- Màu sắc: Trắng sữa, Hồng pastel, Xanh baby  
+
+86. Mã sản phẩm: VD086  
+Tên sản phẩm: Đầm Hai Dây Xẻ Cao  
+- Chất liệu: Lụa satin phối voan  
+- Kiểu dáng: Quyến rũ, xẻ đùi  
+- Giá: 1.400.000 VNĐ  
+- Màu sắc: Đỏ rượu, Be, Xanh navy  
+
+87. Mã sản phẩm: VD087  
+Tên sản phẩm: Đầm Suông Linen Thêu Tay  
+- Chất liệu: Linen thêu thủ công  
+- Kiểu dáng: Suông nhẹ, phong cách nghệ thuật  
+- Giá: 860.000 VNĐ  
+- Màu sắc: Nâu đất, Xanh olive, Be  
+
+88. Mã sản phẩm: VD088  
+Tên sản phẩm: Đầm Cúp Ngực Tay Phồng  
+- Chất liệu: Lụa Nhật cao cấp  
+- Kiểu dáng: Body ôm nhẹ, sang trọng  
+- Giá: 1.750.000 VNĐ  
+- Màu sắc: Hồng pastel, Đỏ đô, Xanh navy  
+
+89. Mã sản phẩm: VD089  
+Tên sản phẩm: Đầm Midi Cổ Tròn Dáng Xòe  
+- Chất liệu: Linen pha cotton  
+- Kiểu dáng: Thanh lịch, nhẹ nhàng  
+- Giá: 770.000 VNĐ  
+- Màu sắc: Xanh mint, Trắng kem, Hồng đào  
+
+90. Mã sản phẩm: VD090  
+Tên sản phẩm: Đầm Dự Tiệc Đính Kim Tuyến  
+- Chất liệu: Vải sequins cao cấp  
+- Kiểu dáng: Ôm body, lấp lánh  
+- Giá: 2.100.000 VNĐ  
+- Màu sắc: Đen ánh kim, Vàng đồng, Đỏ rượu  
+
+91. Mã sản phẩm: VD091  
+Tên sản phẩm: Đầm Midi Xẻ Tà Sang Trọng  
+- Chất liệu: Lụa satin cao cấp  
+- Kiểu dáng: Dáng ôm nhẹ, xẻ tà quyến rũ  
+- Giá: 1.550.000 VNĐ  
+- Màu sắc: Đỏ rượu, Xanh navy, Be  
+
+92. Mã sản phẩm: VD092  
+Tên sản phẩm: Đầm Baby Doll Tay Ngắn  
+- Chất liệu: Cotton linen thoáng mát  
+- Kiểu dáng: Dáng rộng, dễ thương  
+- Giá: 720.000 VNĐ  
+- Màu sắc: Hồng pastel, Xanh mint, Trắng  
+
+93. Mã sản phẩm: VD093  
+Tên sản phẩm: Đầm Công Sở Ôm Body Cổ Vest  
+- Chất liệu: Tuyết mưa cao cấp  
+- Kiểu dáng: Ôm sát, thanh lịch  
+- Giá: 1.200.000 VNĐ  
+- Màu sắc: Đen, Xanh navy, Xám  
+
+94. Mã sản phẩm: VD094  
+Tên sản phẩm: Đầm Maxi Voan Hoa Nhẹ Nhàng  
+- Chất liệu: Voan lụa mềm mại  
+- Kiểu dáng: Dài, xòe nhẹ, nữ tính  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Trắng hoa nhí, Xanh pastel hoa nhí  
+
+95. Mã sản phẩm: VD095  
+Tên sản phẩm: Đầm Dệt Kim Cổ Lọ Ôm Body  
+- Chất liệu: Len dệt kim co giãn  
+- Kiểu dáng: Ôm sát, giữ ấm tốt  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Be, Đỏ, Đen  
+
+96. Mã sản phẩm: VD096  
+Tên sản phẩm: Đầm Xòe Vintage Cổ Peter Pan  
+- Chất liệu: Lụa Nhật phối ren  
+- Kiểu dáng: Xòe nhẹ, cổ điển, thanh lịch  
+- Giá: 1.450.000 VNĐ  
+- Màu sắc: Xanh navy, Đỏ đô, Be  
+
+97. Mã sản phẩm: VD097  
+Tên sản phẩm: Đầm Dự Tiệc Hai Dây Đính Đá  
+- Chất liệu: Lụa satin phối sequin  
+- Kiểu dáng: Ôm body, lấp lánh sang trọng  
+- Giá: 2.450.000 VNĐ  
+- Màu sắc: Đen ánh kim, Bạc ánh kim, Hồng pastel  
+
+98. Mã sản phẩm: VD098  
+Tên sản phẩm: Đầm Len Suông Freesize  
+- Chất liệu: Len gân co giãn tốt  
+- Kiểu dáng: Suông rộng, thoải mái  
+- Giá: 590.000 VNĐ  
+- Màu sắc: Nâu đất, Xám tro, Xanh olive  
+
+99. Mã sản phẩm: VD099  
+Tên sản phẩm: Đầm Midi Trễ Vai Công Chúa  
+- Chất liệu: Tulle lưới mềm mại  
+- Kiểu dáng: Xòe rộng, nữ tính  
+- Giá: 1.850.000 VNĐ  
+- Màu sắc: Trắng kem, Hồng pastel, Xanh baby  
+
+100. Mã sản phẩm: VD100  
+Tên sản phẩm: Đầm Ren Ôm Body Xẻ Tà  
+- Chất liệu: Ren Pháp cao cấp  
+- Kiểu dáng: Ôm sát, xẻ tà quyến rũ  
+- Giá: 2.100.000 VNĐ  
+- Màu sắc: Đỏ đô, Đen, Be  
+
 THÔNG TIN CHUNG:
 
 1. Bảng size:

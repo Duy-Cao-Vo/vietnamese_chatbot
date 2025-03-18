@@ -72,6 +72,636 @@ DANH SÁCH SẢN PHẨM:
     - Giá: 409.000 VNĐ
     - Màu sắc: Be, Đen, Xám, Xanh Olive
 
+11. Mã sản phẩm: QK011  
+Tên sản phẩm: Quần Kaki Regular Fit Cổ Điển  
+- Chất liệu: Kaki cotton mềm thoáng khí  
+- Kiểu dáng: Regular fit (dễ phối đồ, thoải mái)  
+- Giá: 750.000 VNĐ  
+- Màu sắc: Be sáng, Nâu nhạt, Xanh navy  
+
+12. Mã sản phẩm: QK012  
+Tên sản phẩm: Quần Kaki Slim Fit Co Giãn Nhẹ  
+- Chất liệu: Kaki pha spandex giúp co giãn tốt  
+- Kiểu dáng: Slim fit (ôm vừa, trẻ trung)  
+- Giá: 820.000 VNĐ  
+- Màu sắc: Đen tuyền, Ghi xám, Be đậm  
+
+13. Mã sản phẩm: QK013  
+Tên sản phẩm: Quần Kaki Baggy Fit Phối Túi Hộp  
+- Chất liệu: Kaki dày dặn chống nhăn  
+- Kiểu dáng: Baggy fit (cá tính, phong cách workwear)  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Nâu đất, Xanh rêu, Đen bạc  
+
+14. Mã sản phẩm: QK014  
+Tên sản phẩm: Quần Kaki Jogger Fit Dây Rút  
+- Chất liệu: Kaki pha thun thoải mái  
+- Kiểu dáng: Jogger fit (năng động, thể thao)  
+- Giá: 790.000 VNĐ  
+- Màu sắc: Be nhạt, Xám ghi, Đen  
+
+15. Mã sản phẩm: QK015  
+Tên sản phẩm: Quần Kaki Cargo Túi Hộp Military  
+- Chất liệu: Kaki chống nước pha polyester  
+- Kiểu dáng: Cargo fit (bụi bặm, phong cách lính)  
+- Giá: 920.000 VNĐ  
+- Màu sắc: Xanh quân đội, Nâu đất, Đen bạc  
+
+16. Mã sản phẩm: QK016  
+Tên sản phẩm: Quần Kaki Ống Loe Phong Cách Vintage  
+- Chất liệu: Kaki cotton mềm mại  
+- Kiểu dáng: Flare fit (ống loe nhẹ, hoài cổ)  
+- Giá: 880.000 VNĐ  
+- Màu sắc: Xanh navy, Be sáng, Đen tuyền  
+
+17. Mã sản phẩm: QK017  
+Tên sản phẩm: Quần Kaki Tapered Fit Hàn Quốc  
+- Chất liệu: Kaki pha elastane đàn hồi nhẹ  
+- Kiểu dáng: Tapered fit (ôm nhẹ, hiện đại)  
+- Giá: 860.000 VNĐ  
+- Màu sắc: Ghi xám, Xanh navy, Đen  
+
+18. Mã sản phẩm: QK018  
+Tên sản phẩm: Quần Kaki Straight Fit Basic  
+- Chất liệu: Kaki cotton cứng cáp  
+- Kiểu dáng: Straight fit (cổ điển, thanh lịch)  
+- Giá: 800.000 VNĐ  
+- Màu sắc: Be nhạt, Nâu đất, Xám tro  
+
+19. Mã sản phẩm: QK019  
+Tên sản phẩm: Quần Kaki Wide Fit Cạp Cao  
+- Chất liệu: Kaki dày dặn, ít nhăn  
+- Kiểu dáng: Wide fit (rộng rãi, phong cách Nhật)  
+- Giá: 870.000 VNĐ  
+- Màu sắc: Đen bạc, Xanh navy, Ghi nhạt  
+
+20. Mã sản phẩm: QK020  
+Tên sản phẩm: Quần Kaki Workwear Bền Bỉ  
+- Chất liệu: Kaki chống nhăn pha polyester  
+- Kiểu dáng: Workwear fit (bền bỉ, thoải mái)  
+- Giá: 910.000 VNĐ  
+- Màu sắc: Nâu đậm, Xanh rêu, Đen  
+
+21. Mã sản phẩm: QK021  
+Tên sản phẩm: Quần Kaki Chino Fit Cổ Điển  
+- Chất liệu: Kaki mềm thoáng khí  
+- Kiểu dáng: Chino fit (dễ mặc, lịch sự)  
+- Giá: 840.000 VNĐ  
+- Màu sắc: Be sáng, Nâu nhạt, Xanh navy  
+
+22. Mã sản phẩm: QK022  
+Tên sản phẩm: Quần Kaki Minimalist Không Nếp Gấp  
+- Chất liệu: Kaki cao cấp ít nhăn  
+- Kiểu dáng: Regular fit (phong cách tối giản)  
+- Giá: 900.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám bạc, Be đậm  
+
+23. Mã sản phẩm: QK023  
+Tên sản phẩm: Quần Kaki Slim Fit Nhật Bản  
+- Chất liệu: Kaki cotton pha linen thoáng khí  
+- Kiểu dáng: Slim fit (ôm vừa, tinh tế)  
+- Giá: 950.000 VNĐ  
+- Màu sắc: Nâu đất, Xanh navy, Be nhạt  
+
+24. Mã sản phẩm: QK024  
+Tên sản phẩm: Quần Kaki Relaxed Fit Xếp Ly  
+- Chất liệu: Kaki thô vintage  
+- Kiểu dáng: Relaxed fit (rộng rãi, cổ điển)  
+- Giá: 930.000 VNĐ  
+- Màu sắc: Xanh rêu, Ghi xám, Nâu sẫm  
+
+25. Mã sản phẩm: QK025  
+Tên sản phẩm: Quần Kaki Dáng Đứng Công Sở  
+- Chất liệu: Kaki pha polyester ít nhăn  
+- Kiểu dáng: Straight fit (thanh lịch, chuyên nghiệp)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Đen, Xanh navy, Ghi bạc  
+
+26. Mã sản phẩm: QK026  
+Tên sản phẩm: Quần Kaki Loose Fit Phối Khóa Kéo  
+- Chất liệu: Kaki thô bền bỉ  
+- Kiểu dáng: Loose fit (cá tính, phong cách streetwear)  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Đen bạc, Nâu đất, Xám tro  
+
+27. Mã sản phẩm: QK027  
+Tên sản phẩm: Quần Kaki Ống Đứng Classic  
+- Chất liệu: Kaki cotton 100%  
+- Kiểu dáng: Straight fit (truyền thống, lịch lãm)  
+- Giá: 970.000 VNĐ  
+- Màu sắc: Be sáng, Xanh rêu, Đen tuyền  
+
+28. Mã sản phẩm: QK028  
+Tên sản phẩm: Quần Kaki Techwear Chống Nước  
+- Chất liệu: Kaki pha nylon chống nước  
+- Kiểu dáng: Tapered fit (gọn gàng, hiện đại)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Đen bạc, Xám ghi, Xanh rêu  
+
+29. Mã sản phẩm: QK029  
+Tên sản phẩm: Quần Kaki Công Sở Cao Cấp  
+- Chất liệu: Kaki cotton pha viscose  
+- Kiểu dáng: Slim fit (chỉn chu, sang trọng)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Ghi đậm, Đen tuyền, Be sáng  
+
+30. Mã sản phẩm: QK030  
+Tên sản phẩm: Quần Kaki Classic Vintage Wash  
+- Chất liệu: Kaki thô dày dặn  
+- Kiểu dáng: Regular fit (hoài cổ, bền bỉ)  
+- Giá: 920.000 VNĐ  
+- Màu sắc: Xám tro, Be cổ điển, Đen bạc  
+
+31. Mã sản phẩm: QK031  
+Tên sản phẩm: Quần Kaki Basic Everyday  
+- Chất liệu: Kaki cotton mềm thoáng  
+- Kiểu dáng: Regular fit (cổ điển, dễ phối)  
+- Giá: 450.000 VNĐ  
+- Màu sắc: Be nhạt, Xám tro, Nâu nhạt  
+
+32. Mã sản phẩm: QK032  
+Tên sản phẩm: Quần Kaki Workwear Chống Nhăn  
+- Chất liệu: Kaki pha polyester  
+- Kiểu dáng: Straight fit (thoải mái, bền bỉ)  
+- Giá: 520.000 VNĐ  
+- Màu sắc: Xanh navy, Đen, Nâu đất  
+
+33. Mã sản phẩm: QK033  
+Tên sản phẩm: Quần Kaki Slim Fit Co Giãn Nhẹ  
+- Chất liệu: Kaki pha elastane co giãn  
+- Kiểu dáng: Slim fit (gọn gàng, hiện đại)  
+- Giá: 590.000 VNĐ  
+- Màu sắc: Đen, Ghi xám, Be đậm  
+
+34. Mã sản phẩm: QK034  
+Tên sản phẩm: Quần Kaki Jogger Fit Dây Rút  
+- Chất liệu: Kaki pha thun thoáng khí  
+- Kiểu dáng: Jogger fit (thể thao, năng động)  
+- Giá: 650.000 VNĐ  
+- Màu sắc: Xám nhạt, Đen, Xanh rêu  
+
+35. Mã sản phẩm: QK035  
+Tên sản phẩm: Quần Kaki Cargo Túi Hộp Military  
+- Chất liệu: Kaki chống nước dày dặn  
+- Kiểu dáng: Cargo fit (bụi bặm, cá tính)  
+- Giá: 720.000 VNĐ  
+- Màu sắc: Nâu đất, Xanh quân đội, Đen bạc  
+
+36. Mã sản phẩm: QK036  
+Tên sản phẩm: Quần Kaki Minimalist Không Nếp Gấp  
+- Chất liệu: Kaki cao cấp ít nhăn  
+- Kiểu dáng: Regular fit (tối giản, thanh lịch)  
+- Giá: 780.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám bạc, Be đậm  
+
+37. Mã sản phẩm: QK037  
+Tên sản phẩm: Quần Kaki Chino Slim Fit  
+- Chất liệu: Kaki cotton mềm thoáng  
+- Kiểu dáng: Chino fit (chỉn chu, dễ mặc)  
+- Giá: 850.000 VNĐ  
+- Màu sắc: Be sáng, Xanh navy, Ghi bạc  
+
+38. Mã sản phẩm: QK038  
+Tên sản phẩm: Quần Kaki Ống Loe Vintage 90s  
+- Chất liệu: Kaki thô dày dặn  
+- Kiểu dáng: Flare fit (cổ điển, hoài niệm)  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Xanh rêu, Nâu đất, Đen bạc  
+
+39. Mã sản phẩm: QK039  
+Tên sản phẩm: Quần Kaki Smart-Casual Cạp Cao  
+- Chất liệu: Kaki cotton pha viscose  
+- Kiểu dáng: Tapered fit (gọn gàng, tinh tế)  
+- Giá: 950.000 VNĐ  
+- Màu sắc: Nâu trầm, Ghi xám, Xanh navy  
+
+40. Mã sản phẩm: QK040  
+Tên sản phẩm: Quần Kaki Loose Fit Nhật Bản  
+- Chất liệu: Kaki thô mềm mại  
+- Kiểu dáng: Loose fit (rộng rãi, thoải mái)  
+- Giá: 1.000.000 VNĐ  
+- Màu sắc: Đen bạc, Xám nhạt, Be cổ điển  
+
+41. Mã sản phẩm: QK041  
+Tên sản phẩm: Quần Kaki Techwear Chống Nước  
+- Chất liệu: Kaki pha nylon chống thấm  
+- Kiểu dáng: Tapered fit (hiện đại, tiện dụng)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Đen bạc, Xám ghi, Xanh rêu  
+
+42. Mã sản phẩm: QK042  
+Tên sản phẩm: Quần Kaki Vintage Workwear  
+- Chất liệu: Kaki thô chống nhăn  
+- Kiểu dáng: Regular fit (bụi bặm, bền bỉ)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Nâu trầm, Xanh rêu, Ghi bạc  
+
+43. Mã sản phẩm: QK043  
+Tên sản phẩm: Quần Kaki Công Sở Cao Cấp  
+- Chất liệu: Kaki cotton pha viscose sang trọng  
+- Kiểu dáng: Slim fit (chuyên nghiệp, lịch lãm)  
+- Giá: 1.200.000 VNĐ  
+- Màu sắc: Đen tuyền, Xanh navy, Ghi đậm  
+
+44. Mã sản phẩm: QK044  
+Tên sản phẩm: Quần Kaki Classic Made in Italy  
+- Chất liệu: Kaki cao cấp nhập khẩu Ý  
+- Kiểu dáng: Straight fit (thanh lịch, tinh tế)  
+- Giá: 1.350.000 VNĐ  
+- Màu sắc: Be sáng, Xám tro, Nâu đất  
+
+45. Mã sản phẩm: QK045  
+Tên sản phẩm: Quần Kaki Handcrafted Premium  
+- Chất liệu: Kaki cotton organic dệt thủ công  
+- Kiểu dáng: Wide fit (phong cách độc đáo)  
+- Giá: 1.500.000 VNĐ  
+- Màu sắc: Đen cổ điển, Xanh navy, Ghi bạc  
+
+46. Mã sản phẩm: QK046  
+Tên sản phẩm: Quần Kaki Casual Stretch Fit  
+- Chất liệu: Kaki co giãn 4 chiều  
+- Kiểu dáng: Slim fit (trẻ trung, hiện đại)  
+- Giá: 680.000 VNĐ  
+- Màu sắc: Đen, Xám bạc, Be đậm  
+
+47. Mã sản phẩm: QK047  
+Tên sản phẩm: Quần Kaki Military Style USA  
+- Chất liệu: Kaki dày bền phong cách quân đội Mỹ  
+- Kiểu dáng: Cargo fit (mạnh mẽ, cá tính)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xanh rêu, Nâu đất, Đen  
+
+48. Mã sản phẩm: QK048  
+Tên sản phẩm: Quần Kaki Basic Everyday 2.0  
+- Chất liệu: Kaki pha cotton mềm mại  
+- Kiểu dáng: Regular fit (dễ mặc, dễ phối)  
+- Giá: 490.000 VNĐ  
+- Màu sắc: Xám nhạt, Be sáng, Xanh navy  
+
+49. Mã sản phẩm: QK049  
+Tên sản phẩm: Quần Kaki Urban Streetwear  
+- Chất liệu: Kaki cotton pha thun thoáng khí  
+- Kiểu dáng: Loose fit (rộng rãi, phong cách đường phố)  
+- Giá: 730.000 VNĐ  
+- Màu sắc: Đen, Xanh rêu, Be đậm  
+
+50. Mã sản phẩm: QK050  
+Tên sản phẩm: Quần Kaki High-End Executive  
+- Chất liệu: Kaki Ý cao cấp, chống nhăn  
+- Kiểu dáng: Slim fit (đẳng cấp, sang trọng)  
+- Giá: 1.450.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám tro, Be nhạt  
+
+51. Mã sản phẩm: QK051  
+Tên sản phẩm: Quần Kaki Regular Fit Basic  
+- Chất liệu: Kaki cotton co giãn nhẹ  
+- Kiểu dáng: Regular fit, thoải mái  
+- Giá: 620.000 VNĐ  
+- Màu sắc: Đen, Xám, Be  
+
+52. Mã sản phẩm: QK052  
+Tên sản phẩm: Quần Kaki Slim Fit Công Sở  
+- Chất liệu: Cotton pha polyester chống nhăn  
+- Kiểu dáng: Slim fit, thanh lịch  
+- Giá: 720.000 VNĐ  
+- Màu sắc: Xanh navy, Đen, Xám tro  
+
+53. Mã sản phẩm: QK053  
+Tên sản phẩm: Quần Kaki Jogger Dây Rút  
+- Chất liệu: Kaki mềm co giãn 4 chiều  
+- Kiểu dáng: Jogger, bo gấu năng động  
+- Giá: 650.000 VNĐ  
+- Màu sắc: Xanh rêu, Be, Đen  
+
+54. Mã sản phẩm: QK054  
+Tên sản phẩm: Quần Kaki Carrot Fit Thời Trang  
+- Chất liệu: Cotton kaki dày dặn  
+- Kiểu dáng: Carrot fit, rộng trên ôm dưới  
+- Giá: 690.000 VNĐ  
+- Màu sắc: Nâu đất, Xanh navy, Xám đậm  
+
+55. Mã sản phẩm: QK055  
+Tên sản phẩm: Quần Kaki Chino Classic  
+- Chất liệu: Kaki dệt chéo thoáng mát  
+- Kiểu dáng: Dáng suông cổ điển  
+- Giá: 790.000 VNĐ  
+- Màu sắc: Xám sáng, Đen, Nâu vàng  
+
+56. Mã sản phẩm: QK056  
+Tên sản phẩm: Quần Kaki Lưng Cao Form Rộng  
+- Chất liệu: Kaki thô cao cấp  
+- Kiểu dáng: Form rộng, phong cách retro  
+- Giá: 860.000 VNĐ  
+- Màu sắc: Xanh olive, Be, Đen  
+
+57. Mã sản phẩm: QK057  
+Tên sản phẩm: Quần Kaki Hàn Quốc Cá Tính  
+- Chất liệu: Cotton kaki pha elastane  
+- Kiểu dáng: Suông nhẹ, cạp cao  
+- Giá: 950.000 VNĐ  
+- Màu sắc: Xanh cổ vịt, Nâu socola, Xám khói  
+
+58. Mã sản phẩm: QK058  
+Tên sản phẩm: Quần Kaki Baggy Lưng Thun  
+- Chất liệu: Kaki mềm, co giãn tốt  
+- Kiểu dáng: Baggy lưng thun thoải mái  
+- Giá: 730.000 VNĐ  
+- Màu sắc: Be, Xanh đậm, Đen  
+
+59. Mã sản phẩm: QK059  
+Tên sản phẩm: Quần Kaki Xếp Ly Vintage  
+- Chất liệu: Kaki dày, giữ form tốt  
+- Kiểu dáng: Xếp ly trước, hơi suông  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Xanh navy, Nâu đất, Xám tro  
+
+60. Mã sản phẩm: QK060  
+Tên sản phẩm: Quần Kaki Ống Rộng Thời Thượng  
+- Chất liệu: Kaki lụa mềm cao cấp  
+- Kiểu dáng: Ống rộng, phong cách unisex  
+- Giá: 1.250.000 VNĐ  
+- Màu sắc: Xanh navy, Be, Đen  
+
+61. Mã sản phẩm: QK061  
+Tên sản phẩm: Quần Kaki Daily Comfort  
+- Chất liệu: Kaki cotton mềm  
+- Kiểu dáng: Regular fit (thoải mái, dễ mặc)  
+- Giá: 450.000 VNĐ  
+- Màu sắc: Be, Xám tro, Đen  
+
+62. Mã sản phẩm: QK062  
+Tên sản phẩm: Quần Kaki Co Giãn 4 Chiều  
+- Chất liệu: Kaki pha spandex  
+- Kiểu dáng: Slim fit (ôm gọn, linh hoạt)  
+- Giá: 520.000 VNĐ  
+- Màu sắc: Xanh navy, Nâu đất, Đen  
+
+63. Mã sản phẩm: QK063  
+Tên sản phẩm: Quần Kaki Workwear Chống Nhăn  
+- Chất liệu: Kaki polyester bền bỉ  
+- Kiểu dáng: Straight fit (gọn gàng, lịch sự)  
+- Giá: 570.000 VNĐ  
+- Màu sắc: Đen, Xám ghi, Xanh rêu  
+
+64. Mã sản phẩm: QK064  
+Tên sản phẩm: Quần Kaki Vintage Chino  
+- Chất liệu: Kaki cotton hữu cơ  
+- Kiểu dáng: Chino fit (cổ điển, thanh lịch)  
+- Giá: 620.000 VNĐ  
+- Màu sắc: Nâu cà phê, Be sáng, Xám tro  
+
+65. Mã sản phẩm: QK065  
+Tên sản phẩm: Quần Kaki Military Cargo  
+- Chất liệu: Kaki chống nước  
+- Kiểu dáng: Cargo fit (bụi bặm, nam tính)  
+- Giá: 690.000 VNĐ  
+- Màu sắc: Xanh quân đội, Đen bạc, Nâu đất  
+
+66. Mã sản phẩm: QK066  
+Tên sản phẩm: Quần Kaki Minimalist Wide Leg  
+- Chất liệu: Kaki mềm cao cấp  
+- Kiểu dáng: Wide fit (rộng rãi, thoải mái)  
+- Giá: 750.000 VNĐ  
+- Màu sắc: Be, Đen, Xám bạc  
+
+67. Mã sản phẩm: QK067  
+Tên sản phẩm: Quần Kaki Tapered Fit Casual  
+- Chất liệu: Kaki cotton thoáng khí  
+- Kiểu dáng: Tapered fit (hiện đại, trẻ trung)  
+- Giá: 810.000 VNĐ  
+- Màu sắc: Xám đậm, Xanh navy, Nâu sẫm  
+
+68. Mã sản phẩm: QK068  
+Tên sản phẩm: Quần Kaki Retro 90s Loose Fit  
+- Chất liệu: Kaki vintage dày dặn  
+- Kiểu dáng: Loose fit (phong cách hoài cổ)  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Nâu đỏ, Xám tro, Đen bạc  
+
+69. Mã sản phẩm: QK069  
+Tên sản phẩm: Quần Kaki Formal Smart-Casual  
+- Chất liệu: Kaki pha viscose cao cấp  
+- Kiểu dáng: Slim fit (chuyên nghiệp, thanh lịch)  
+- Giá: 950.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám ghi, Be nhạt  
+
+70. Mã sản phẩm: QK070  
+Tên sản phẩm: Quần Kaki Techwear Utility  
+- Chất liệu: Kaki chống thấm  
+- Kiểu dáng: Tapered fit (đa dụng, bền bỉ)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Đen bạc, Xanh rêu, Ghi đậm  
+
+71. Mã sản phẩm: QK071  
+Tên sản phẩm: Quần Kaki Handmade Artisanal  
+- Chất liệu: Kaki dệt thủ công  
+- Kiểu dáng: Regular fit (độc đáo, tinh tế)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Nâu trầm, Be cổ điển, Đen  
+
+72. Mã sản phẩm: QK072  
+Tên sản phẩm: Quần Kaki Urban Stretch Fit  
+- Chất liệu: Kaki co giãn cao cấp  
+- Kiểu dáng: Slim fit (gọn gàng, năng động)  
+- Giá: 1.150.000 VNĐ  
+- Màu sắc: Xanh navy, Xám đậm, Đen bạc  
+
+73. Mã sản phẩm: QK073  
+Tên sản phẩm: Quần Kaki Italy High-End  
+- Chất liệu: Kaki nhập khẩu Ý  
+- Kiểu dáng: Chino fit (sang trọng, đẳng cấp)  
+- Giá: 1.250.000 VNĐ  
+- Màu sắc: Be sáng, Nâu đất, Xám ghi  
+
+74. Mã sản phẩm: QK074  
+Tên sản phẩm: Quần Kaki Executive Office  
+- Chất liệu: Kaki pha len cao cấp  
+- Kiểu dáng: Slim fit (công sở, thanh lịch)  
+- Giá: 1.300.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám tro, Xanh navy  
+
+75. Mã sản phẩm: QK075  
+Tên sản phẩm: Quần Kaki Classic Heritage  
+- Chất liệu: Kaki cotton dày dặn  
+- Kiểu dáng: Straight fit (phong cách truyền thống)  
+- Giá: 1.350.000 VNĐ  
+- Màu sắc: Be nhạt, Xám bạc, Đen  
+
+76. Mã sản phẩm: QK076  
+Tên sản phẩm: Quần Kaki Bespoke Handmade  
+- Chất liệu: Kaki hữu cơ dệt tay  
+- Kiểu dáng: Tailored fit (may đo cao cấp)  
+- Giá: 1.400.000 VNĐ  
+- Màu sắc: Nâu đậm, Xanh navy, Ghi bạc  
+
+77. Mã sản phẩm: QK077  
+Tên sản phẩm: Quần Kaki Relaxed Fit Oversize  
+- Chất liệu: Kaki mềm mại thoáng khí  
+- Kiểu dáng: Oversized fit (rộng rãi, phong cách)  
+- Giá: 1.450.000 VNĐ  
+- Màu sắc: Xám đậm, Be sữa, Xanh olive  
+
+78. Mã sản phẩm: QK078  
+Tên sản phẩm: Quần Kaki Premium Business  
+- Chất liệu: Kaki len cashmere nhập khẩu  
+- Kiểu dáng: Slim fit (sang trọng, đẳng cấp)  
+- Giá: 1.500.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám tro, Be trầm  
+
+79. Mã sản phẩm: QK079  
+Tên sản phẩm: Quần Kaki Oversized Utility  
+- Chất liệu: Kaki chống nước, chống bụi  
+- Kiểu dáng: Wide fit (thoải mái, tiện dụng)  
+- Giá: 1.250.000 VNĐ  
+- Màu sắc: Đen, Xám bạc, Xanh rêu  
+
+80. Mã sản phẩm: QK080  
+Tên sản phẩm: Quần Kaki Dáng Lửng Cropped  
+- Chất liệu: Kaki cotton mềm nhẹ  
+- Kiểu dáng: Cropped fit (thời trang, trẻ trung)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Be sáng, Xám ghi, Đen  
+
+81. Mã sản phẩm: QK081  
+Tên sản phẩm: Quần Kaki Streetwear Utility  
+- Chất liệu: Kaki chống nhăn, chống bám bụi  
+- Kiểu dáng: Relaxed fit (thoải mái, cá tính)  
+- Giá: 480.000 VNĐ  
+- Màu sắc: Xám tro, Nâu đất, Đen bạc  
+
+82. Mã sản phẩm: QK082  
+Tên sản phẩm: Quần Kaki Minimalist Tapered  
+- Chất liệu: Kaki cotton pha polyester  
+- Kiểu dáng: Tapered fit (gọn gàng, hiện đại)  
+- Giá: 520.000 VNĐ  
+- Màu sắc: Be, Xám ghi, Xanh olive  
+
+83. Mã sản phẩm: QK083  
+Tên sản phẩm: Quần Kaki Vintage Washed  
+- Chất liệu: Kaki xử lý wash vintage  
+- Kiểu dáng: Loose fit (phong cách retro)  
+- Giá: 570.000 VNĐ  
+- Màu sắc: Xanh navy, Nâu caramel, Đen bạc  
+
+84. Mã sản phẩm: QK084  
+Tên sản phẩm: Quần Kaki Cargo Pocket  
+- Chất liệu: Kaki dày, có túi hộp tiện dụng  
+- Kiểu dáng: Cargo fit (nam tính, bụi bặm)  
+- Giá: 620.000 VNĐ  
+- Màu sắc: Xanh rêu, Nâu đất, Ghi đậm  
+
+85. Mã sản phẩm: QK085  
+Tên sản phẩm: Quần Kaki Retro Chino  
+- Chất liệu: Kaki cotton dày dặn  
+- Kiểu dáng: Chino fit (thanh lịch, cổ điển)  
+- Giá: 680.000 VNĐ  
+- Màu sắc: Be, Xám ghi, Xanh navy  
+
+86. Mã sản phẩm: QK086  
+Tên sản phẩm: Quần Kaki High-Stretch Fit  
+- Chất liệu: Kaki pha elastane siêu co giãn  
+- Kiểu dáng: Slim fit (ôm nhẹ, thoải mái)  
+- Giá: 740.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám bạc, Nâu trầm  
+
+87. Mã sản phẩm: QK087  
+Tên sản phẩm: Quần Kaki Tech Fabric  
+- Chất liệu: Kaki công nghệ chống thấm nước  
+- Kiểu dáng: Regular fit (đa năng, tiện lợi)  
+- Giá: 790.000 VNĐ  
+- Màu sắc: Xám tro, Đen nhám, Xanh rêu  
+
+88. Mã sản phẩm: QK088  
+Tên sản phẩm: Quần Kaki Japan Denim Blend  
+- Chất liệu: Kaki pha denim Nhật Bản  
+- Kiểu dáng: Straight fit (phong cách cổ điển)  
+- Giá: 850.000 VNĐ  
+- Màu sắc: Xanh navy, Nâu sẫm, Be  
+
+89. Mã sản phẩm: QK089  
+Tên sản phẩm: Quần Kaki Dáng Baggy Unisex  
+- Chất liệu: Kaki mềm, thoáng khí  
+- Kiểu dáng: Baggy fit (phù hợp mọi giới tính)  
+- Giá: 910.000 VNĐ  
+- Màu sắc: Đen, Xám ghi, Xanh olive  
+
+90. Mã sản phẩm: QK090  
+Tên sản phẩm: Quần Kaki Hàn Quốc Modern Fit  
+- Chất liệu: Kaki cao cấp nhập khẩu Hàn Quốc  
+- Kiểu dáng: Tapered fit (sang trọng, trẻ trung)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xám bạc, Đen tuyền, Be nhạt  
+
+91. Mã sản phẩm: QK091  
+Tên sản phẩm: Quần Kaki High-End Business  
+- Chất liệu: Kaki len cashmere cao cấp  
+- Kiểu dáng: Slim fit (thanh lịch, sang trọng)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám ghi, Xanh navy  
+
+92. Mã sản phẩm: QK092  
+Tên sản phẩm: Quần Kaki Smart-Tech Wrinkle Free  
+- Chất liệu: Kaki chống nhăn công nghệ cao  
+- Kiểu dáng: Regular fit (tiện lợi, lịch sự)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Be, Đen, Xám ghi  
+
+93. Mã sản phẩm: QK093  
+Tên sản phẩm: Quần Kaki Minimalist Pleated  
+- Chất liệu: Kaki mềm cao cấp  
+- Kiểu dáng: Pleated fit (có ly, sang trọng)  
+- Giá: 1.150.000 VNĐ  
+- Màu sắc: Nâu trầm, Xám đậm, Đen bạc  
+
+94. Mã sản phẩm: QK094  
+Tên sản phẩm: Quần Kaki Formal Luxury  
+- Chất liệu: Kaki pha lụa cao cấp  
+- Kiểu dáng: Tailored fit (may đo tinh tế)  
+- Giá: 1.200.000 VNĐ  
+- Màu sắc: Xám bạc, Đen tuyền, Be sáng  
+
+95. Mã sản phẩm: QK095  
+Tên sản phẩm: Quần Kaki Artistic Handcrafted  
+- Chất liệu: Kaki dệt tay thủ công  
+- Kiểu dáng: Wide fit (phong cách nghệ thuật)  
+- Giá: 1.250.000 VNĐ  
+- Màu sắc: Xám bạc, Nâu đỏ, Đen bạc  
+
+96. Mã sản phẩm: QK096  
+Tên sản phẩm: Quần Kaki Executive Tailored  
+- Chất liệu: Kaki cashmere nhập khẩu Ý  
+- Kiểu dáng: Slim fit (công sở cao cấp)  
+- Giá: 1.300.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám đậm, Xanh navy  
+
+97. Mã sản phẩm: QK097  
+Tên sản phẩm: Quần Kaki Classic Trousers  
+- Chất liệu: Kaki wool blend cao cấp  
+- Kiểu dáng: Regular fit (truyền thống, lịch lãm)  
+- Giá: 1.400.000 VNĐ  
+- Màu sắc: Be nhạt, Xám bạc, Đen tuyền  
+
+98. Mã sản phẩm: QK098  
+Tên sản phẩm: Quần Kaki Luxury Handmade  
+- Chất liệu: Kaki 100% cotton hữu cơ  
+- Kiểu dáng: Tailored fit (tinh tế, đẳng cấp)  
+- Giá: 1.500.000 VNĐ  
+- Màu sắc: Nâu trầm, Đen, Xám ghi  
+
+99. Mã sản phẩm: QK099  
+Tên sản phẩm: Quần Kaki Italy Sartorial  
+- Chất liệu: Kaki nhập khẩu Ý cao cấp  
+- Kiểu dáng: Slim fit (công sở sang trọng)  
+- Giá: 1.550.000 VNĐ  
+- Màu sắc: Xám tro, Đen tuyền, Be sáng  
+
+100. Mã sản phẩm: QK100  
+Tên sản phẩm: Quần Kaki Luxe Executive  
+- Chất liệu: Kaki len cashmere nhập khẩu  
+- Kiểu dáng: Tailored fit (sang trọng, lịch lãm)  
+- Giá: 1.600.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám bạc, Be cổ điển  
+
 THÔNG TIN CHUNG:
 
 1. Bảng size:

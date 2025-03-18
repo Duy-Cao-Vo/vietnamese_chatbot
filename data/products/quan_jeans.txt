@@ -72,6 +72,636 @@ DANH SÁCH SẢN PHẨM:
     - Giá: 579.000 VNĐ
     - Màu sắc: Xanh đậm, Xanh nhạt, Đen
 
+11. Mã sản phẩm: QJ011  
+    Tên sản phẩm: Quần Jean Slim Fit  
+    - Chất liệu: 98% cotton, 2% spandex  
+    - Kiểu dáng: Slim fit (ôm nhẹ, thanh lịch)  
+    - Giá: 699.000 VNĐ  
+    - Màu sắc: Xanh đậm, Xanh nhạt, Đen  
+
+12. Mã sản phẩm: QJ012  
+    Tên sản phẩm: Quần Jean Skinny Fit  
+    - Chất liệu: 95% cotton, 5% elastane  
+    - Kiểu dáng: Skinny fit (bó sát, trẻ trung)  
+    - Giá: 729.000 VNĐ  
+    - Màu sắc: Xanh đen, Xanh rửa, Trắng  
+
+13. Mã sản phẩm: QJ013  
+    Tên sản phẩm: Quần Jean Boyfriend Fit  
+    - Chất liệu: 100% cotton  
+    - Kiểu dáng: Loose fit (rộng rãi, thoải mái)  
+    - Giá: 759.000 VNĐ  
+    - Màu sắc: Xanh nhạt, Xanh đậm, Xám  
+
+14. Mã sản phẩm: QJ014  
+    Tên sản phẩm: Quần Jean Straight Fit  
+    - Chất liệu: 98% cotton, 2% spandex  
+    - Kiểu dáng: Straight fit (ống thẳng, cổ điển)  
+    - Giá: 689.000 VNĐ  
+    - Màu sắc: Xanh đậm, Đen, Xanh rửa  
+
+15. Mã sản phẩm: QJ015  
+    Tên sản phẩm: Quần Jean Rách Gối  
+    - Chất liệu: 95% cotton, 5% elastane  
+    - Kiểu dáng: Slim fit (cá tính, streetwear)  
+    - Giá: 799.000 VNĐ  
+    - Màu sắc: Xanh đen, Xanh nhạt, Xám  
+
+16. Mã sản phẩm: QJ016  
+    Tên sản phẩm: Quần Jean Ống Loe  
+    - Chất liệu: 100% cotton  
+    - Kiểu dáng: Flare fit (ống loe, retro)  
+    - Giá: 849.000 VNĐ  
+    - Màu sắc: Xanh đậm, Xanh nhạt, Đen  
+
+17. Mã sản phẩm: QJ017  
+    Tên sản phẩm: Quần Jean Cạp Cao  
+    - Chất liệu: 98% cotton, 2% spandex  
+    - Kiểu dáng: High-waisted fit (cạp cao, tôn dáng)  
+    - Giá: 779.000 VNĐ  
+    - Màu sắc: Xanh đậm, Xanh rửa, Đen  
+
+18. Mã sản phẩm: QJ018  
+    Tên sản phẩm: Quần Jean Baggy Fit  
+    - Chất liệu: 100% cotton  
+    - Kiểu dáng: Baggy fit (rộng thùng thình, streetwear)  
+    - Giá: 819.000 VNĐ  
+    - Màu sắc: Xanh nhạt, Xanh đậm, Xám  
+
+19. Mã sản phẩm: QJ019  
+    Tên sản phẩm: Quần Jean Cạp Trễ  
+    - Chất liệu: 95% cotton, 5% elastane  
+    - Kiểu dáng: Low-waisted fit (cạp trễ, cá tính)  
+    - Giá: 739.000 VNĐ  
+    - Màu sắc: Xanh đen, Xanh rửa, Đen  
+
+20. Mã sản phẩm: QJ020  
+    Tên sản phẩm: Quần Jean Ống Đứng  
+    - Chất liệu: 98% cotton, 2% spandex  
+    - Kiểu dáng: Straight fit (ống đứng, lịch sự)  
+    - Giá: 699.000 VNĐ  
+    - Màu sắc: Xanh đậm, Xanh nhạt, Đen  
+
+21. Mã sản phẩm: QJ021  
+    Tên sản phẩm: Quần Jean Rách Gối & Ống Loe  
+    - Chất liệu: 95% cotton, 5% elastane  
+    - Kiểu dáng: Flare fit (kết hợp rách gối và ống loe)  
+    - Giá: 899.000 VNĐ  
+    - Màu sắc: Xanh đen, Xanh nhạt, Xám  
+
+22. Mã sản phẩm: QJ022  
+    Tên sản phẩm: Quần Jean Cạp Cao Skinny Fit  
+    - Chất liệu: 98% cotton, 2% spandex  
+    - Kiểu dáng: Skinny fit (cạp cao, ôm sát)  
+    - Giá: 769.000 VNĐ  
+    - Màu sắc: Xanh đậm, Xanh rửa, Đen  
+
+23. Mã sản phẩm: QJ023  
+    Tên sản phẩm: Quần Jean Ống Rộng Streetwear  
+    - Chất liệu: 100% cotton  
+    - Kiểu dáng: Wide-leg fit (ống rộng, phong cách)  
+    - Giá: 839.000 VNĐ  
+    - Màu sắc: Xanh nhạt, Xanh đậm, Xám  
+
+24. Mã sản phẩm: QJ024  
+    Tên sản phẩm: Quần Jean Rách Đùi  
+    - Chất liệu: 95% cotton, 5% elastane  
+    - Kiểu dáng: Slim fit (cá tính, trẻ trung)  
+    - Giá: 789.000 VNĐ  
+    - Màu sắc: Xanh đen, Xanh rửa, Đen  
+
+25. Mã sản phẩm: QJ025  
+    Tên sản phẩm: Quần Jean Cạp Cao Ống Loe  
+    - Chất liệu: 98% cotton, 2% spandex  
+    - Kiểu dáng: Flare fit (cạp cao, ống loe)  
+    - Giá: 859.000 VNĐ  
+    - Màu sắc: Xanh đậm, Xanh nhạt, Đen  
+
+26. Mã sản phẩm: QJ026  
+    Tên sản phẩm: Quần Jean Ống Đứng Rách Gối  
+    - Chất liệu: 95% cotton, 5% elastane  
+    - Kiểu dáng: Straight fit (kết hợp rách gối)  
+    - Giá: 799.000 VNĐ  
+    - Màu sắc: Xanh đen, Xanh rửa, Xám  
+
+27. Mã sản phẩm: QJ027  
+    Tên sản phẩm: Quần Jean Baggy Rách Đùi  
+    - Chất liệu: 100% cotton  
+    - Kiểu dáng: Baggy fit (rộng rãi, cá tính)  
+    - Giá: 879.000 VNĐ  
+    - Màu sắc: Xanh nhạt, Xanh đậm, Đen  
+
+28. Mã sản phẩm: QJ028  
+    Tên sản phẩm: Quần Jean Slim Rách Gối  
+    - Chất liệu: 98% cotton, 2% spandex  
+    - Kiểu dáng: Slim fit (kết hợp rách gối)  
+    - Giá: 749.000 VNĐ  
+    - Màu sắc: Xanh đen, Xanh rửa, Xám  
+
+29. Mã sản phẩm: QJ029  
+    Tên sản phẩm: Quần Jean Cạp Cao Ống Rộng  
+    - Chất liệu: 95% cotton, 5% elastane  
+    - Kiểu dáng: Wide-leg fit (cạp cao, ống rộng)  
+    - Giá: 899.000 VNĐ  
+    - Màu sắc: Xanh đậm, Xanh nhạt, Đen  
+
+30. Mã sản phẩm: QJ030  
+    Tên sản phẩm: Quần Jean Skinny Rách Đùi  
+    - Chất liệu: 98% cotton, 2% spandex  
+    - Kiểu dáng: Skinny fit (kết hợp rách đùi)  
+    - Giá: 769.000 VNĐ  
+    - Màu sắc: Xanh đen, Xanh rửa, Đen  
+
+31. Mã sản phẩm: QJ031  
+Tên sản phẩm: Quần Jean Slim Fit Cổ Điển  
+- Chất liệu: Denim cotton co giãn nhẹ  
+- Kiểu dáng: Slim fit (ôm vừa, gọn gàng)  
+- Giá: 750.000 VNĐ  
+- Màu sắc: Xanh đậm, Xám tro, Đen  
+
+32. Mã sản phẩm: QJ032  
+Tên sản phẩm: Quần Jean Baggy Rách Gối Streetwear  
+- Chất liệu: Denim dày wash bạc  
+- Kiểu dáng: Baggy fit (rộng rãi, phá cách)  
+- Giá: 820.000 VNĐ  
+- Màu sắc: Xanh bạc, Đen xám, Xám nhạt  
+
+33. Mã sản phẩm: QJ033  
+Tên sản phẩm: Quần Jean Skinny Stretch Co Giãn Cao  
+- Chất liệu: Denim cotton pha spandex  
+- Kiểu dáng: Skinny fit (ôm sát, năng động)  
+- Giá: 790.000 VNĐ  
+- Màu sắc: Đen tuyền, Xanh navy, Xám bạc  
+
+34. Mã sản phẩm: QJ034  
+Tên sản phẩm: Quần Jean Ống Loe Cổ Điển 70s  
+- Chất liệu: Denim dày cao cấp  
+- Kiểu dáng: Flare fit (ống loe nhẹ, phong cách retro)  
+- Giá: 850.000 VNĐ  
+- Màu sắc: Xanh đậm, Đen, Be nhạt  
+
+35. Mã sản phẩm: QJ035  
+Tên sản phẩm: Quần Jean Straight Fit Nhật Bản  
+- Chất liệu: Denim raw selvedge  
+- Kiểu dáng: Straight fit (cứng cáp, cổ điển)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xanh thẫm, Xanh raw, Đen raw  
+
+36. Mã sản phẩm: QJ036  
+Tên sản phẩm: Quần Jean Cargo Túi Hộp Workwear  
+- Chất liệu: Denim canvas chắc chắn  
+- Kiểu dáng: Relaxed fit (tiện lợi, bền bỉ)  
+- Giá: 870.000 VNĐ  
+- Màu sắc: Xanh rêu, Xám tro, Be sáng  
+
+37. Mã sản phẩm: QJ037  
+Tên sản phẩm: Quần Jean Rách Nhẹ Vintage Wash  
+- Chất liệu: Denim cotton mềm  
+- Kiểu dáng: Regular fit (thoải mái, thời trang)  
+- Giá: 780.000 VNĐ  
+- Màu sắc: Xanh wash nhạt, Xám bạc, Đen nhạt  
+
+38. Mã sản phẩm: QJ038  
+Tên sản phẩm: Quần Jean Dáng Rộng Phong Cách Hàn Quốc  
+- Chất liệu: Denim mềm mại  
+- Kiểu dáng: Wide fit (phóng khoáng, trẻ trung)  
+- Giá: 820.000 VNĐ  
+- Màu sắc: Xanh biển nhạt, Đen, Be vintage  
+
+39. Mã sản phẩm: QJ039  
+Tên sản phẩm: Quần Jean Ống Đứng Cổ Điển 90s  
+- Chất liệu: Denim Nhật Bản dày dặn  
+- Kiểu dáng: Straight fit (cổ điển, bền bỉ)  
+- Giá: 950.000 VNĐ  
+- Màu sắc: Xanh đậm, Đen raw, Xanh bạc  
+
+40. Mã sản phẩm: QJ040  
+Tên sản phẩm: Quần Jean Cargo Bo Gấu Techwear  
+- Chất liệu: Denim pha polyester co giãn  
+- Kiểu dáng: Tapered fit (thon dần, hiện đại)  
+- Giá: 900.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám ghi, Xanh navy  
+
+41. Mã sản phẩm: QJ041  
+Tên sản phẩm: Quần Jean Ống Suông Cạp Cao Vintage  
+- Chất liệu: Denim cotton dày dặn  
+- Kiểu dáng: Straight fit (phong cách cổ điển)  
+- Giá: 880.000 VNĐ  
+- Màu sắc: Xanh cổ điển, Be sáng, Đen  
+
+42. Mã sản phẩm: QJ042  
+Tên sản phẩm: Quần Jean Rách Gối Skinny Streetwear  
+- Chất liệu: Denim co giãn 4 chiều  
+- Kiểu dáng: Skinny fit (ôm sát, cá tính)  
+- Giá: 810.000 VNĐ  
+- Màu sắc: Đen bạc, Xanh navy, Xám nhạt  
+
+43. Mã sản phẩm: QJ043  
+Tên sản phẩm: Quần Jean Wide Leg Unisex  
+- Chất liệu: Denim mềm, wash nhẹ  
+- Kiểu dáng: Wide fit (rộng rãi, thoải mái)  
+- Giá: 860.000 VNĐ  
+- Màu sắc: Xanh wash, Đen tuyền, Be vintage  
+
+44. Mã sản phẩm: QJ044  
+Tên sản phẩm: Quần Jean Cargo Túi Hộp Bo Gấu  
+- Chất liệu: Denim pha canvas  
+- Kiểu dáng: Relaxed fit (tiện lợi, workwear)  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Xám đậm, Xanh rêu, Đen  
+
+45. Mã sản phẩm: QJ045  
+Tên sản phẩm: Quần Jean Slim Fit Cạp Thấp  
+- Chất liệu: Denim pha elastane co giãn  
+- Kiểu dáng: Slim fit (ôm vừa, thoải mái)  
+- Giá: 800.000 VNĐ  
+- Màu sắc: Xanh đậm, Đen, Xám bạc  
+
+46. Mã sản phẩm: QJ046  
+Tên sản phẩm: Quần Jean Dáng Baggy In Họa Tiết  
+- Chất liệu: Denim dày in graphic  
+- Kiểu dáng: Baggy fit (cá tính, thời trang)  
+- Giá: 920.000 VNĐ  
+- Màu sắc: Đen in trắng, Xanh wash, Xám tro  
+
+47. Mã sản phẩm: QJ047  
+Tên sản phẩm: Quần Jean Straight Fit Nhật Bản  
+- Chất liệu: Denim raw selvedge cao cấp  
+- Kiểu dáng: Straight fit (chắc chắn, phong cách classic)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Xanh thẫm, Đen raw, Xám bạc  
+
+48. Mã sản phẩm: QJ048  
+Tên sản phẩm: Quần Jean Slim Tapered Techwear  
+- Chất liệu: Denim pha polyester  
+- Kiểu dáng: Tapered fit (thon gọn dần, hiện đại)  
+- Giá: 930.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám lông chuột, Xanh navy  
+
+49. Mã sản phẩm: QJ049  
+Tên sản phẩm: Quần Jean Ống Rộng Rách Gấu Vintage  
+- Chất liệu: Denim mềm wash xước  
+- Kiểu dáng: Wide fit (thoải mái, cá tính)  
+- Giá: 880.000 VNĐ  
+- Màu sắc: Xanh bạc, Be sáng, Xám nhạt  
+
+50. Mã sản phẩm: QJ050  
+Tên sản phẩm: Quần Jean Skinny Wax Coated  
+- Chất liệu: Denim phủ sáp bóng nhẹ  
+- Kiểu dáng: Skinny fit (tinh tế, sang trọng)  
+- Giá: 970.000 VNĐ  
+- Màu sắc: Đen tuyền, Xanh navy, Xám bạc  
+
+51. Mã sản phẩm: QJ051  
+Tên sản phẩm: Quần Jean Classic Regular Fit  
+- Chất liệu: Denim cotton cứng cáp  
+- Kiểu dáng: Regular fit (bền bỉ, nam tính)  
+- Giá: 850.000 VNĐ  
+- Màu sắc: Xanh đậm, Xám tro, Đen cổ điển  
+
+52. Mã sản phẩm: QJ052  
+Tên sản phẩm: Quần Jean Jogger Denim Workwear  
+- Chất liệu: Denim pha spandex  
+- Kiểu dáng: Jogger fit (thể thao, năng động)  
+- Giá: 900.000 VNĐ  
+- Màu sắc: Đen, Xanh rêu, Xám bạc  
+
+53. Mã sản phẩm: QJ053  
+Tên sản phẩm: Quần Jean Loose Fit Layered  
+- Chất liệu: Denim nhẹ thoáng khí  
+- Kiểu dáng: Loose fit (phong cách Nhật Bản)  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Xanh nhạt, Xám tro, Đen bạc  
+
+54. Mã sản phẩm: QJ054  
+Tên sản phẩm: Quần Jean Wash Nhẹ Bo Gấu  
+- Chất liệu: Denim dệt chặt  
+- Kiểu dáng: Tapered fit (trendy, dễ phối đồ)  
+- Giá: 870.000 VNĐ  
+- Màu sắc: Xanh biển, Đen bạc, Be sáng  
+
+55. Mã sản phẩm: QJ055  
+Tên sản phẩm: Quần Jean Chắp Vá Patchwork Streetwear  
+- Chất liệu: Denim cotton mix họa tiết  
+- Kiểu dáng: Relaxed fit (cá tính, độc lạ)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Xanh patch, Đen patch, Xám mix  
+
+56. Mã sản phẩm: QJ056  
+Tên sản phẩm: Quần Jean Cạp Chun Layered Workwear  
+- Chất liệu: Denim pha polyester chống nhăn  
+- Kiểu dáng: Relaxed fit (dễ mặc, bền bỉ)  
+- Giá: 920.000 VNĐ  
+- Màu sắc: Xanh navy, Xám đậm, Đen bạc  
+
+57. Mã sản phẩm: QJ057  
+Tên sản phẩm: Quần Jean Thêu Họa Tiết Japan Style  
+- Chất liệu: Denim dày cao cấp  
+- Kiểu dáng: Straight fit (truyền thống, đẳng cấp)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Xanh đậm, Đen thêu trắng, Xám nhạt  
+
+58. Mã sản phẩm: QJ058  
+Tên sản phẩm: Quần Jean Distressed Bụi Bặm  
+- Chất liệu: Denim raw wash  
+- Kiểu dáng: Relaxed fit (cool, mạnh mẽ)  
+- Giá: 940.000 VNĐ  
+- Màu sắc: Xanh bạc, Đen wash, Xám nhạt  
+
+59. Mã sản phẩm: QJ059  
+Tên sản phẩm: Quần Jean Ống Rộng Cạp Thun Sporty  
+- Chất liệu: Denim pha spandex co giãn  
+- Kiểu dáng: Wide fit (thoải mái, thể thao)  
+- Giá: 880.000 VNĐ  
+- Màu sắc: Đen tuyền, Xám bạc, Xanh pastel  
+
+60. Mã sản phẩm: QJ060  
+Tên sản phẩm: Quần Jean Layered Xếp Nếp Vintage  
+- Chất liệu: Denim mềm  
+- Kiểu dáng: Relaxed fit (tinh tế, nhẹ nhàng)  
+- Giá: 920.000 VNĐ  
+- Màu sắc: Be sáng, Xám nhạt, Xanh bạc  
+
+61. Mã sản phẩm: QJ061  
+Tên sản phẩm: Quần Jean Straight Fit Wash Nhạt  
+- Chất liệu: Denim cotton mềm  
+- Kiểu dáng: Straight fit (cổ điển, dễ phối đồ)  
+- Giá: 860.000 VNĐ  
+- Màu sắc: Xanh nhạt, Đen bạc, Be vintage  
+
+62. Mã sản phẩm: QJ062  
+Tên sản phẩm: Quần Jean Skinny Fit Rách Gối  
+- Chất liệu: Denim pha elastane co giãn  
+- Kiểu dáng: Skinny fit (ôm sát, thời trang)  
+- Giá: 900.000 VNĐ  
+- Màu sắc: Đen, Xám bạc, Xanh đậm  
+
+63. Mã sản phẩm: QJ063  
+Tên sản phẩm: Quần Jean Wide Leg Xếp Ly Vintage  
+- Chất liệu: Denim dày, wash nhẹ  
+- Kiểu dáng: Wide fit (thoải mái, phong cách retro)  
+- Giá: 940.000 VNĐ  
+- Màu sắc: Xanh bạc, Đen xám, Be sáng  
+
+64. Mã sản phẩm: QJ064  
+Tên sản phẩm: Quần Jean Cargo Túi Hộp Workwear  
+- Chất liệu: Denim pha polyester chống nhăn  
+- Kiểu dáng: Relaxed fit (thoáng mát, tiện dụng)  
+- Giá: 970.000 VNĐ  
+- Màu sắc: Xanh rêu, Xám tro, Đen  
+
+65. Mã sản phẩm: QJ065  
+Tên sản phẩm: Quần Jean Slim Fit Nhật Bản  
+- Chất liệu: Denim raw selvedge cao cấp  
+- Kiểu dáng: Slim fit (ôm vừa, tinh tế)  
+- Giá: 1.150.000 VNĐ  
+- Màu sắc: Xanh raw, Đen tuyền, Xám bạc  
+
+66. Mã sản phẩm: QJ066  
+Tên sản phẩm: Quần Jean Baggy In Họa Tiết  
+- Chất liệu: Denim dày in họa tiết graphic  
+- Kiểu dáng: Baggy fit (phá cách, trẻ trung)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Đen họa tiết trắng, Xám bạc, Xanh nhạt  
+
+67. Mã sản phẩm: QJ067  
+Tên sản phẩm: Quần Jean Flare Fit Ống Loe Retro  
+- Chất liệu: Denim cotton cao cấp  
+- Kiểu dáng: Flare fit (loại ống loe nhẹ, vintage)  
+- Giá: 1.020.000 VNĐ  
+- Màu sắc: Xanh cổ điển, Đen bạc, Be sáng  
+
+68. Mã sản phẩm: QJ068  
+Tên sản phẩm: Quần Jean Jogger Fit Thể Thao  
+- Chất liệu: Denim pha spandex co giãn tốt  
+- Kiểu dáng: Jogger fit (năng động, thoải mái)  
+- Giá: 890.000 VNĐ  
+- Màu sắc: Đen, Xám ghi, Xanh navy  
+
+69. Mã sản phẩm: QJ069  
+Tên sản phẩm: Quần Jean Ống Suông Rách Gối Vintage  
+- Chất liệu: Denim wash bạc mềm mại  
+- Kiểu dáng: Regular fit (cổ điển, bụi bặm)  
+- Giá: 930.000 VNĐ  
+- Màu sắc: Xanh bạc, Xám tro, Đen bạc  
+
+70. Mã sản phẩm: QJ070  
+Tên sản phẩm: Quần Jean Classic Straight Fit  
+- Chất liệu: Denim cotton cứng cáp  
+- Kiểu dáng: Straight fit (bền bỉ, nam tính)  
+- Giá: 950.000 VNĐ  
+- Màu sắc: Xanh đậm, Đen raw, Xám nhạt  
+
+71. Mã sản phẩm: QJ071  
+Tên sản phẩm: Quần Jean Slim Fit Distressed Look  
+- Chất liệu: Denim wash bạc pha elastane  
+- Kiểu dáng: Slim fit (ôm vừa, thời trang)  
+- Giá: 1.000.000 VNĐ  
+- Màu sắc: Xanh wash, Đen bạc, Xám ghi  
+
+72. Mã sản phẩm: QJ072  
+Tên sản phẩm: Quần Jean Loose Fit Layered Design  
+- Chất liệu: Denim dày dặn, phối layer  
+- Kiểu dáng: Loose fit (cá tính, thoải mái)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xanh bạc, Đen họa tiết, Xám nhạt  
+
+73. Mã sản phẩm: QJ073  
+Tên sản phẩm: Quần Jean Tapered Fit Co Giãn Cao  
+- Chất liệu: Denim cotton pha spandex  
+- Kiểu dáng: Tapered fit (thon dần, thanh lịch)  
+- Giá: 990.000 VNĐ  
+- Màu sắc: Đen tuyền, Xanh navy, Xám bạc  
+
+74. Mã sản phẩm: QJ074  
+Tên sản phẩm: Quần Jean Cargo Bo Gấu Minimalist  
+- Chất liệu: Denim pha polyester chống nhăn  
+- Kiểu dáng: Cargo fit (phong cách đơn giản, tinh tế)  
+- Giá: 970.000 VNĐ  
+- Màu sắc: Đen, Xám ghi, Xanh rêu  
+
+75. Mã sản phẩm: QJ075  
+Tên sản phẩm: Quần Jean Classic Regular Fit 90s  
+- Chất liệu: Denim cotton raw selvedge  
+- Kiểu dáng: Regular fit (cổ điển, bền bỉ)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Xanh đậm, Xám bạc, Đen raw  
+
+76. Mã sản phẩm: QJ076  
+Tên sản phẩm: Quần Jean Rách Nhẹ Bo Gấu Vintage  
+- Chất liệu: Denim mềm co giãn nhẹ  
+- Kiểu dáng: Relaxed fit (thoải mái, dễ mặc)  
+- Giá: 920.000 VNĐ  
+- Màu sắc: Xanh bạc, Xám tro, Đen bạc  
+
+77. Mã sản phẩm: QJ077  
+Tên sản phẩm: Quần Jean Layered Style Streetwear  
+- Chất liệu: Denim cotton cao cấp  
+- Kiểu dáng: Relaxed fit (phong cách đường phố)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Xanh patchwork, Đen bạc, Xám ghi  
+
+78. Mã sản phẩm: QJ078  
+Tên sản phẩm: Quần Jean Classic Wide Leg 80s  
+- Chất liệu: Denim cứng, wash vintage  
+- Kiểu dáng: Wide fit (cổ điển, phong cách hoài niệm)  
+- Giá: 1.020.000 VNĐ  
+- Màu sắc: Xanh cổ điển, Xám bạc, Đen nhạt  
+
+79. Mã sản phẩm: QJ079  
+Tên sản phẩm: Quần Jean Workwear Túi Hộp Layered  
+- Chất liệu: Denim pha polyester chống nhăn  
+- Kiểu dáng: Workwear fit (bền bỉ, tiện lợi)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xám tro, Đen bạc, Xanh navy  
+
+80. Mã sản phẩm: QJ080  
+Tên sản phẩm: Quần Jean Wash Nhẹ Cargo Fit  
+- Chất liệu: Denim mềm thoáng khí  
+- Kiểu dáng: Cargo fit (thoải mái, dễ di chuyển)  
+- Giá: 960.000 VNĐ  
+- Màu sắc: Be sáng, Xanh bạc, Đen  
+
+81. Mã sản phẩm: QJ081  
+Tên sản phẩm: Quần Jean Rộng Xếp Ly Workwear  
+- Chất liệu: Denim cotton dày dặn  
+- Kiểu dáng: Wide fit (phong cách bền bỉ, nam tính)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xám bạc, Xanh navy, Đen tuyền  
+
+82. Mã sản phẩm: QJ082  
+Tên sản phẩm: Quần Jean Slim Fit Wash Nhẹ  
+- Chất liệu: Denim mềm pha elastane  
+- Kiểu dáng: Slim fit (ôm gọn, dễ phối đồ)  
+- Giá: 1.020.000 VNĐ  
+- Màu sắc: Xanh nhạt, Đen bạc, Xám tro  
+
+83. Mã sản phẩm: QJ083  
+Tên sản phẩm: Quần Jean Baggy Phối Dây Rút  
+- Chất liệu: Denim cotton thô  
+- Kiểu dáng: Baggy fit (thoải mái, cá tính)  
+- Giá: 970.000 VNĐ  
+- Màu sắc: Xanh bạc, Đen tuyền, Be sáng  
+
+84. Mã sản phẩm: QJ084  
+Tên sản phẩm: Quần Jean Jogger Fit Phong Cách Streetwear  
+- Chất liệu: Denim pha spandex co giãn nhẹ  
+- Kiểu dáng: Jogger fit (năng động, thể thao)  
+- Giá: 990.000 VNĐ  
+- Màu sắc: Xanh navy, Đen, Xám ghi  
+
+85. Mã sản phẩm: QJ085  
+Tên sản phẩm: Quần Jean Classic Straight Fit Nhật Bản  
+- Chất liệu: Denim raw selvedge cao cấp  
+- Kiểu dáng: Straight fit (cổ điển, thanh lịch)  
+- Giá: 1.200.000 VNĐ  
+- Màu sắc: Xanh đậm, Đen raw, Xám bạc  
+
+86. Mã sản phẩm: QJ086  
+Tên sản phẩm: Quần Jean Cargo Túi Hộp Bo Gấu  
+- Chất liệu: Denim pha polyester chống nhăn  
+- Kiểu dáng: Cargo fit (phong cách hiện đại)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Xám bạc, Đen, Xanh rêu  
+
+87. Mã sản phẩm: QJ087  
+Tên sản phẩm: Quần Jean Slim Fit Rách Nhẹ Vintage  
+- Chất liệu: Denim mềm co giãn nhẹ  
+- Kiểu dáng: Slim fit (ôm vừa, năng động)  
+- Giá: 1.030.000 VNĐ  
+- Màu sắc: Xanh bạc, Xám tro, Đen bạc  
+
+88. Mã sản phẩm: QJ088  
+Tên sản phẩm: Quần Jean Wide Fit Phối Màu Patchwork  
+- Chất liệu: Denim dày dặn wash vintage  
+- Kiểu dáng: Wide fit (phối màu sáng tạo, cá tính)  
+- Giá: 1.150.000 VNĐ  
+- Màu sắc: Xanh patchwork, Đen xám, Xám bạc  
+
+89. Mã sản phẩm: QJ089  
+Tên sản phẩm: Quần Jean Flare Fit Ống Loe Nhẹ  
+- Chất liệu: Denim cotton cao cấp  
+- Kiểu dáng: Flare fit (phong cách hoài cổ)  
+- Giá: 1.080.000 VNĐ  
+- Màu sắc: Xanh cổ điển, Xám bạc, Đen tuyền  
+
+90. Mã sản phẩm: QJ090  
+Tên sản phẩm: Quần Jean Tapered Fit Co Giãn Tốt  
+- Chất liệu: Denim pha elastane thoáng khí  
+- Kiểu dáng: Tapered fit (ôm nhẹ, dễ mặc)  
+- Giá: 1.000.000 VNĐ  
+- Màu sắc: Đen tuyền, Xanh navy, Xám ghi  
+
+91. Mã sản phẩm: QJ091  
+Tên sản phẩm: Quần Jean Straight Fit Basic 90s  
+- Chất liệu: Denim raw selvedge cổ điển  
+- Kiểu dáng: Straight fit (bền bỉ, phong cách tối giản)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Xanh đậm, Đen bạc, Xám tro  
+
+92. Mã sản phẩm: QJ092  
+Tên sản phẩm: Quần Jean Cargo Fit Túi Xéo  
+- Chất liệu: Denim pha polyester nhẹ  
+- Kiểu dáng: Cargo fit (tiện lợi, dễ mặc)  
+- Giá: 980.000 VNĐ  
+- Màu sắc: Xanh rêu, Đen, Be sáng  
+
+93. Mã sản phẩm: QJ093  
+Tên sản phẩm: Quần Jean Rộng Rách Gối Bụi Bặm  
+- Chất liệu: Denim wash mềm  
+- Kiểu dáng: Loose fit (bụi bặm, phong cách đường phố)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Xanh bạc, Đen bạc, Xám ghi  
+
+94. Mã sản phẩm: QJ094  
+Tên sản phẩm: Quần Jean Regular Fit Wash Nhẹ  
+- Chất liệu: Denim mềm thoáng khí  
+- Kiểu dáng: Regular fit (dễ phối đồ, thoải mái)  
+- Giá: 970.000 VNĐ  
+- Màu sắc: Xanh bạc, Xám tro, Đen tuyền  
+
+95. Mã sản phẩm: QJ095  
+Tên sản phẩm: Quần Jean Vintage Straight Fit  
+- Chất liệu: Denim cotton raw selvedge  
+- Kiểu dáng: Straight fit (cổ điển, nam tính)  
+- Giá: 1.200.000 VNĐ  
+- Màu sắc: Xanh cổ điển, Đen raw, Xám bạc  
+
+96. Mã sản phẩm: QJ096  
+Tên sản phẩm: Quần Jean Relaxed Fit Co Giãn Nhẹ  
+- Chất liệu: Denim pha elastane mềm mại  
+- Kiểu dáng: Relaxed fit (thoải mái, năng động)  
+- Giá: 990.000 VNĐ  
+- Màu sắc: Xanh bạc, Xám ghi, Đen bạc  
+
+97. Mã sản phẩm: QJ097  
+Tên sản phẩm: Quần Jean Straight Fit Xước Nhẹ  
+- Chất liệu: Denim cotton cứng cáp  
+- Kiểu dáng: Straight fit (bền bỉ, phong cách classic)  
+- Giá: 1.020.000 VNĐ  
+- Màu sắc: Xanh nhạt, Xám bạc, Đen tuyền  
+
+98. Mã sản phẩm: QJ098  
+Tên sản phẩm: Quần Jean Workwear Túi To Bụi Bặm  
+- Chất liệu: Denim dày pha polyester  
+- Kiểu dáng: Workwear fit (phong cách mạnh mẽ, bền bỉ)  
+- Giá: 1.100.000 VNĐ  
+- Màu sắc: Xám tro, Xanh rêu, Đen bạc  
+
+99. Mã sản phẩm: QJ099  
+Tên sản phẩm: Quần Jean Loose Fit Bo Gấu  
+- Chất liệu: Denim mềm thoáng khí  
+- Kiểu dáng: Loose fit (dễ phối, thoải mái)  
+- Giá: 1.000.000 VNĐ  
+- Màu sắc: Xanh bạc, Đen, Be sáng  
+
+100. Mã sản phẩm: QJ100  
+Tên sản phẩm: Quần Jean Straight Fit Wash Bụi Bặm  
+- Chất liệu: Denim cotton vintage  
+- Kiểu dáng: Straight fit (cổ điển, bền bỉ)  
+- Giá: 1.050.000 VNĐ  
+- Màu sắc: Xanh bạc, Đen bạc, Xám ghi  
+
 THÔNG TIN CHUNG:
 
 1. Bảng size:

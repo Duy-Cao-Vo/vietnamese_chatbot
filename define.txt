@@ -25,5 +25,5 @@ reference:@https://github.com/qunash/r1-overthinker
 
 4. Design vector database suitable for LLM model to query
 
-Define clearly full flow of project generate step by step and I will call continue to continue generate
-generate as long as you can make sure project can run
+Define clearly full flow of projectgenerate step by step and I will call continue to continue generate
+generate as long as you canmake sure project can run
