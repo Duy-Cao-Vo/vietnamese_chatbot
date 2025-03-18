@@ -7,6 +7,7 @@ from typing import Dict, Any, List, Optional
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import aiohttp
+import re
 
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -22,7 +23,7 @@ class LLMModel:
     def __init__(self):
         """Khởi tạo mô hình LLM dựa trên cấu hình."""
         # Common configuration
-        self.mode = config.LLM_MODE  # "local" or "api"
+        self.mode = config.LLM_MODE  # "local", "api", or "dummy"
         self.max_new_tokens = 1024
         self.system_prompt = config.SYSTEM_PROMPT
         self.rag_prompt = config.RAG_PROMPT
@@ -68,6 +69,12 @@ class LLMModel:
             self.model = None
             self.tokenizer = None
         
+        elif self.mode == "dummy":
+            # Dummy mode for simple rule-based responses
+            logger.info("Using dummy mode for LLM responses")
+            self.model = None
+            self.tokenizer = None
+            
         else:
             logger.error(f"Invalid LLM_MODE in config: {self.mode}")
             self.model = None
@@ -204,12 +211,16 @@ class LLMModel:
             
             return await self._generate_with_api(prompt, system_prompt)
             
+        # === DUMMY MODE ===
+        elif self.mode == "dummy":
+            return await self._generate_dummy_response(prompt, system_prompt)
+            
         # === LOCAL MODE ===
         else:
             if not self.model or not self.tokenizer:
                 # Trả về câu trả lời mặc định nếu không có mô hình
                 logger.warning("Using simulated response because model was not loaded")
-                return f"Tôi đã nhận được yêu cầu của bạn: {prompt}. Tuy nhiên, mô hình LLM hiện không khả dụng."
+                return await self._generate_dummy_response(prompt, system_prompt)
             
             try:
                 # Tạo prompt đầy đủ
@@ -242,6 +253,54 @@ class LLMModel:
             except Exception as e:
                 logger.error(f"Error generating response: {str(e)}")
                 return f"Xin lỗi, tôi không thể xử lý yêu cầu của bạn lúc này. Lỗi: {str(e)}"
+                
+    async def _generate_dummy_response(self, prompt: str, system_prompt: str) -> str:
+        """
+        Generate a rule-based dummy response for simple intent detection and other basic tasks.
+        
+        Args:
+            prompt: Input prompt
+            system_prompt: System prompt
+            
+        Returns:
+            A simple rule-based response
+        """
+        # For intent detection queries
+        if "xác định ý định" in prompt.lower() or "intent" in prompt.lower():
+            query_text = ""
+            
+            # Extract the user query from the prompt
+            if "tin nhắn của người dùng:" in prompt.lower():
+                query_text = prompt.lower().split("tin nhắn của người dùng:")[-1].strip().strip('"')
+            
+            # Product ID pattern (detect QK008 type codes)
+            product_id_pattern = r'[a-zA-Z]{2,3}\d{3,4}'
+            has_product_id = re.search(product_id_pattern, query_text)
+            
+            # Simple rule-based intent detection
+            if has_product_id and any(word in query_text for word in ["còn", "size", "có", "hàng"]):
+                # Product ID + availability question = inventory
+                return "inventory"
+            elif any(word in query_text for word in ["xin chào", "chào", "hello", "hi"]):
+                return "greeting"
+            elif any(word in query_text for word in ["còn hàng", "còn size", "size nào", "tồn kho"]):
+                return "inventory"
+            elif any(word in query_text for word in ["giá", "mua", "đặt hàng", "thanh toán"]):
+                return "purchase"
+            elif any(word in query_text for word in ["chính sách", "đổi trả", "bảo hành"]):
+                return "policy"
+            elif any(word in query_text for word in ["cửa hàng", "chi nhánh", "địa chỉ"]):
+                return "store"
+            elif any(word in query_text for word in ["áo", "quần", "váy", "giày", "size"]):
+                # Check if this is an inventory query
+                if any(word in query_text for word in ["còn", "hết", "có sẵn"]):
+                    return "inventory"
+                return "product"
+            else:
+                return "general"
+                
+        # For other queries, return a simple acknowledgment
+        return "Đã nhận được yêu cầu của bạn. Đây là chế độ dummy, không sử dụng mô hình LLM thật."
     
     async def generate_rag_response(self, question: str, context: List[str]) -> str:
         """

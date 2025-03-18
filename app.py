@@ -119,7 +119,7 @@ async def chat(request: ChatRequest):
             conversations[conversation_id].update(request.session_data)
         
         # Phát hiện intent
-        intent = intent_detector.detect_intent(request.message)
+        intent = await intent_detector.detect_intent_llm(request.message)
         logger.info(f"Detected intent: {intent} for message: {request.message}")
         
         # Tạo câu trả lời

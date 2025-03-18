@@ -34,12 +34,15 @@ class ChatbotTester:
     
     def __init__(self):
         """Khởi tạo các thành phần của chatbot."""
-        self.intent_detector = IntentDetector()
         self.llm_model = LLMModel()
+        # Initialize intent detector with the LLM model
+        self.intent_detector = IntentDetector(llm_model=self.llm_model)
         self.vector_store = VectorStore()
         self.response_generator = ResponseGenerator(self.llm_model, self.vector_store)
         self.conversation_id = f"test_{int(asyncio.get_event_loop().time())}"
         self.session_data = {}
+        # Flag to control whether to use LLM-based intent detection
+        self.use_llm_intent = True
         
     async def process_message(self, message: str) -> Dict[str, Any]:
         """
@@ -52,9 +55,13 @@ class ChatbotTester:
             Kết quả xử lý dạng dictionary
         """
         try:
-            # Phát hiện intent
-            intent = self.intent_detector.detect_intent(message)
-            logger.info(f"Detected intent: {intent}")
+            # Phát hiện intent - use LLM-based or regex-based detection based on flag
+            if self.use_llm_intent:
+                intent = await self.intent_detector.detect_intent_llm(message)
+                logger.info(f"LLM detected intent: {intent} for message: {message}")
+            else:
+                intent = self.intent_detector.detect_intent(message)
+                logger.info(f"Regex detected intent: {intent} for message: {message}")
             
             # Tạo câu trả lời
             response = await self.response_generator.generate_response(
@@ -83,7 +90,9 @@ class ChatbotTester:
         print("\n=== Chatbot Test Mode ===")
         print("Type 'exit' or 'quit' to end the session.")
         print("Type 'debug on' to enable debug mode.")
-        print("Type 'debug off' to disable debug mode.\n")
+        print("Type 'debug off' to disable debug mode.")
+        print("Type 'llm intent on' to use LLM-based intent detection.")
+        print("Type 'llm intent off' to use regex-based intent detection.\n")
         
         debug_mode = False
         
@@ -108,6 +117,17 @@ class ChatbotTester:
                     print("Debug mode disabled.")
                     continue
                 
+                # Toggle LLM intent detection
+                if user_input.lower() == "llm intent on":
+                    self.use_llm_intent = True
+                    print("LLM-based intent detection enabled.")
+                    continue
+                
+                if user_input.lower() == "llm intent off":
+                    self.use_llm_intent = False
+                    print("Regex-based intent detection enabled.")
+                    continue
+                
                 # Xử lý tin nhắn
                 result = await self.process_message(user_input)
                 
@@ -118,6 +138,7 @@ class ChatbotTester:
                 if debug_mode:
                     print("\n--- Debug Info ---")
                     print(f"Intent: {result['intent']}")
+                    print(f"Intent Detection Method: {'LLM' if self.use_llm_intent else 'Regex'}")
                     print(f"Conversation ID: {result['conversation_id']}")
                     if "error" in result:
                         print(f"Error: {result['error']}")

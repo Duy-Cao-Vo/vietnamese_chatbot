@@ -15,7 +15,7 @@ os.makedirs(os.path.join(DATA_DIR, "inventory"), exist_ok=True)
 os.makedirs(os.path.join(DATA_DIR, "stores"), exist_ok=True)
 
 # Cấu hình LLM
-LLM_MODE = "local"  # Options: "local" or "api"
+LLM_MODE = "api"  # "local" hoặc "api"
 # LLM_MODEL_NAME = "microsoft/phi-2"
 # LLM_MODEL_PATH = os.path.join(MODEL_DIR, "phi-2")
 LLM_MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
@@ -42,34 +42,30 @@ INTENT_CATEGORIES = [
 
 # Các câu trả lời mẫu
 DEFAULT_RESPONSES = {
-    "greeting": "Xin chào! Tôi là trợ lý ảo của cửa hàng quần áo. Tôi có thể giúp gì cho bạn?",
-    "not_understood": "Tôi chưa hiểu rõ câu hỏi của bạn. Bạn có thể diễn đạt lại được không?",
-    "fallback": "Xin lỗi, tôi không thể xử lý yêu cầu này lúc này. Bạn có thể thử lại sau.",
+    "greeting": "Xin chào! Tôi là trợ lý AI của cửa hàng thời trang. Tôi có thể giúp gì cho bạn hôm nay?",
+    "fallback": "Xin lỗi, tôi không hiểu ý của bạn. Bạn có thể diễn đạt lại hoặc hỏi một câu hỏi khác được không?"
 }
 
 # Cấu hình Prompt Template
-SYSTEM_PROMPT = """Bạn là trợ lý AI cho cửa hàng quần áo ở Việt Nam. 
-Nhiệm vụ của bạn là giúp khách hàng với các thông tin về:
-- Chính sách đổi trả, bảo hành
-- Thông tin và tư vấn về sản phẩm (cách mặc, màu sắc, kích cỡ)
-- Kiểm tra tồn kho sản phẩm
-- Thông tin về các cửa hàng
-- Hỗ trợ mua hàng
+SYSTEM_PROMPT = """
+Bạn là trợ lý AI cho một cửa hàng thời trang. Nhiệm vụ của bạn là trả lời các câu hỏi của 
+khách hàng về sản phẩm, tồn kho, chính sách của cửa hàng, và các thông tin liên quan.
 
-Hãy trả lời một cách lịch sự, thân thiện và chính xác bằng tiếng Việt.
-Dựa trên thông tin được cung cấp sau đây để trả lời:
+Hãy trả lời một cách lịch sự, thân thiện và hữu ích. Nếu bạn không biết câu trả lời, 
+hãy thành thật và đề nghị khách hàng liên hệ trực tiếp với cửa hàng.
+
 {context}
-
-Nếu bạn không biết câu trả lời, hãy thành thật nói rằng bạn không có thông tin về vấn đề đó.
 """
 
 RAG_PROMPT = """
-Dưới đây là câu hỏi của khách hàng: {question}
+Người dùng hỏi: {question}
 
-Dựa trên các tài liệu sau đây:
+Dựa trên thông tin sau:
 {context}
 
-Hãy trả lời câu hỏi của khách hàng một cách đầy đủ, thân thiện và chính xác bằng tiếng Việt.
+Hãy trả lời câu hỏi của người dùng một cách chính xác và đầy đủ nhất. 
+Chỉ sử dụng thông tin được cung cấp và kiến thức chung về thời trang. 
+Đừng bịa ra thông tin không có trong ngữ cảnh.
 """
 
 # API Configuration (only used if LLM_MODE="api")
@@ -77,3 +73,18 @@ API_BASE_URL = "https://public-api.grabgpt.managed.catwalk-k8s.stg-myteksi.com/o
 API_VERSION = "2023-03-15-preview"
 API_ENGINE = "gpt-35-turbo"
 API_TIMEOUT = 30  # seconds 
+
+
+
+# Intent recognition
+INTENT_MODEL_PATH = os.path.join(BASE_DIR, "models", "intent")
+
+# Inventory service configuration
+INVENTORY_MODE = "dummy"  # "db", "api", or "dummy"
+INVENTORY_DB_HOST = "localhost"
+INVENTORY_DB_PORT = 5432
+INVENTORY_DB_USER = "postgres"
+INVENTORY_DB_PASSWORD = ""
+INVENTORY_DB_NAME = "inventory"
+INVENTORY_API_URL = "http://localhost:8000/api"
+INVENTORY_API_TIMEOUT = 10  # seconds 
