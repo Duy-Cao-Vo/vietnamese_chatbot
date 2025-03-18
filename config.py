@@ -15,10 +15,11 @@ os.makedirs(os.path.join(DATA_DIR, "inventory"), exist_ok=True)
 os.makedirs(os.path.join(DATA_DIR, "stores"), exist_ok=True)
 
 # Cấu hình LLM
-LLM_MODE = "api"  # Options: "local" or "api"
-LLM_MODEL_NAME = "microsoft/phi-2"
-LLM_MODEL_PATH = os.path.join(MODEL_DIR, "phi-2")
-
+LLM_MODE = "local"  # Options: "local" or "api"
+# LLM_MODEL_NAME = "microsoft/phi-2"
+# LLM_MODEL_PATH = os.path.join(MODEL_DIR, "phi-2")
+LLM_MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+LLM_MODEL_PATH = os.path.join(MODEL_DIR, "DeepSeek-R1-Distill-Qwen-14B")
 # Cấu hình Vector Database
 VECTOR_DB_PATH = os.path.join(BASE_DIR, "vector_db")
 EMBEDDING_MODEL_NAME = "vinai/phobert-base"

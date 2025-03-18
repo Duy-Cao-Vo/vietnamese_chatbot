@@ -1,0 +1,283 @@
+PHỤ KIỆN
+
+DANH SÁCH SẢN PHẨM:
+
+1. Mã sản phẩm: PK001  
+   Tên sản phẩm: Thắt Lưng Da Bò Cao Cấp  
+   - Chất liệu: 100% da bò thật  
+   - Kiểu dáng: Bản vừa, khóa gài kim loại  
+   - Giá: 799.000 VNĐ  
+   - Màu sắc: Đen, Nâu Đậm, Nâu Nhạt  
+
+2. Mã sản phẩm: PK002  
+   Tên sản phẩm: Mũ Lưỡi Trai Unisex  
+   - Chất liệu: 100% cotton dày dặn  
+   - Kiểu dáng: Free size, có khóa điều chỉnh  
+   - Giá: 199.000 VNĐ  
+   - Màu sắc: Đen, Trắng, Xanh Navy, Xám  
+
+3. Mã sản phẩm: PK003  
+   Tên sản phẩm: Túi Đeo Chéo Mini  
+   - Chất liệu: Vải canvas chống thấm nước  
+   - Kiểu dáng: Nhỏ gọn, dây đeo có thể điều chỉnh  
+   - Giá: 349.000 VNĐ  
+   - Màu sắc: Đen, Be, Xám, Xanh Rêu  
+
+4. Mã sản phẩm: PK004  
+   Tên sản phẩm: Kính Mát Phong Cách Retro  
+   - Chất liệu: Gọng kim loại, tròng chống UV400  
+   - Kiểu dáng: Gọng tròn cổ điển  
+   - Giá: 499.000 VNĐ  
+   - Màu sắc: Đen, Vàng Gold, Bạc  
+
+5. Mã sản phẩm: PK005  
+   Tên sản phẩm: Khăn Quàng Cổ Len Dệt Kim  
+   - Chất liệu: Len dệt cao cấp, mềm mại  
+   - Kiểu dáng: Dài, có họa tiết sọc nhẹ  
+   - Giá: 299.000 VNĐ  
+   - Màu sắc: Đỏ, Xám, Đen, Nâu  
+
+6. Mã sản phẩm: PK006  
+   Tên sản phẩm: Găng Tay Da Cảm Ứng  
+   - Chất liệu: Da cừu mềm, lớp lót nỉ giữ ấm  
+   - Kiểu dáng: Ôm vừa tay, có cảm ứng trên ngón trỏ  
+   - Giá: 599.000 VNĐ  
+   - Màu sắc: Đen, Nâu  
+
+7. Mã sản phẩm: PK007  
+   Tên sản phẩm: Dây Chuyền Bạc 925 Đơn Giản  
+   - Chất liệu: Bạc 925 cao cấp  
+   - Kiểu dáng: Sợi mảnh, mặt tròn nhỏ  
+   - Giá: 699.000 VNĐ  
+   - Màu sắc: Bạc, Vàng Hồng  
+
+8. Mã sản phẩm: PK008  
+   Tên sản phẩm: Balo Laptop Chống Sốc  
+   - Chất liệu: Vải Oxford chống thấm  
+   - Kiểu dáng: Đựng vừa laptop 15.6 inch, nhiều ngăn tiện lợi  
+   - Giá: 899.000 VNĐ  
+   - Màu sắc: Đen, Xám, Xanh Navy  
+
+9. Mã sản phẩm: PK009  
+   Tên sản phẩm: Đồng Hồ Cơ Lộ Máy Nam  
+   - Chất liệu: Thép không gỉ, mặt kính sapphire  
+   - Kiểu dáng: Cơ tự động, lộ máy tinh tế  
+   - Giá: 3.500.000 VNĐ  
+   - Màu sắc: Đen, Bạc, Vàng  
+
+10. Mã sản phẩm: PK010  
+    Tên sản phẩm: Nhẫn Titan Đơn Giản  
+    - Chất liệu: Titan không gỉ, chống xước  
+    - Kiểu dáng: Nhẫn trơn bản vừa  
+    - Giá: 299.000 VNĐ  
+    - Màu sắc: Đen, Bạc, Vàng  
+
+11. Mã sản phẩm: PK011  
+    Tên sản phẩm: Kính Râm Oversized Unisex  
+    - Chất liệu: Gọng acetate, tròng chống tia UV  
+    - Kiểu dáng: To bản, phong cách hiện đại  
+    - Giá: 599.000 VNĐ  
+    - Màu sắc: Đen, Trắng, Nâu  
+
+12. Mã sản phẩm: PK012  
+    Tên sản phẩm: Túi Tote Vải Bố Basic  
+    - Chất liệu: Canvas dày dặn  
+    - Kiểu dáng: Túi rộng, quai dài, có nút bấm  
+    - Giá: 199.000 VNĐ  
+    - Màu sắc: Trắng, Đen, Be  
+
+13. Mã sản phẩm: PK013  
+    Tên sản phẩm: Dây Lưng Vải Dù Nam/Nữ  
+    - Chất liệu: Vải dù bền chắc  
+    - Kiểu dáng: Dễ điều chỉnh độ dài  
+    - Giá: 249.000 VNĐ  
+    - Màu sắc: Xanh Rêu, Đen, Nâu  
+
+14. Mã sản phẩm: PK014  
+    Tên sản phẩm: Mũ Nồi Vintage  
+    - Chất liệu: Dạ len mềm  
+    - Kiểu dáng: Dáng tròn, phong cách cổ điển  
+    - Giá: 299.000 VNĐ  
+    - Màu sắc: Đỏ Đô, Be, Đen  
+
+15. Mã sản phẩm: PK015  
+    Tên sản phẩm: Dây Đeo Chìa Khóa Cao Cấp  
+    - Chất liệu: Da PU kết hợp kim loại  
+    - Kiểu dáng: Dây nhỏ gọn, dễ mang theo  
+    - Giá: 159.000 VNĐ  
+    - Màu sắc: Đen, Nâu  
+
+16. Mã sản phẩm: PK016  
+    Tên sản phẩm: Vòng Tay Da Handmade  
+    - Chất liệu: Da bò thật, móc kim loại  
+    - Kiểu dáng: Quấn nhiều vòng, phong cách bụi bặm  
+    - Giá: 349.000 VNĐ  
+    - Màu sắc: Nâu, Đen  
+
+17. Mã sản phẩm: PK017  
+    Tên sản phẩm: Bộ Cà Vạt & Khăn Cài Túi  
+    - Chất liệu: Lụa cao cấp  
+    - Kiểu dáng: Bản trung bình, dễ phối đồ  
+    - Giá: 599.000 VNĐ  
+    - Màu sắc: Đỏ Đô, Xanh Navy, Đen  
+
+18. Mã sản phẩm: PK018  
+    Tên sản phẩm: Găng Tay Chống Nắng UV  
+    - Chất liệu: Vải co giãn, chống tia UV  
+    - Kiểu dáng: Dài đến khuỷu tay, ôm sát  
+    - Giá: 199.000 VNĐ  
+    - Màu sắc: Xám, Trắng, Đen  
+
+19. Mã sản phẩm: PK019  
+    Tên sản phẩm: Tất Cotton Dài Cổ Điển  
+    - Chất liệu: 85% cotton, co giãn tốt  
+    - Kiểu dáng: Cổ cao, phù hợp giày thể thao  
+    - Giá: 99.000 VNĐ  
+    - Màu sắc: Đen, Trắng, Xám  
+
+20. Mã sản phẩm: PK020  
+    Tên sản phẩm: Vòng Cổ Layer Phong Cách Streetwear  
+    - Chất liệu: Hợp kim không gỉ  
+    - Kiểu dáng: 2 lớp dây xích nhỏ và to  
+    - Giá: 399.000 VNĐ  
+    - Màu sắc: Bạc, Vàng  
+
+21. Mã sản phẩm: PK021  
+    Tên sản phẩm: Dây Chuyền Nam Mặt Vuông  
+    - Chất liệu: Thép không gỉ  
+    - Kiểu dáng: Mặt vuông khắc họa tiết cổ điển  
+    - Giá: 499.000 VNĐ  
+    - Màu sắc: Bạc, Đen  
+
+22. Mã sản phẩm: PK022  
+    Tên sản phẩm: Thắt Lưng Da PU Thời Trang  
+    - Chất liệu: Da PU cao cấp  
+    - Kiểu dáng: Bản vừa, khóa kim truyền thống  
+    - Giá: 399.000 VNĐ  
+    - Màu sắc: Đen, Nâu  
+
+23. Mã sản phẩm: PK023  
+    Tên sản phẩm: Kính Mát Phi Công  
+    - Chất liệu: Gọng kim loại, tròng chống tia UV  
+    - Kiểu dáng: Aviator cổ điển  
+    - Giá: 599.000 VNĐ  
+    - Màu sắc: Vàng, Bạc, Đen  
+
+24. Mã sản phẩm: PK024  
+    Tên sản phẩm: Mũ Snapback Street Style  
+    - Chất liệu: Vải cotton pha polyester  
+    - Kiểu dáng: Nón lưỡi phẳng, khóa điều chỉnh  
+    - Giá: 299.000 VNĐ  
+    - Màu sắc: Đen, Xám, Xanh Đậm  
+
+25. Mã sản phẩm: PK025  
+    Tên sản phẩm: Tất Thể Thao Cổ Cao  
+    - Chất liệu: 80% cotton, 20% spandex  
+    - Kiểu dáng: Cổ cao, co giãn tốt  
+    - Giá: 119.000 VNĐ  
+    - Màu sắc: Trắng, Đen, Xám  
+
+26. Mã sản phẩm: PK026  
+    Tên sản phẩm: Khăn Bandana Họa Tiết Vintage  
+    - Chất liệu: Vải lụa mềm  
+    - Kiểu dáng: Vuông 50x50 cm, họa tiết cổ điển  
+    - Giá: 249.000 VNĐ  
+    - Màu sắc: Đỏ, Xanh Navy, Đen  
+
+27. Mã sản phẩm: PK027  
+    Tên sản phẩm: Balo Du Lịch Đa Năng  
+    - Chất liệu: Vải canvas chống thấm  
+    - Kiểu dáng: Nhiều ngăn, đựng laptop 17 inch  
+    - Giá: 1.200.000 VNĐ  
+    - Màu sắc: Xám, Đen, Xanh Rêu  
+
+28. Mã sản phẩm: PK028  
+    Tên sản phẩm: Dây Đeo Đồng Hồ Da Bò  
+    - Chất liệu: Da bò thật 100%  
+    - Kiểu dáng: Bản 22mm, có khóa gài kim loại  
+    - Giá: 499.000 VNĐ  
+    - Màu sắc: Nâu, Đen  
+
+29. Mã sản phẩm: PK029  
+    Tên sản phẩm: Găng Tay Lái Xe Chống Trượt  
+    - Chất liệu: Vải lưới thoáng khí, lòng bàn tay có cao su chống trượt  
+    - Kiểu dáng: Ngón cụt, ôm sát tay  
+    - Giá: 299.000 VNĐ  
+    - Màu sắc: Đen, Xám  
+
+30. Mã sản phẩm: PK030  
+    Tên sản phẩm: Vòng Tay Đá Mắt Hổ  
+    - Chất liệu: Đá mắt hổ tự nhiên  
+    - Kiểu dáng: Hạt 8mm, dây co giãn  
+    - Giá: 599.000 VNĐ  
+    - Màu sắc: Nâu vàng, Đen  
+
+31. Mã sản phẩm: PK031  
+    Tên sản phẩm: Kẹp Cà Vạt Kim Loại  
+    - Chất liệu: Thép không gỉ  
+    - Kiểu dáng: Trơn, bản nhỏ tinh tế  
+    - Giá: 299.000 VNĐ  
+    - Màu sắc: Bạc, Vàng  
+
+32. Mã sản phẩm: PK032  
+    Tên sản phẩm: Balo Đeo Một Quai  
+    - Chất liệu: Vải dù chống thấm  
+    - Kiểu dáng: Gọn nhẹ, có ngăn chống sốc  
+    - Giá: 599.000 VNĐ  
+    - Màu sắc: Đen, Xanh Rêu  
+
+33. Mã sản phẩm: PK033  
+    Tên sản phẩm: Nhẫn Bạc Đính Đá CZ  
+    - Chất liệu: Bạc 925, đá CZ sáng bóng  
+    - Kiểu dáng: Tròn cổ điển, đính đá tinh tế  
+    - Giá: 799.000 VNĐ  
+    - Màu sắc: Bạc, Vàng  
+
+34. Mã sản phẩm: PK034  
+    Tên sản phẩm: Kính Mát Vuông Nam/Nữ  
+    - Chất liệu: Gọng nhựa TR90, tròng phân cực  
+    - Kiểu dáng: Vuông, phong cách trẻ trung  
+    - Giá: 499.000 VNĐ  
+    - Màu sắc: Đen, Trắng, Nâu  
+
+35. Mã sản phẩm: PK035  
+    Tên sản phẩm: Túi Đeo Vai Hàn Quốc  
+    - Chất liệu: Da PU cao cấp  
+    - Kiểu dáng: Túi nhỏ, quai xích thời trang  
+    - Giá: 699.000 VNĐ  
+    - Màu sắc: Đen, Be, Xám  
+
+36. Mã sản phẩm: PK036  
+    Tên sản phẩm: Đồng Hồ Điện Tử Thể Thao  
+    - Chất liệu: Nhựa cao cấp, chống sốc  
+    - Kiểu dáng: Digital, nhiều chức năng tiện ích  
+    - Giá: 899.000 VNĐ  
+    - Màu sắc: Đen, Xanh Dương, Xám  
+
+37. Mã sản phẩm: PK037  
+    Tên sản phẩm: Mũ Beret Nam/Nữ  
+    - Chất liệu: Len dạ mềm  
+    - Kiểu dáng: Phong cách vintage, tròn ôm đầu  
+    - Giá: 349.000 VNĐ  
+    - Màu sắc: Đen, Be, Nâu  
+
+38. Mã sản phẩm: PK038  
+    Tên sản phẩm: Dây Chuyền Nam Mặt Chữ Thập  
+    - Chất liệu: Thép không gỉ 316L  
+    - Kiểu dáng: Dây xích bản nhỏ, mặt chữ thập đơn giản  
+    - Giá: 599.000 VNĐ  
+    - Màu sắc: Bạc, Đen  
+
+39. Mã sản phẩm: PK039  
+    Tên sản phẩm: Găng Tay Da Cảm Ứng  
+    - Chất liệu: Da bò thật, lớp lót giữ ấm  
+    - Kiểu dáng: Ôm sát tay, dùng được với màn hình cảm ứng  
+    - Giá: 699.000 VNĐ  
+    - Màu sắc: Đen, Nâu  
+
+40. Mã sản phẩm: PK040  
+    Tên sản phẩm: Dây Đeo AirPods Silicone  
+    - Chất liệu: Silicone dẻo bền  
+    - Kiểu dáng: Gọn nhẹ, dễ sử dụng  
+    - Giá: 199.000 VNĐ  
+    - Màu sắc: Đen, Trắng, Xanh Navy  
