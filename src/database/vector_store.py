@@ -8,6 +8,7 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter, MarkdownTextSplitter
+import re
 
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -68,18 +69,33 @@ class VectorStore:
         try:
             # Điều chỉnh truy vấn dựa trên intent
             search_query = query
-            filter_dict = {}
+            filter_dict = None
             
-            # Nếu có intent, thêm vào truy vấn và bộ lọc
+            # Extract product ID from query if it exists
+            product_id_match = re.search(r'[A-Z]{2,3}\d{3,4}', query)
+            product_id = product_id_match.group(0) if product_id_match else None
+            
+            if product_id:
+                logger.info(f"Detected product ID in query: {product_id}")
+                # Fix: Use correct ChromaDB filter format with $eq operator
+                filter_dict = {"product_id": {"$eq": product_id}}
+                search_query = f"product {product_id} information details"
+            
+            # If intent is provided, include it in the search query
             if intent and intent not in ["greeting", "general"]:
-                search_query = f"{intent}: {query}"
-                filter_dict = {"metadata_field": {"$eq": intent}}
+                search_query = f"{intent}: {search_query}"
+                
+                # Add intent to filter if no product ID filter
+                if not product_id:
+                    filter_dict = {"intent": {"$eq": intent}}
+            
+            logger.info(f"Searching with query: '{search_query}', filters: {filter_dict}, limit: {limit}")
             
             # Thực hiện tìm kiếm
             results = self.db.similarity_search(
                 search_query,
                 k=limit,
-                filter=filter_dict if filter_dict else None
+                filter=filter_dict
             )
             
             return results
@@ -136,10 +152,10 @@ class VectorStore:
             # Choose the appropriate text splitter based on your content
             # For general text:
             text_splitter = RecursiveCharacterTextSplitter(
-                chunk_size=500,           # Characters per chunk
-                chunk_overlap=100,        # Characters overlap between chunks
+                chunk_size=1200,           # Increased from 500 to 1200 characters per chunk
+                chunk_overlap=200,        # Increased from 100 to 200 characters overlap
                 length_function=len,
-                separators=["\n\n", "\n", ". ", " ", ""]  # Priority order of separators
+                separators=["\n\n", ". ", " ", ""]  # Priority order of separators
             )
             
             # For Markdown content:
@@ -149,35 +165,50 @@ class VectorStore:
             
             # Process each document
             for doc in documents:
-                # Get the text and metadata
-                content = doc.page_content
-                metadata = doc.metadata.copy()
+                # Extract product ID if it exists in content
+                product_id = None
+                product_name = None
                 
-                # Split text into chunks
-                chunks = text_splitter.split_text(content)
+                # Check for product ID in the content (format: Mã sản phẩm: XXXXX)
+                id_match = re.search(r'Mã\s+sản\s+phẩm:\s+([A-Z0-9]+)', doc.page_content)
+                if id_match:
+                    product_id = id_match.group(1)
+                    
+                # Check for product name in the content
+                name_match = re.search(r'Tên\s+sản\s+phẩm:\s+(.*?)(?:\n|$|-)', doc.page_content)
+                if name_match:
+                    product_name = name_match.group(1).strip()
+                
+                # Split the text into chunks
+                chunks = text_splitter.split_text(doc.page_content)
                 
                 # Create new documents for each chunk
                 for i, chunk in enumerate(chunks):
-                    # Preserve original metadata and add chunk information
-                    chunk_metadata = metadata.copy()
-                    chunk_metadata.update({
-                        "chunk": i,
-                        "total_chunks": len(chunks),
-                        "document_id": metadata.get("source", "") + f"-chunk-{i}"
-                    })
+                    # Create a copy of the original metadata
+                    chunk_metadata = doc.metadata.copy() if doc.metadata else {}
                     
-                    chunked_doc = Document(
-                        page_content=chunk,
-                        metadata=chunk_metadata
-                    )
-                    chunked_documents.append(chunked_doc)
+                    # Add chunk information
+                    chunk_metadata["chunk"] = i
+                    chunk_metadata["chunk_total"] = len(chunks)
+                    
+                    # Preserve product ID and name in each chunk's metadata if found
+                    if product_id:
+                        chunk_metadata["product_id"] = product_id
+                    if product_name:
+                        chunk_metadata["product_name"] = product_name
+                    
+                    # Create a new document with the chunk and metadata
+                    chunk_doc = Document(page_content=chunk, metadata=chunk_metadata)
+                    chunked_documents.append(chunk_doc)
+            
+            # Log the total number of chunked documents
+            logger.info(f"Created {len(chunked_documents)} chunks from {len(documents)} documents")
             
             # Add the chunked documents to the vector store
-            self.db.add_documents(chunked_documents)
-            self.db.persist()
-            logger.info(f"Added {len(chunked_documents)} chunked documents from {len(documents)} original documents")
+            self.add_documents(chunked_documents)
+            
             return True
-        
+            
         except Exception as e:
-            logger.error(f"Error adding chunked documents to vector store: {str(e)}")
+            logger.error(f"Error in add_documents_with_chunking: {str(e)}")
             return False 

@@ -48,13 +48,17 @@ def load_text_files(directory: str, intent: str) -> List[Document]:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
                 
+                # Extract product category from filename
+                category = os.path.splitext(filename)[0].replace('_', ' ')
+                
                 # Tạo Document
                 doc = Document(
                     page_content=content,
                     metadata={
                         "source": file_path,
                         "filename": filename,
-                        "intent": intent
+                        "intent": intent,
+                        "category": category
                     }
                 )
                 documents.append(doc)
@@ -164,7 +168,7 @@ def ingest_data(clear_existing: bool = False):
     
     # Dữ liệu tồn kho
     inventory_docs = load_inventory_data(os.path.join(config.DATA_DIR, "inventory", "inventory.json"))
-    all_documents.extend(inventory_docs)
+    # all_documents.extend(inventory_docs)
     logger.info(f"Loaded {len(inventory_docs)} inventory documents")
     
     # Thêm dữ liệu vào vector store

@@ -54,18 +54,33 @@ class ResponseGenerator:
                 
             # For other intents, use the RAG approach with vector store
             # Truy xuất thông tin liên quan từ vector store
+            logger.info(f"RAG search query: {query}")
             relevant_docs = await self.vector_store.search(query, intent)
+            
+            # DEBUG: Print retrieved documents
+            logger.info(f"Retrieved {len(relevant_docs)} documents from vector store")
+            for i, doc in enumerate(relevant_docs):
+                logger.info(f"Doc {i+1}: {doc.page_content[:100]}... (metadata: {doc.metadata})")
+            
             context_texts = [doc.page_content for doc in relevant_docs]
             
             # Nếu không tìm thấy thông tin liên quan, thử tìm kiếm từ tệp
             if not context_texts:
+                logger.info("No documents retrieved from vector store, searching from files")
                 context_texts = await self._get_context_from_files(query, intent)
+                
+                # DEBUG: Print context from files
+                logger.info(f"Retrieved {len(context_texts)} context texts from files")
+                for i, ctx in enumerate(context_texts):
+                    logger.info(f"Context {i+1} from files: {ctx[:100]}...")
             
             # Sinh câu trả lời sử dụng RAG
             if context_texts:
+                logger.info(f"Generating RAG response with {len(context_texts)} context texts")
                 response = await self.llm.generate_rag_response(query, context_texts)
             else:
                 # Sử dụng phản hồi chung nếu không có ngữ cảnh
+                logger.info("No context found, generating response without RAG")
                 response = await self.llm.generate(
                     f"Người dùng hỏi: {query}. Hãy trả lời dựa trên kiến thức của bạn.",
                     config.SYSTEM_PROMPT.format(context="")
