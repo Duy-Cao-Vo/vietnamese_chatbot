@@ -48,8 +48,15 @@ def load_text_files(directory: str, intent: str) -> List[Document]:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
                 
+                # Skip headers and find the actual product list section
+                if "DANH SÁCH SẢN PHẨM:" in content:
+                    # Split content at the product list header to remove introductory text
+                    product_section = content.split("DANH SÁCH SẢN PHẨM:")[1]
+                    content = "DANH SÁCH SẢN PHẨM:" + product_section
+                
                 # Extract product category from filename
                 category = os.path.splitext(filename)[0].replace('_', ' ')
+                logger.info(f"Loading {category} data from {filename}")
                 
                 # Tạo Document
                 doc = Document(
@@ -167,9 +174,9 @@ def ingest_data(clear_existing: bool = False):
     logger.info(f"Loaded {len(store_docs)} store documents")
     
     # Dữ liệu tồn kho
-    inventory_docs = load_inventory_data(os.path.join(config.DATA_DIR, "inventory", "inventory.json"))
+    # inventory_docs = load_inventory_data(os.path.join(config.DATA_DIR, "inventory", "inventory.json"))
     # all_documents.extend(inventory_docs)
-    logger.info(f"Loaded {len(inventory_docs)} inventory documents")
+    # logger.info(f"Loaded {len(inventory_docs)} inventory documents")
     
     # Thêm dữ liệu vào vector store
     if all_documents:

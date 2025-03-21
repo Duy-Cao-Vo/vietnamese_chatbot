@@ -55,7 +55,7 @@ class ResponseGenerator:
             # For other intents, use the RAG approach with vector store
             # Truy xuất thông tin liên quan từ vector store
             logger.info(f"RAG search query: {query}")
-            relevant_docs = await self.vector_store.search(query, intent)
+            relevant_docs = await self.vector_store.search(query, intent, 10)
             
             # DEBUG: Print retrieved documents
             logger.info(f"Retrieved {len(relevant_docs)} documents from vector store")
@@ -117,7 +117,7 @@ class ResponseGenerator:
             
             # If no specific product was identified, return general inventory
             if not product_details.get("product_id") and not product_details.get("product_name"):
-                inventory_data = await self.inventory_service.get_all_inventory(limit=5)
+                inventory_data = await self.inventory_service.get_all_inventory()
                 
                 # Format response for general inventory
                 response = "Đây là thông tin tồn kho hiện tại:\n\n"

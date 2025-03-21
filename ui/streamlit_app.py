@@ -446,7 +446,7 @@ def main():
     init_session_state()
     
     # Tạo UI
-    st.title("👕 Clothing Store Chatbot")
+    st.title("👗 Thời Trang AI")
     
     # Sidebar
     with st.sidebar:

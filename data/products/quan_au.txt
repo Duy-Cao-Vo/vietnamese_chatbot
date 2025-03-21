@@ -1,0 +1,108 @@
+QUẦN ÂU NAM/NỮ
+
+DANH SÁCH SẢN PHẨM:
+
+1. Mã sản phẩm: QA001
+   Tên sản phẩm: Quần Âu Nam Slim Fit Cao Cấp
+   - Chất liệu: 70% polyester, 30% viscose
+   - Kiểu dáng: Slim fit, ống đứng, cạp thường
+   - Giá: 599.000 VNĐ
+   - Màu sắc: Đen, Xám, Xanh navy
+
+2. Mã sản phẩm: QA002
+   Tên sản phẩm: Quần Âu Nam Dáng Côn Basic
+   - Chất liệu: 65% polyester, 35% cotton
+   - Kiểu dáng: Dáng côn (Tapered), cạp thường
+   - Giá: 549.000 VNĐ
+   - Màu sắc: Đen, Xám chì, Be
+
+3. Mã sản phẩm: QA003
+   Tên sản phẩm: Quần Âu Nam Kẻ Sọc
+   - Chất liệu: 80% polyester, 20% wool
+   - Kiểu dáng: Regular fit, kẻ sọc mờ, cạp cao
+   - Giá: 799.000 VNĐ
+   - Màu sắc: Xám kẻ, Xanh than kẻ
+
+4. Mã sản phẩm: QA004
+   Tên sản phẩm: Quần Âu Nữ Ống Suông Thanh Lịch
+   - Chất liệu: 75% polyester, 20% rayon, 5% spandex
+   - Kiểu dáng: Ống suông, cạp cao, có ly
+   - Giá: 649.000 VNĐ
+   - Màu sắc: Đen, Xám, Be, Xanh mint
+
+5. Mã sản phẩm: QA005
+   Tên sản phẩm: Quần Âu Nam Linen Mùa Hè
+   - Chất liệu: 55% linen, 45% cotton
+   - Kiểu dáng: Regular fit, thoáng mát
+   - Giá: 699.000 VNĐ
+   - Màu sắc: Kem, Xám nhạt, Xanh olive
+
+6. Mã sản phẩm: QA006
+   Tên sản phẩm: Quần Âu Nữ Ống Loe
+   - Chất liệu: 68% polyester, 28% viscose, 4% elastane
+   - Kiểu dáng: Ống loe nhẹ từ đầu gối, cạp cao
+   - Giá: 679.000 VNĐ
+   - Màu sắc: Đen, Nâu, Xám
+
+7. Mã sản phẩm: QA007
+   Tên sản phẩm: Quần Âu Nam Dáng Đứng Công Sở
+   - Chất liệu: 90% polyester, 10% elastane
+   - Kiểu dáng: Dáng đứng, không ly, cạp thường
+   - Giá: 529.000 VNĐ
+   - Màu sắc: Đen, Xanh than, Nâu
+
+8. Mã sản phẩm: QA008
+   Tên sản phẩm: Quần Âu Nữ Baggy Đai Cách Điệu
+   - Chất liệu: 70% polyester, 25% cotton, 5% spandex
+   - Kiểu dáng: Dáng baggy, đai cách điệu, cạp cao
+   - Giá: 729.000 VNĐ
+   - Màu sắc: Đen, Be, Xám
+
+9. Mã sản phẩm: QA009
+   Tên sản phẩm: Quần Âu Nam Vải Flannel
+   - Chất liệu: 85% wool, 15% polyester
+   - Kiểu dáng: Regular fit, phù hợp mùa đông
+   - Giá: 899.000 VNĐ
+   - Màu sắc: Xám, Xanh navy, Nâu đậm
+
+10. Mã sản phẩm: QA010
+    Tên sản phẩm: Quần Âu Nữ Ống Đứng Lưng Thun
+    - Chất liệu: 65% polyester, 30% rayon, 5% elastane
+    - Kiểu dáng: Ống đứng, lưng thun co giãn
+    - Giá: 589.000 VNĐ
+    - Màu sắc: Đen, Xám, Xanh navy
+
+11. Mã sản phẩm: QA011
+    Tên sản phẩm: Quần Âu Nam Cao Cấp Dự Tiệc
+    - Chất liệu: 90% wool, 10% cashmere
+    - Kiểu dáng: Slim fit, có ly, cạp cao
+    - Giá: 1.299.000 VNĐ
+    - Màu sắc: Đen, Xám đậm, Xanh than
+
+12. Mã sản phẩm: QA012
+    Tên sản phẩm: Quần Âu Nữ Crop Ống Rộng
+    - Chất liệu: 60% polyester, 35% rayon, 5% spandex
+    - Kiểu dáng: Crop 7/8, ống rộng, cạp cao
+    - Giá: 659.000 VNĐ
+    - Màu sắc: Đen, Trắng, Be, Xanh navy
+
+13. Mã sản phẩm: QA013
+    Tên sản phẩm: Quần Âu Nam Bổ Túi Hộp
+    - Chất liệu: 97% cotton, 3% elastane
+    - Kiểu dáng: Regular fit, túi hộp hai bên
+    - Giá: 629.000 VNĐ
+    - Màu sắc: Đen, Nâu, Xanh olive
+
+14. Mã sản phẩm: QA014
+    Tên sản phẩm: Quần Âu Nữ Công Sở Xếp Ly
+    - Chất liệu: 75% polyester, 20% rayon, 5% elastane
+    - Kiểu dáng: Xếp ly trước, ống suông nhẹ
+    - Giá: 699.000 VNĐ
+    - Màu sắc: Đen, Xám, Be, Burgundy
+
+15. Mã sản phẩm: QA015
+    Tên sản phẩm: Quần Âu Nam Phối Cúc Sang Trọng
+    - Chất liệu: 75% polyester, 23% viscose, 2% elastane
+    - Kiểu dáng: Slim fit, phối cúc kim loại
+    - Giá: 759.000 VNĐ
+    - Màu sắc: Đen, Xanh than, Xám

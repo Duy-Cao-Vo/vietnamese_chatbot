@@ -25211,6 +25211,74 @@
                     "Đen - Trắng": 11
                 }
             }
-        }
+        },
+        {
+            "id": "QA001",
+            "name": "Quần Âu Nam Slim Fit Cao Cấp",
+            "category": "Quần âu",
+            "price": 599000,
+            "description": "Quần âu nam với kiểu dáng slim fit, ống đứng, chất liệu cao cấp phù hợp cho công sở và các dịp trang trọng.",
+            "sizes": {
+              "29": {
+                "Đen": 15,
+                "Xám": 12,
+                "Xanh navy": 10
+              },
+              "30": {
+                "Đen": 18,
+                "Xám": 15,
+                "Xanh navy": 14
+              },
+              "31": {
+                "Đen": 16,
+                "Xám": 14,
+                "Xanh navy": 12
+              },
+              "32": {
+                "Đen": 14,
+                "Xám": 10,
+                "Xanh navy": 8
+              },
+              "33": {
+                "Đen": 10,
+                "Xám": 8,
+                "Xanh navy": 6
+              }
+            }
+          },
+          {
+            "id": "QA003",
+            "name": "Quần Âu Nam Kẻ Sọc",
+            "category": "Quần âu",
+            "price": 599000,
+            "description": "Quần âu nam với kiểu dáng slim fit, ống đứng, chất liệu cao cấp phù hợp cho công sở và các dịp trang trọng.",
+            "sizes": {
+              "29": {
+                "Đen": 15,
+                "Xám": 12,
+                "Xanh navy": 10
+              },
+              "30": {
+                "Đen": 18,
+                "Xám": 15,
+                "Xanh navy": 14
+              },
+              "31": {
+                "Đen": 16,
+                "Xám": 14,
+                "Xanh navy": 12
+              },
+              "32": {
+                "Đen": 14,
+                "Xám": 10,
+                "Xanh navy": 8
+              },
+              "33": {
+                "Đen": 10,
+                "Xám": 8,
+                "Xanh navy": 6
+              }
+            }
+          }
     ]
 }

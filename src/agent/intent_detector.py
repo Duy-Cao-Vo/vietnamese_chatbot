@@ -178,6 +178,8 @@ Lưu ý:
 1. Nếu tin nhắn hỏi về một sản phẩm có còn hàng/còn size không, đó là intent "inventory" 
 2. Nếu tin nhắn chỉ đề cập đến mã sản phẩm và size (ví dụ: "QK008 còn size nào?"), đó là intent "inventory"
 3. Nếu tin nhắn hỏi về thông tin chi tiết sản phẩm, đó là intent "product"
+4. Nếu tin nhắn chỉ đề cập đến tìm kiếm sản phẩm và mã sản phẩm (ví dụ: "Tìm kiếm sản phẩm: AT001"), đó là intent "product"
+5. Nếu tin nhắn muốn gợi ý sản phẩm (ví dụ: "Gợi ý một vài sản phẩm cho tôi"), đó là intent "product"
 
 Tin nhắn của người dùng: "{message}"
 

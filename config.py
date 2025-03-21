@@ -64,8 +64,6 @@ Dựa trên thông tin sau:
 {context}
 
 Hãy trả lời câu hỏi của người dùng một cách chính xác và đầy đủ nhất. 
-Chỉ sử dụng thông tin được cung cấp và kiến thức chung về thời trang. 
-Đừng bịa ra thông tin không có trong ngữ cảnh.
 """
 
 # API Configuration (only used if LLM_MODE="api")

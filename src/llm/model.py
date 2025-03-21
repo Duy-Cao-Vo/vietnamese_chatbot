@@ -54,7 +54,7 @@ class LLMModel:
             self.api_version = config.API_VERSION
             self.api_engine = config.API_ENGINE
             self.api_timeout = config.API_TIMEOUT
-            self.max_context_length = 4000  # Default for GPT-3.5
+            self.max_context_length = 16000  # Default for GPT-3.5
             
             # Validate API configuration
             if not self.api_key:
@@ -208,7 +208,7 @@ class LLMModel:
             if not self.api_available:
                 logger.warning("Using simulated response because API key was not provided")
                 return f"Tôi đã nhận được yêu cầu của bạn: {prompt}. Tuy nhiên, OpenAI API hiện không khả dụng."
-            
+            logger.info(f"Generating response with API: {prompt}")
             return await self._generate_with_api(prompt, system_prompt)
             
         # === DUMMY MODE ===
@@ -305,90 +305,90 @@ class LLMModel:
     async def generate_rag_response(self, question: str, context: List[str]) -> str:
         """
         Tạo câu trả lời dựa trên RAG (Retrieval-Augmented Generation).
-        
-        Args:
-            question: Câu hỏi của người dùng
-            context: Danh sách các đoạn văn bản liên quan
-            
-        Returns:
-            Câu trả lời từ mô hình
         """
         try:
-            # In API mode, we prioritize accuracy by using as much context as possible
+            # Get token counter based on mode
             if self.mode == "api":
-                # API mode has larger context window, we can use more context data
-                max_context_tokens = self.max_context_length - 800  # Reserve tokens for the question and completion
-                
-                # For API mode, we still need some basic truncation for extremely large contexts
-                truncated_context = []
-                current_tokens = 0
-                
-                for ctx in context:
-                    # Simple token estimation for API mode
-                    ctx_tokens = len(ctx.split()) * 1.5  # Approximate tokens
-                    if current_tokens + ctx_tokens <= max_context_tokens:
-                        truncated_context.append(ctx)
-                        current_tokens += ctx_tokens
-                    else:
-                        # If we already have significant context, just stop adding more
-                        if current_tokens > max_context_tokens * 0.5:
-                            break
-                            
-                        # If this is the first context and it's too big, try to include part of it
-                        if not truncated_context:
-                            # Simple word-based truncation for API
-                            words = ctx.split()
-                            remaining_tokens = max_context_tokens - current_tokens
-                            max_words = int(remaining_tokens / 1.5)
-                            truncated_text = " ".join(words[:max_words])
-                            truncated_context.append(truncated_text)
-                        break
-                
-                # Combine context and prioritize accuracy
-                combined_context = "\n\n".join(truncated_context)
-                
-            # For local mode, keep original careful truncation
+                try:
+                    import tiktoken
+                    enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
+                    def count_tokens(text):
+                        return len(enc.encode(text))
+                except ImportError:
+                    logger.warning("tiktoken not available, using rough estimation")
+                    def count_tokens(text):
+                        return len(text.split()) * 1.3
             else:
-                if not self.tokenizer:
-                    logger.warning("No tokenizer available for accurate token counting")
-                    # Fallback to word-based estimation
-                    question_tokens = len(question.split()) * 1.5
+                # Use tokenizer if available, otherwise estimate
+                if self.tokenizer:
+                    def count_tokens(text):
+                        return len(self.tokenizer.encode(text))
                 else:
-                    question_tokens = len(self.tokenizer.encode(question))
+                    def count_tokens(text):
+                        return len(text.split()) * 1.3
+            
+            # Calculate token usage
+            question_tokens = count_tokens(question)
+            system_tokens = count_tokens(self.system_prompt)
+            rag_template_tokens = count_tokens(self.rag_prompt.format(question="", context=""))
+            
+            # Calculate max tokens for context
+            reserve_tokens = 800  # Reserve for completion and safety margin
+            max_context_tokens = self.max_context_length - question_tokens - system_tokens - rag_template_tokens - reserve_tokens
+            
+            # Early check for impossible situation
+            if max_context_tokens <= 0:
+                logger.warning(f"Question too long, leaving no room for context: {question_tokens} tokens")
+                return "Xin lỗi, câu hỏi của bạn quá dài. Vui lòng rút ngắn câu hỏi để nhận được trả lời tốt hơn."
+            
+            # Truncate context carefully
+            truncated_context = []
+            current_tokens = 0
+            
+            for ctx in context:
+                ctx_tokens = count_tokens(ctx)
                 
-                prompt_template_tokens = 200  # Rough estimate for your templates
-                
-                # Calculate max tokens for context (with safety margin)
-                max_context_tokens = self.max_context_length - int(question_tokens) - prompt_template_tokens - 50
-                
-                # Truncate context carefully for local models
-                truncated_context = []
-                current_tokens = 0
-                
-                for ctx in context:
-                    if self.tokenizer:
-                        ctx_tokens = len(self.tokenizer.encode(ctx))
+                # If this single context is already too big, need to truncate it
+                if ctx_tokens > max_context_tokens and not truncated_context:
+                    # Special case: need to truncate first chunk
+                    if self.mode == "api":
+                        # For API, we can encode/decode to truncate by exact tokens
+                        try:
+                            tokens = enc.encode(ctx)[:max_context_tokens]
+                            truncated_text = enc.decode(tokens)
+                        except:
+                            # Fallback to rough word-based truncation
+                            words = ctx.split()
+                            safe_word_count = int(max_context_tokens / 1.3)
+                            truncated_text = " ".join(words[:safe_word_count])
                     else:
-                        ctx_tokens = len(ctx.split()) * 1.5
+                        # For local model use tokenizer if available
+                        if self.tokenizer:
+                            tokens = self.tokenizer.encode(ctx)[:max_context_tokens]
+                            truncated_text = self.tokenizer.decode(tokens)
+                        else:
+                            words = ctx.split()
+                            safe_word_count = int(max_context_tokens / 1.3)
+                            truncated_text = " ".join(words[:safe_word_count])
                     
-                    if current_tokens + ctx_tokens <= max_context_tokens:
-                        truncated_context.append(ctx)
-                        current_tokens += ctx_tokens
-                    else:
-                        if not truncated_context:
-                            if self.tokenizer:
-                                truncated_text = self.tokenizer.decode(
-                                    self.tokenizer.encode(ctx)[:max_context_tokens]
-                                )
-                            else:
-                                words = ctx.split()
-                                max_words = int(max_context_tokens / 1.5)
-                                truncated_text = " ".join(words[:max_words])
-                            
-                            truncated_context.append(truncated_text)
-                        break
+                    truncated_context.append(truncated_text)
+                    current_tokens = count_tokens(truncated_text)
+                    continue
                 
-                combined_context = "\n\n".join(truncated_context)
+                # For normal sized contexts, add if there's room
+                if current_tokens + ctx_tokens <= max_context_tokens:
+                    truncated_context.append(ctx)
+                    current_tokens += ctx_tokens
+                else:
+                    # If we have enough context already, stop
+                    if current_tokens > 0:
+                        break
+            
+            # Combine truncated context
+            combined_context = "\n\n".join(truncated_context)
+            final_context_tokens = count_tokens(combined_context)
+            
+            logger.info(f"Using {final_context_tokens} tokens for context, max allowed: {max_context_tokens}")
             
             # Create RAG prompt with all included context
             rag_prompt = self.rag_prompt.format(
@@ -396,7 +396,7 @@ class LLMModel:
                 context=combined_context
             )
             
-            # Generate comprehensive, accurate response
+            # Generate response
             response = await self.generate(rag_prompt, self.system_prompt)
             return response
             
