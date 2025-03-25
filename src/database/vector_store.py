@@ -69,41 +69,119 @@ class VectorStore:
             Danh sách các tài liệu liên quan
         """
         try:
+            # Preprocess the query to enhance search terms
+            enhanced_query = self._preprocess_query(query)
+            
+            # Extract product attributes from query
+            product_attributes = self._extract_product_attributes(enhanced_query)
+            
+            # Add special attributes
+            if "công sở" in query.lower():
+                product_attributes["style_context"] = "công sở"
+                
+            logger.info(f"Extracted product attributes: {product_attributes}")
+            
             # Điều chỉnh truy vấn dựa trên intent
-            search_query = query
+            search_query = enhanced_query
             filter_dict = None
+            
+            # Set up category filter based on product type
+            if 'type' in product_attributes:
+                product_type = product_attributes['type'].lower()
+                
+                # Create a mapping from product type to category
+                category_map = {
+                    'áo sơ mi': 'ao so mi',
+                    'quần jean': 'quan jeans',
+                    'quần âu': 'quan',
+                    'quần kaki': 'quan',
+                    'áo thun': 'ao thun',
+                    'áo khoác': 'ao khoac',
+                    'giày': 'giay',
+                    'đầm': 'dam',
+                    'váy': 'vay'
+                }
+                
+                # Find the matching category
+                for type_key, category_value in category_map.items():
+                    if type_key in product_type:
+                        filter_dict = {"category": {"$eq": category_value}}
+                        logger.info(f"Applied category filter: {filter_dict} for product type: {product_type}")
+                        break
             
             # Extract product ID from query if it exists
             product_id_match = re.search(r'[A-Z]{2,3}\d{3,4}', query)
             product_id = product_id_match.group(0) if product_id_match else None
             
+            # Override with product ID filter if ID is in query 
             if product_id:
                 logger.info(f"Detected product ID in query: {product_id}")
-                # Fix: Use correct ChromaDB filter format with $eq operator
                 filter_dict = {"product_id": {"$eq": product_id}}
                 search_query = f"product {product_id} information details"
             
-            # If intent is provided, include it in the search query
+            # Enhance search query with important attributes
+            enhanced_terms = []
+            
+            if 'color' in product_attributes:
+                enhanced_terms.append(product_attributes['color'])
+                
+            if 'style_context' in product_attributes:
+                enhanced_terms.append(product_attributes['style_context'])
+                
+            if enhanced_terms:
+                # Add important terms at the beginning of the query for more emphasis
+                search_query = f"{' '.join(enhanced_terms)} {search_query}"
+                logger.info(f"Enhanced search query with terms: {enhanced_terms}")
+            
+            # Include intent in search query
             if intent and intent not in ["greeting", "general"]:
                 search_query = f"{intent}: {search_query}"
-                
-                # Add intent to filter if no product ID filter
-                if not product_id:
-                    filter_dict = {"intent": {"$eq": intent}}
             
             logger.info(f"Searching with query: '{search_query}', filters: {filter_dict}, limit: {limit}")
             
-            # Thực hiện tìm kiếm
+            # Perform the search
             results = self.db.similarity_search(
                 search_query,
                 k=limit,
                 filter=filter_dict
             )
             
+            # For product searches, rerank the results
+            if intent == "product" and product_attributes:
+                results = self._rerank_product_results(results, product_attributes)
+                results = self._limit_context_by_tokens(results)
+            
             return results
         except Exception as e:
             logger.error(f"Error searching vector store: {str(e)}")
             return []
+    
+    def _preprocess_query(self, query: str) -> str:
+        """
+        Preprocess and enhance the search query.
+        """
+        # Normalize whitespace
+        normalized_query = ' '.join(query.split())
+        
+        # Convert to lowercase for better matching
+        query_lower = normalized_query.lower()
+        
+        # Dictionary of important terms and their synonyms
+        important_terms = {
+            'trắng': ['màu trắng', 'tone trắng'],
+            'đen': ['màu đen', 'tone đen'],
+            'công sở': ['văn phòng', 'formal', 'lịch sự', 'nghiêm túc', 'chuyên nghiệp'],
+            'đơn giản': ['basic', 'cơ bản'],
+        }
+        
+        # Check if we need to enhance the query
+        for term, synonyms in important_terms.items():
+            if term in query_lower:
+                # Add synonyms for important terms to enhance the query
+                normalized_query = f"{normalized_query} {' '.join(synonyms)}"
+                logger.info(f"Enhanced query with synonyms for '{term}': {synonyms}")
+                
+        return normalized_query
     
     def _extract_product_attributes(self, query: str) -> Dict[str, str]:
         """
@@ -179,6 +257,7 @@ class VectorStore:
         product_type = attributes.get('type', '').lower()
         product_color = attributes.get('color', '').lower()
         product_style = attributes.get('style', '').lower()
+        style_context = attributes.get('style_context', '').lower()
         
         # Special handling for specific types
         is_special_type = product_type in ['quần âu', 'quần jean', 'quần kaki']
@@ -198,6 +277,10 @@ class VectorStore:
                 # For product ID searches, prefer original format
                 score += 2
                 logger.info(f"Format bonus for original format with product ID: +2")
+            elif doc_format == 'name_lowercase' and not 'product_id' in attributes:
+                # Prefer lowercase format for normal searches
+                score += 1
+                logger.info(f"Format bonus for lowercase format: +1")
             
             # Add boost for documents that start with the product type
             if product_type and doc_content.startswith(product_type):
@@ -246,15 +329,39 @@ class VectorStore:
                     score += 2
                     logger.info(f"Additional bonus for name-first format with matching meta: +2")
             
-            # Check for color match
+            # Check for color match - with extra emphasis for exact color matches
             if product_color and product_color in doc_content:
-                score += 2
-                logger.info(f"Color match: +2 for '{product_color}'")
+                # Higher score for color that's part of the name or a key description
+                if f"tên sản phẩm:.*{product_color}" in doc_content or f"màu sắc:.*{product_color}" in doc_content:
+                    score += 5
+                    logger.info(f"Strong color match in name or description: +5 for '{product_color}'")
+                else:
+                    score += 2
+                    logger.info(f"Color match: +2 for '{product_color}'")
+                    
+                # Extra boost for plain white shirts - check for not having patterns
+                if product_color == "trắng" and not any(pattern in doc_content for pattern in ["họa tiết", "hoa", "kẻ", "sọc", "caro"]):
+                    score += 4
+                    logger.info(f"Boost for plain {product_color} without patterns: +4")
             
             # Check for style match
             if product_style and product_style in doc_content:
                 score += 2
                 logger.info(f"Style match: +2 for '{product_style}'")
+            
+            # Check for style context match (e.g., "công sở")
+            if style_context and style_context in doc_content:
+                score += 6  # High priority for context matches
+                logger.info(f"Style context match: +6 for '{style_context}'")
+                
+                # Special handling for office wear
+                if style_context == "công sở":
+                    # Look for related terms that indicate formal/office wear
+                    formal_terms = ["formal", "lịch sự", "văn phòng", "chuyên nghiệp", "đơn giản", "basic"]
+                    for term in formal_terms:
+                        if term in doc_content:
+                            score += 2
+                            logger.info(f"Found related office wear term '{term}': +2")
             
             # Penalize general sections
             if "THÔNG TIN CHUNG" in doc_content:
@@ -453,6 +560,34 @@ class VectorStore:
                         
                         chunk_doc = Document(page_content=chunk, metadata=chunk_metadata)
                         chunked_documents.append(chunk_doc)
+                    
+                    # ---- THIRD DOCUMENT VERSION (starts with product_name in lowercase) ----
+                    # Create a version of the section that starts with the product name in lowercase
+                    product_name_lowercase_first = f"{product_name.lower()} {product_id}\n"
+                    
+                    # Add the rest of the content, skipping the original product name line
+                    for line in content_lines:
+                        if "Tên sản phẩm:" not in line and line.strip():
+                            product_name_lowercase_first += line + "\n"
+                    
+                    # Split this lowercase format into chunks
+                    name_lowercase_chunks = text_splitter.split_text(product_name_lowercase_first)
+                    
+                    # Create new documents for each chunk with the same metadata but marked as name-lowercase format
+                    for j, chunk in enumerate(name_lowercase_chunks):
+                        chunk_metadata = doc.metadata.copy() if doc.metadata else {}
+                        chunk_metadata.update({
+                            "chunk": j,
+                            "chunk_total": len(name_lowercase_chunks),
+                            "product_id": product_id,
+                            "product_name": product_name,
+                            "category": doc.metadata.get("category", ""),
+                            "format": "name_lowercase"  # Mark this as the name-lowercase format
+                        })
+                        logger.info(f"Created lowercase format chunk: {chunk[:50]}...")
+                        
+                        chunk_doc = Document(page_content=chunk, metadata=chunk_metadata)
+                        chunked_documents.append(chunk_doc)
             
             # Log the total number of chunked documents
             logger.info(f"Created {len(chunked_documents)} chunks from {len(documents)} documents (including alternative formats)")
@@ -578,12 +713,14 @@ async def test2():
     return relevant_docs
 
 async def test3():
-    """Test the search functionality with a sample query."""
+    """Test the search functionality with category-based filtering."""
     vector_store = VectorStore()
+    
+    # Test with Quần Jean query - should apply 'quan jeans' category filter
     query = "Quần Jean Skinny Wax"
     intent = "product"
     
-    # Now we can use await since we're in an async function
+    # Execute search
     relevant_docs = await vector_store.search(query, intent, 5)
     
     # Print the results for debugging
@@ -593,9 +730,57 @@ async def test3():
         logger.info(f"  Content: {doc.page_content[:200]}...")
         logger.info(f"  Metadata: {doc.metadata}")
     
+    # Compare with direct category filter search
+    logger.info("\nTesting direct category filter search:")
+    direct_results = vector_store.db.similarity_search(
+        "Skinny",
+        k=3,
+        filter={"category": {"$eq": "quan jeans"}}
+    )
+    
+    for i, doc in enumerate(direct_results):
+        logger.info(f"Direct category filter result {i+1}:")
+        logger.info(f"  Content: {doc.page_content[:200]}...")
+        logger.info(f"  Metadata: {doc.metadata}")
+        
+    
+    return relevant_docs
+
+async def test4():
+    """Test the search functionality with category-based filtering."""
+    vector_store = VectorStore()
+    
+    # Test with Quần Jean query - should apply 'quan jeans' category filter
+    query = "áo sơ mi trắng công sở"
+    intent = "product"
+    
+    # Execute search
+    relevant_docs = await vector_store.search(query, intent, 20)
+    
+    # Print the results for debugging
+    logger.info(f"Found {len(relevant_docs)} relevant documents for query: '{query}'")
+    for i, doc in enumerate(relevant_docs):
+        logger.info(f"Result {i+1}:")
+        logger.info(f"  Content: {doc.page_content[:200]}...")
+        logger.info(f"  Metadata: {doc.metadata}")
+    
+    # Compare with direct category filter search
+    logger.info("\nTesting direct category filter search:")
+    direct_results = vector_store.db.similarity_search(
+        "Skinny",
+        k=3,
+        filter={"category": {"$eq": "quan jeans"}}
+    )
+    
+    for i, doc in enumerate(direct_results):
+        logger.info(f"Direct category filter result {i+1}:")
+        logger.info(f"  Content: {doc.page_content[:200]}...")
+        logger.info(f"  Metadata: {doc.metadata}")
+        
+    
     return relevant_docs
 
 if __name__ == "__main__":
     # Set up logging
     logging.basicConfig(level=logging.INFO)
-    asyncio.run(test3())
+    asyncio.run(test4())

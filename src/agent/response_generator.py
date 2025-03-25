@@ -55,7 +55,7 @@ class ResponseGenerator:
             # For other intents, use the RAG approach with vector store
             # Truy xuất thông tin liên quan từ vector store
             logger.info(f"RAG search query: {query}")
-            relevant_docs = await self.vector_store.search(query, intent, 10)
+            relevant_docs = await self.vector_store.search(query, intent, 20)
             
             # DEBUG: Print retrieved documents
             logger.info(f"Retrieved {len(relevant_docs)} documents from vector store")
